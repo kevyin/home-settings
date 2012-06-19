@@ -1,0 +1,37 @@
+CUDA
+
+*Optimisation tips*
+• Threads are executed in groups of 32 called _warps_
+• Avoid execution divergence
+  i.e. avoid threads within a warp following different paths
+  Divergence between warps introduces no penalty
+• When threads of a warp access consecutive words in memory, the transactions 
+   are coalesced into one (or fewer) transactions.
+   →  iterate over access addresses so in each iteration, the threads of each 
+      warp write out values belonging to only one bucket 
+   →  Use local shared memory if possible and write to global memory later
+• Minimise number of scatters to global memory
+   →  Data blocking, process in chunks and aggregate 
+• Performing more independent serial work in each thread improves overall
+  parallel work efficiency and provides more opportunities to hide latency. 
+   →  Eg. processing more than one element per thread.
+• Kernel fusion
+  co-locating sequenctial steps in the stream pipeline within a single kernel.
+  Results can be passed to the next step via local registers instead of global
+  memory, reducing memory traffic.
+• Threadblock serialisation
+  similar to kernel fusion, see Merrill 2011 
+  Blocks of elements are processed serially per threadblock
+• Latency hiding
+  There is often downtime between kernel runs and movement of memory. The goal
+  is to maximise work, interlacing kernel runs with memory transfers.
+     ◦ Flexible computation granularity
+        ▸ The GPU hardware easily overlaps I/O and computation.
+
+                                    * * *
+
+The notes plug-in comes with self hosting documentation. To jump to these notes
+position your cursor on the highlighted name and press ‘gf’ in normal mode:
+
+ • Note taking syntax
+ • Note taking commands
