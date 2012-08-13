@@ -18,12 +18,13 @@ $groupScorePlan
 
 # Command Line History (newest to oldest):
 :q
+:wq
+:q!
 :w
 :git stat
 :vsplit
 :'<,'>s/groupWork/groupScorePlan/g
 :wu
-:wq
 :!find -name "*hs" | xargs grep -i "sectionsofsplit"
 :%s/SpecData/SpecGroupData/gc
 :!find -name "*" | xargs grep -i "smallpolicy" | less
@@ -36,7 +37,6 @@ $groupScorePlan
 :s/scores/idxs/g
 :'<,'>s/spec_start/score_start/g
 :!find -name "*hs" | xargs grep -i "bracket"
-:!find -name "*hs" | xargs grep -i "brackeet"
 
 # Search String History (newest to oldest):
 ?/databa
@@ -103,7 +103,9 @@ $groupScorePlan
 	
 	        return . reverse $ zipWith (\s i -> (s/10000, fromIntegral i)) sc ix
 	    return results 
-""1	LINE	0
+"1	LINE	0
+	:q
+"2	LINE	0
 	retrieveModScores cp
 	  let
 	      n' = max (numMatches cp) (numMatchesDetail cp) 
@@ -140,52 +142,53 @@ $groupScorePlan
 	        return . reverse $ zipWith (\s i -> (s/10000, fromIntegral i)) sc ix
 	    return results 
 	
-"2	LINE	0
-	
 "3	LINE	0
+	
+"4	LINE	0
 	      -- each modified peptide will need the same amount of memory
 	      {-memPerPep = len * sizeOf (undefined :: Word32) -- d_mspec-}
 	                {-+ sizeOf (undefined :: Word32) -- d_mpep_idx-}
 	                {-+ sizeOf (undefined :: Float) -- d_score-}
 	      {-totalReqMem = num_mpep * memPerPep-}
-"4	LINE	0
+"5	LINE	0
 	      n' = max (numMatches cp) (numMatchesDetail cp) 
 	      spec_retrieve = map (\num -> min n' num) spec_num_mpep
 	      spec_retrieve_scan = scanl (+) 0 spec_retrieve
 	      retrieve_total = last spec_retrieve_scan
-"5	LINE	0
-	        CUDA.block strm
 "6	LINE	0
-	        {-CUDA.sort_val d_score d_idx num_pep -}
+	        CUDA.block strm
 "7	LINE	0
+	        {-CUDA.sort_val d_score d_idx num_pep -}
+"8	LINE	0
 	      spec_retrieve = map (\num -> min n' num) spec_num_mpep
 	      spec_retrieve_scan = scanl (+) 0 spec_retrieve
 	      retrieve_total = last spec_retrieve_scan
-"8	LINE	0
-	
 "9	LINE	0
-	      (freeMem',_) <- CUDA.getMemInfo 
+	
 "j	CHAR	0
 	jkj
 "k	CHAR	0
 	437
 <j/<<<€ýK€ý,€ý.€ýK€ýK€ýK€ýK€ýK€ýK€ýK€ýK€ýK€ýK€ýK€ýK€ýK€ýK€ýK€ýK€ýK€ýK€ýK€ýK€ýL€ýL€ýL€ýL€ýL€ýL€ýL€ýL€ýL€ýL€ýL€ýL€ýL€ýL€ýL€ýL€ýL€ýL€ýL€ýL€ýL€ýL€ý,€ý.*:€ku€kl€kl€kl€kl€kl€kl€kl€kl€kl€kr€kb€kb€kbupsweepkernel11€ýL€ýL€ýL€ýL€ý,€ý.€ý,€ý./stream€ý,€ý.€ý,€ý.gg€ýL€ýL€ýL€ýL€ýL€ýL€ýL€ý,€ý.€ý,€ý.€ý,€ý.€ý,€ý.€ý,€ý.€ý,€ý.€ý,€ý.€ý,€ý.€ý,€ý./small_sizenNkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjnnnkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-"-	CHAR	0
-	_
+""-	CHAR	0
+	r
 
 # File marks:
-'0  34  0  ~/dev/settings/.viminfo
-'1  7  0  ~/dev/settings/NERD_tree_1
-'2  66  12  ~/bin/galaxy/galaxy-dist/NERD_tree_1
-'3  1  0  ~/.gitconfig
-'4  25  41  ~/bin/galaxy/galaxy-dist/community_wsgi.ini
-'5  41  12  ~/dev/hfx/hfx/NERD_tree_1
-'6  147  2  ~/dev/hfx/hfx/NERD_tree_1
-'7  15  0  ~/.cabal/packages/hackage.haskell.org/cuda/0.4.1.0/cuda-0.4.1.0/NERD_tree_1
-'8  45  0  ~/.cabal/packages/hackage.haskell.org/cuda/0.4.1.0/cuda-0.4.1.0/NERD_tree_1
-'9  1  0  ~/dev/hfx/hfx/hfx.params
+'0  1  0  ~/dev/settings/home-settings/.bashrc-utils
+'1  1  22  ~/dev/settings/home-settings/.git/COMMIT_EDITMSG
+'2  1  0  ~/dev/settings/home-settings/.vimrc
+'3  34  0  ~/dev/settings/.viminfo
+'4  7  0  ~/dev/settings/NERD_tree_1
+'5  66  12  ~/bin/galaxy/galaxy-dist/NERD_tree_1
+'6  1  0  ~/.gitconfig
+'7  25  41  ~/bin/galaxy/galaxy-dist/community_wsgi.ini
+'8  41  12  ~/dev/hfx/hfx/NERD_tree_1
+'9  147  2  ~/dev/hfx/hfx/NERD_tree_1
 
 # Jumplist (newest first):
+-'  1  0  ~/dev/settings/home-settings/.bashrc-utils
+-'  1  22  ~/dev/settings/home-settings/.git/COMMIT_EDITMSG
+-'  1  0  ~/dev/settings/home-settings/.vimrc
 -'  34  0  ~/dev/settings/.viminfo
 -'  1  0  ~/dev/settings/.viminfo
 -'  7  0  ~/dev/settings/NERD_tree_1
@@ -282,12 +285,20 @@ $groupScorePlan
 -'  147  2  ~/dev/hfx/hfx/NERD_tree_1
 -'  160  2  ~/dev/hfx/hfx/NERD_tree_1
 -'  66  12  ~/bin/galaxy/galaxy-dist/NERD_tree_1
--'  190  2  ~/bin/galaxy/galaxy-dist/NERD_tree_1
--'  7  0  ~/dev/settings/NERD_tree_1
--'  1  0  ~/dev/settings/NERD_tree_1
--'  1  0  ~/dev/settings/.vimrc
 
 # History of marks within files (newest to oldest):
+
+> ~/dev/settings/home-settings/.bashrc-utils
+	"	1	0
+
+> ~/dev/settings/home-settings/.git/COMMIT_EDITMSG
+	"	1	22
+	^	1	23
+	.	1	22
+	+	1	22
+
+> ~/dev/settings/home-settings/.vimrc
+	"	1	0
 
 > ~/dev/settings/.viminfo
 	"	34	0
@@ -1702,12 +1713,3 @@ $groupScorePlan
 
 > ~/dev/back40computing/back40computing-read-only/b40c/radix_sort/sort_utils.cuh
 	"	16	1
-
-> ~/dev/back40computing/back40computing-read-only/b40c/util/memset_kernel.cuh
-	"	1	0
-
-> ~/dev/back40computing/back40computing-read-only/b40c/util/operators.cuh
-	"	82	0
-
-> ~/dev/back40computing/back40computing-read-only/b40c/util/ping_pong_storage.cuh
-	"	14	25
