@@ -1,0 +1,91 @@
+CUDA
+
+*Optimisation tips*
+The IDIOMS - from moderngpu
+1. Coalesce memory requests
+2. Avoid shared memory bank conflicts
+3. Process multiple elements per thread to maximise sequential work
+4. Prefer registers over shared memory
+5. Transpose data into thread order
+6. Overlap arithmetic load with memory traffic
+7. Build hierarchical scans
+8. Pack values for scan
+9. Use special-purpose instructions
+10. Keep in mind effective occupancy
+11. Stay close to the ISA
+12. Code for a target architecture
+13. Program a solution not a framework
+14. Use simple algorithcs
+
+• Threads are executed in groups of 32 called _warps_
+• Avoid execution divergence
+  i.e. avoid threads within a warp following different paths
+  Divergence between warps introduces no penalty
+• When threads of a warp access consecutive words in memory, the transactions 
+   are coalesced into one (or fewer) transactions.
+   →  iterate over access addresses so in each iteration, the threads of each 
+      warp write out values belonging to only one bucket 
+   →  Use local shared memory if possible and write to global memory later
+• Minimise number of scatters to global memory
+   →  Data blocking, process in chunks and aggregate 
+• Performing more independent serial work in each thread improves overall
+  parallel work efficiency and provides more opportunities to hide latency. 
+   →  Eg. processing more than one element per thread.
+• Kernel fusion
+  co-locating sequenctial steps in the stream pipeline within a single kernel.
+  Results can be passed to the next step via local registers instead of global
+  memory, reducing memory traffic.
+• Threadblock serialisation
+  similar to kernel fusion, see Merrill 2011 
+  Blocks of elements are processed serially per threadblock
+• Latency hiding
+  There is often downtime between kernel runs and movement of memory. The goal
+  is to maximise work, interlacing kernel runs with memory transfers.
+     ◦ Flexible computation granularity
+        ▸ The GPU hardware easily overlaps I/O and computation.
+        
+• Stay close to the ISA
+      ◦nvcc -arch=compute_20 -code=sm_20 —cubin -o warpscan1.cubin warpscan1.cu
+      cuobjdump -sass warpscan1.cubin > warpscan1.isa
+• Conditionals execute slowly
+        ▸ reserve some shared memory tricks 
+           ▹ http://www.moderngpu.com/intro/scan.html
+• Be wary of Bank conflicts 
+        ▸ With granuity of 32bit.
+           ▹ http://www.moderngpu.com/intro/scan.html
+           ▹ http://stackoverflow.com/questions/3841877/what-is-a-bank-conflict-doing-cuda-opencl-programming
+
+• Calculating occupancy
+     • The number of warps that run concurrently on each SM 
+        ▸http://www.moderngpu.com/intro/workflow.html 
+        • Reducing block sizes to increase the number of resident blocks per SM
+           
+• Fermi has relatively poor shared memory and integer shift performance
+
+• Best to avoid atomics            
+        ▸ Use shared memory to gather writes? 
+
+
+                                    * * *
+Thrust best practices
+• Fusion
+        ▸ minimise memory / storage traffic 
+        ▸ transform_iterator, transform_algorithms
+• Structure of arrays
+        ▸ ensure coalescing 
+        ▸ zip_iterator
+• Implicit sequences
+        ▸ Avoid explicity storing and accessing regular patterns
+        ▸ constant_iterator, counting_iterator
+
+
+__constant__  
+   ◦ declare as const AND access it uniformly within block, ie only depends on blockIdx, then may promote the ref to constant memory
+
+                                    * * *
+
+The notes plug-in comes with self hosting documentation. To jump to these notes
+position your cursor on the highlighted name and press ‘gf’ in normal mode:
+
+ • Note taking syntax
+ • Note taking commands

@@ -1,0 +1,7 @@
+"3.4 (created: 2012/04/02 20:07:29)
+
+highlight Hint font-family: monospace; font-size: 20px; font-weight: bold; text-transform: uppercase; color: white; background-color: red; border-color: ButtonShadow; border-width: 0px; border-style: solid; padding: 0px 1px 0px 1px; 
+set noautocomplete
+source! /home/kevin/.vimperatorrc.local
+
+" vim: set ft=vimperator:

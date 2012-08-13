@@ -1,73 +1,88 @@
-colorscheme darkblue
+if $COLORTERM == 'gnome-terminal'
+    "set t_Co=256
+    set t_Co=16
+endif
+
+"vundle
+set nocompatible               " be iMproved
+filetype off                   " required!
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" " required! 
+Bundle 'gmarik/vundle'
+"
+" " My Bundles here:
+" "
+" " original repos on github
+"Bundle 'tpope/vim-fugitive'
+"Bundle 'Lokaltog/vim-easymotion'
+"Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+"Bundle 'tpope/vim-rails.git'
+" " vim-scripts repos
+Bundle 'scrooloose/nerdcommenter'
+let mapleader=","
+Bundle 'scrooloose/nerdtree'
+Bundle 'UltiSnips'
+Bundle 'haskell.vim'
+Bundle 'notes.vim'
+
+Bundle 'Wombat'
+Bundle 'Zenburn'
+"colorscheme zenburn 
+Bundle 'Solarized'
+"set background=dark
+"let g:solarized_termcolors=16
+"colorscheme solarized 
+
+"Bundle 'L9'
+"Bundle 'FuzzyFinder'
+" " non github repos
+"Bundle 'git://git.wincent.com/command-t.git'
+" " ...
+"
+filetype plugin indent on     " required!
+
+" "
+" " Brief help
+" " :BundleList          - list configured bundles
+" " :BundleInstall(!)    - install(update) bundles
+" " :BundleSearch(!) foo - search(or refresh cache
+" first) for foo
+" " :BundleClean(!)      - confirm(or auto-approve)
+" removal of unused bundles
+" "
+" " see :h vundle for more details or wiki for FAQ
+" " NOTE: comments after Bundle command are not
+" allowed..
+
+
+set mouse=a
 set tabstop=4
 set shiftwidth=4
-set showmatch
 set ruler
-"set hls
+set showmatch
 set incsearch
-set virtualedit=all
-set mouse=a
 set ignorecase
-
 set cindent
 set smartindent
 set autoindent
 set expandtab
 set cinkeys=0{,0},:,0#,!^F
-
 set number
 set hlsearch
 
-" use ghc functionality for haskell files
-au Bufenter *.hs compiler ghc
-
-" switch on syntax highlighting
 syntax on
 
-" enable filetype detection, plus loading of filetype plugins
 filetype plugin on
 
-" configure browser for haskell_doc.vim
-let g:haddock_browser = "/usr/bin/firefox-3.5"
-"let g:haddock_browser = "C:/Program Files/Opera/Opera.exe"
-"let g:haddock_browser = "C:/Program Files/Mozilla Firefox/firefox.exe"
-"let g:haddock_browser = "C:/Program Files/Internet Explorer/IEXPLORE.exe"
-
-set completeopt=menu,menuone
-
-set nocp
-
-
-"nertree toggle
 nmap <silent> <c-n> :NERDTreeToggle<CR>
 
-"nerdcommenter comment style
 let NERD_haskell_alt_style=1
 
-"cpp .tem file highlight
 au BufNewFile,BufRead *.tem set filetype=cpp
+au BufNewFile,BufRead *.cu set filetype=cpp
+au BufNewFile,BufRead *.h set filetype=cpp
 
-""VIM-LATEX
-
-" REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
-filetype plugin on
-
-" IMPORTANT: win32 users will need to have 'shellslash' set so that latex
-" can be called correctly.
-set shellslash
-
-" IMPORTANT: grep will sometimes skip displaying the file name if you
-" search in a singe file. This will confuse Latex-Suite. Set your grep
-" program to always generate a file-name.
-set grepprg=grep\ -nH\ $*
-
-" OPTIONAL: This enables automatic indentation as you type.
-filetype indent on
-
-" OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults to
-" 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
-" The following changes the default filetype back to 'tex':
-let g:tex_flavor='latex'
-
-" Search through files
-nmap <F3> :silent exec "while !search( @/, \"W\") \| bnext \| 0 \| endwhile"<CR>

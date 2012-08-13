@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/kevin/Documents/thesis/system/sequest/src/haskell'
-let g:netrw_dirhist_2='/home/kevin/Desktop/tandem-linux-10-12-01-1/src'
-let g:netrw_dirhist_3='/home/kevin/gnexus/genePatternModules/LogTransform/src'
-let g:netrw_dirhist_4='/usr/local/cuda/bin'
-let g:netrw_dirhist_5='/tmp/vmware-root'
-let g:netrw_dirhist_6='/usr/share/X11/xorg.conf.d'
-let g:netrw_dirhist_7='/tmp/vmware-root'
