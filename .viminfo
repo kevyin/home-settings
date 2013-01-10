@@ -8,368 +8,250 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/meme
+~MSle0~/vari
 
 # Last Substitute Search Pattern:
-~MSle0&+from process
+~MSle0&out_bowtie2_dup_recal
 
 # Last Substitute String:
-$
+$out_bowtie2_dup_reord_rg_recal
 
 # Command Line History (newest to oldest):
 :q
-:wq
-:q!
 :w
-:!scala hello.scala boomj
-:!scala hello.scala thing
-:!scala hello.scala
-:!scala
-:!ls  /share/ClusterShare/software/contrib/kevyin/scala/2.9.2/
-:!ls  /share/ClusterShare/software/contrib/kevyin/scala/
-:!echo $LD_LIBRARY_PATH
+:qjkkkk
+:wq
 :!
-:Q
-:quitall
-:!q
-:!find . | xargs grep -i '\"resources\"' | less
-:!find . | xargs grep -i '\"resources\"'
-:!find . | xargs grep -i 'config["resources"]' | less
-:!find . | xargs grep -i 'config["resources"]'
-:!gi
+:.,.+21q
+:!find -name "*.py" | xargs grep -i tablerecalibration
+:'<,'>s/out_bowtie2_dup_recal/out_bowtie2_dup_reord_rg_recal/g
+:'<,'>s/out_bowtie2_dup_recalrp/out_bowtie2_dup_reord_rg_recalrp/g
+:s/bowtie2/bwa/g
+:'<,'>s/
+:!find -name "*" | xargs grep -i "readgroup"
+:!fin
+:!find -name "*" | xargs grep -i "read group"
+:W
+:!find -name "*" | xargs grep -i "createsequencedictionar"
+:!fi
+:!find -name "*" | xargs grep -i "reordersam"
+:!find -name "*.py" | xargs grep -i "sequencedictionary"
+:!find -name "*.py" | xargs grep -i "reorder"
 
 # Search String History (newest to oldest):
-?/share/ClusterShare/software/contrib/kevyin/scala/
-?/meme
-?/err
-?/accep
-?/nobita
-?/toplevel
-?/tople
-?/celery
-?/flower
-?/univ
-?/univer
-?/universe
-?/rabb
-?/process
-?/logger
-?/pwbc
-?/qsub
-?/warn
-?/log
-?/curdir_tm
+?/vari
+?/inputfil
+?/input
+? \<recalBam\>
+? \<cohortList\>
+? \<writeList\>
+?/inputfiles
+? \<projectName\>
+?/cohort
+?/graph
+?/grph
+? \<addReadGroups\>
+?/readgr
+?/reord
+?/bwa
+?/w
+?/b
+?/unal
+? \<gatk_resources\>
+? \<gatk_queue_resources\>
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
-@/share/ClusterShare/Modules/modulefiles/contrib/kevyin/scala/2.9.2
-@/share/ClusterShare/Modules/modulefiles/contrib/kevyin/scala/
-@/home/kevyin/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_ln1_mediumtest_G1L1L2.yaml
-@/home/kevyin/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_ln2_large_G1all.yaml
-@/home/kevyin/dev/galaxy_pipeline/galaxy_dist_dev_ln
-@/home/kevyin/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_large_G1all.yaml
-@/home/kevyin/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml
-@/home/kevyin/dev/galaxy_pipeline/bcbb/nextgen/reinstall.sh
-@/home/kevyin/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml
-@/share/ClusterShare/software/contrib/kevyin/_tool_src/downloaded/cloudbiolinux/install.sh
-@/home/kevyin/dev/galaxy/my_shed_tools/diffbind/test/samplesheet.csv
-@/home/kevyin/dev/galaxy/my_shed_tools/diffbind/test/exp.csv
-@/home/kevyin/dev/galaxy/my_shed_tools/diffbind/src/diffbind.r
-@/home/kevyin/dev/galaxy/my_shed_tools/diffbind/src/diffbind_wrapper.py
-@/home/kevyin/dev/galaxy/my_shed_tools/diffbind/src/diffbind_wrapper.xml
-@/home/kevyin/dev/galaxy/my_shed_tools/diffbind/src/
-@/home/kevyin/dev/galaxy_pipeline/nextgen_config/maggi/post_process_messaging_smalltest_G1L1L2.yaml
-@/home/kevyin/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_smalltest_G1L1L2.yaml
-@/home/kevyin/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_smalltest_G1L1L2.yam
-@/home/kevyin/dev/python-decorator/process/__init__.py
+@/home/kevyin/dev/analysis/ccg/PG0002526-DNA/resources/gatk_queue_resources
+@/home/kevyin/dev/analysis/ccg/PG0002526-DNA/resources/gatk_repo_qscripts
+@/home/kevyin/dev/analysis/ccg/PG0002526-DNA/resources/gatk_resources
+@/home/kevyin/dev/analysis/ccg/PG0002526-DNA/queue/run_queue.sh
+@/home/kevyin/dev/analysis/ccg/PG0002526-DNA/queue/DataProcessingPipeline.scala
+@yes
+@/home/kevyin/dev/analysis/ccg/PG0002526-DNA/aligned/bowtie2/Picard_CollectAlignmentSummaryMetrics.txt
+@/home/kevyin/dev/analysis/ccg/PG0002526-DNA/run.py
+@/home/kevyin/dev/analysis/ccg/PG0002526-DNA/call_qsub.sh
+@/home/kevyin/dev/analysis/ccg/PG0002526-DNA/run_jobs.sh
+@/home/kevyin/dev/analysis/km/diffbind/peaks/cut_toSimp.sh
+@/home/kevyin/dev/analysis/km/diffbind/peaks/
+@/home/kevyin/dev/analysis/km/README.txt
+@/home/kevyin/dev/analysis/km/
+@/home/kevyin/dev/analysis/km/.gitignore
+@/home/kevyin/dev/mustached-bear/count_GC/src/countGC_par.scala
+@/home/kevyin/dev/mustached-bear/count_GC/src/countGC_actors.scala
+@/home/kevyin/dev/mustached-bear/scala/parallel_discrete_event_simulation/run.sh
+@/home/kevyin/dev/mustached-bear/scala/parallel_discrete_event_simulation/main.scala
+@/home/kevyin/dev/mustached-bear/scala/parallel_discrete_event_simulation/
 
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	prepend-path	MANPATH		${prefix}/man
+"0	CHAR	0
+	${gatk_queue_resources}/exampleBAM.bam 
 "1	LINE	0
-	export HISTFILESIZE= HISTSIZE=
-"2	LINE	0
 	
+"2	LINE	0
+	inbam
 "3	LINE	0
-	from bcbio.log import (setup_logging, logger)
+	base_dir=/home/kevyin/dev/analysis/ccg/PG0002526-DNA/queue
 "4	LINE	0
-	from bcbio.log import logger
+	
 "5	LINE	0
-	        logger.debug("func file_transaction: successful file transaction: removing tmpdirs: safe_names %s" % safe_names)
+	
 "6	LINE	0
-	        logger.debug("func file_transaction: successful file transaction: safe_names %s, orig_names %s" % safe_names, orig_names)
+	
 "7	LINE	0
-	    logger.debug("func file_transaction: safe_names %s, orig_names %s" % (safe_names, orig_names))
+	#java -jar $queue_jar -S $qscript
 "8	LINE	0
-	        logger.debug("func file_transaction: UNsuccessful file transaction: safe_names %s, orig_names %s" % safe_names, orig_names)
+	#qscript="DataProcessingPipeline.scala"
 "9	LINE	0
-	    echo "1"
+	qscript="${gatk_queue_resources}/ExampleCountReads.scala"
 "j	CHAR	0
 	j
 "q@	CHAR	0
-	0vf df dwdwj0
+	0$i CREATE_INDEX=true:w
+"s	CHAR	0
+	kj;
 ""-	CHAR	0
-	"
+	-bwape -bwa /share/ClusterShare/software/cloudbiolinux-centos6/bin/bwa -run
 
 # File marks:
-'0  5  0  ~/dev/mustached-bear/scala/NERD_tree_1
-'1  2  0  ~/.ssh/config
-'2  17  0  ~/.ssh/config
-'3  1  0  ~/.ssh/config
-'4  2  9  ~/dev/scala/hello.scala
-'5  18  0  /share/ClusterShare/Modules/modulefiles/contrib/kevyin/scala/NERD_tree_1
-'6  9  0  /share/ClusterShare/software/contrib/kevyin/_tool_src/downloaded/scala/scala-2.9.2/NERD_tree_1
-'7  20  0  /share/ClusterShare/software/contrib/kevyin/_tool_src/downloaded/scala/scala-2.9.2/NERD_tree_1
-'8  2  0  /misc/PWBCAdminStore/app/galaxy/galaxy_dist/dev/tool-data/meme_chip_motifs.loc
-'9  88  5  /misc/PWBCAdminStore/app/galaxy/galaxy_dist/dev/tool-data/NERD_tree_1
+'0  39  0  ~/dev/galaxy_pipeline/NERD_tree_1
+'1  2  0  ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/examples/HelloWorld.scala
+'2  11  9  ~/dev/analysis/ccg/PG0002526-DNA/linkme.sh
+'3  8  0  ~/dev/analysis/ccg/PG0002526-DNA/linkme.sh
+'4  1  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+'5  1  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+'6  30  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+'7  73  0  ~/dev/analysis/ccg/PG0002526-DNA/run_jobs.sh
+'8  42  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+'9  70  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
 
 # Jumplist (newest first):
--'  5  0  ~/dev/mustached-bear/scala/NERD_tree_1
--'  1  0  ~/dev/mustached-bear/scala/NERD_tree_1
--'  1  0  ~/dev/mustached-bear/scala/hello.scala
--'  2  0  ~/.ssh/config
--'  17  0  ~/.ssh/config
--'  1  0  ~/.ssh/config
--'  2  9  ~/dev/scala/hello.scala
--'  1  0  ~/dev/scala/hello.scala
--'  18  0  /share/ClusterShare/Modules/modulefiles/contrib/kevyin/scala/NERD_tree_1
--'  17  0  /share/ClusterShare/Modules/modulefiles/contrib/kevyin/scala/NERD_tree_1
--'  21  2  /share/ClusterShare/Modules/modulefiles/contrib/kevyin/scala/NERD_tree_1
--'  1  0  /share/ClusterShare/Modules/modulefiles/contrib/kevyin/scala/NERD_tree_1
--'  1  0  /share/ClusterShare/Modules/modulefiles/contrib/kevyin/meme/4.9.0
--'  9  0  /share/ClusterShare/software/contrib/kevyin/_tool_src/downloaded/scala/scala-2.9.2/NERD_tree_1
--'  13  0  /share/ClusterShare/software/contrib/kevyin/_tool_src/downloaded/scala/scala-2.9.2/NERD_tree_1
--'  1  0  /share/ClusterShare/software/contrib/kevyin/_tool_src/downloaded/scala/scala-2.9.2/NERD_tree_1
--'  1  0  /share/ClusterShare/software/contrib/kevyin/_tool_src/downloaded/scala/scala-2.9.2/doc/README
--'  20  0  /share/ClusterShare/software/contrib/kevyin/_tool_src/downloaded/scala/scala-2.9.2/NERD_tree_1
--'  24  0  /share/ClusterShare/software/contrib/kevyin/_tool_src/downloaded/scala/scala-2.9.2/NERD_tree_1
--'  2  0  /misc/PWBCAdminStore/app/galaxy/galaxy_dist/dev/tool-data/meme_chip_motifs.loc
--'  1  0  /misc/PWBCAdminStore/app/galaxy/galaxy_dist/dev/tool-data/meme_chip_motifs.loc
--'  88  5  /misc/PWBCAdminStore/app/galaxy/galaxy_dist/dev/tool-data/NERD_tree_1
--'  75  0  /misc/PWBCAdminStore/app/galaxy/galaxy_dist/dev/tool-data/NERD_tree_1
--'  197  4  /misc/PWBCAdminStore/app/galaxy/galaxy_dist/dev/tool-data/NERD_tree_1
--'  1  0  /misc/PWBCAdminStore/app/galaxy/galaxy_dist/dev/tool-data/NERD_tree_1
--'  1  0  /misc/PWBCAdminStore/app/galaxy/galaxy_dist/qa/tool-data/meme_chip_motifs.loc
--'  33  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/NERD_tree_1
--'  45  2  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/NERD_tree_1
--'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/NERD_tree_1
--'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln1_large_G1all_wd_dev/bcbio_nextgen.py.o13413
--'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_fastq/sh.e13225
--'  1349  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_fastq/sh.e13225
--'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_fastq/sh.o13225
--'  6  0  /var/log/rabbitmq/NERD_tree_1
--'  9  2  /var/log/rabbitmq/NERD_tree_1
--'  1  0  /var/log/rabbitmq/NERD_tree_1
--'  1  0  /var/log/rabbitmq/rabbit@gamma02.log
--'  5265  68  /var/log/rabbitmq/rabbit@gamma02.log
--'  5255  68  /var/log/rabbitmq/rabbit@gamma02.log
--'  5246  29  /var/log/rabbitmq/rabbit@gamma02.log
--'  55  15  /var/log/rabbitmq/rabbit@gamma02.log-20121223
--'  1  0  /var/log/rabbitmq/rabbit@gamma02.log-20121223
--'  64  0  /var/log/rabbitmq/startup_log
--'  46  0  /var/log/rabbitmq/startup_log
--'  1  0  /var/log/rabbitmq/startup_err
--'  1  0  /var/log/rabbitmq/rabbit@gamma02-sasl.log
--'  1516  0  /var/log/rabbitmq/rabbit@gamma02.log
--'  2004  0  ~/.bash_history
--'  1  0  ~/.bash_history
--'  8  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_medium_G1L1L2_wd_dev/NERD_tree_1
--'  9  2  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_medium_G1L1L2_wd_dev/NERD_tree_1
--'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_medium_G1L1L2_wd_dev/NERD_tree_1
--'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_medium_G1L1L2_wd_dev/bcbio_nextgen.py.o13407
--'  8057  0  /var/log/rabbitmq/rabbit@nerv-geofront.log
--'  2568  0  /var/log/rabbitmq/rabbit@nerv-geofront.log
--'  7459  29  /var/log/rabbitmq/rabbit@nerv-geofront.log
--'  1  0  /var/log/rabbitmq/rabbit@nerv-geofront.log
--'  17  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_medium_G1L1L2_wd_dev/NERD_tree_1
--'  18  2  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_medium_G1L1L2_wd_dev/NERD_tree_1
--'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_medium_G1L1L2_wd_dev/bcbio_nextgen.py.o13402
--'  12  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln1_medium_G1L1L2_wd_dev/NERD_tree_1
--'  47  2  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln1_medium_G1L1L2_wd_dev/NERD_tree_1
--'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln1_medium_G1L1L2_wd_dev/NERD_tree_1
--'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln1_medium_G1L1L2_wd_dev/bcbio_nextgen.py.o13382
--'  4  1  ~/.bash_profile
--'  7  0  ~/.bash_profile
--'  2  0  ~/.bash_profile
--'  143  0  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  42  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_medium_G1L1L2_wd_dev/NERD_tree_1
--'  55  2  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_medium_G1L1L2_wd_dev/NERD_tree_1
--'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_large_G1all_wd_dev/bcbio_nextgen.py.o13380
--'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_large_G1all_wd_dev/nextgen_analysis_server.py.o13381
--'  8  4  ~/dev/galaxy_pipeline/NERD_tree_1
--'  24  2  ~/dev/galaxy_pipeline/NERD_tree_1
--'  1  4  ~/dev/galaxy_pipeline/NERD_tree_1
--'  1  0  ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_large_G1all.yaml
--'  76  2  ~/dev/galaxy_pipeline/galaxy_dist_dev_ln2/NERD_tree_1
--'  5  0  ~/dev/galaxy_pipeline/galaxy_dist_dev_ln2/NERD_tree_1
--'  87  2  ~/dev/galaxy_pipeline/galaxy_dist_dev_ln2/NERD_tree_1
--'  1  0  ~/dev/galaxy_pipeline/galaxy_dist_dev_ln2/NERD_tree_1
--'  1  0  ~/dev/galaxy_pipeline/galaxy_dist_dev_ln2/universe_wsgi.ini
--'  105  33  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/utils.py
--'  53  26  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/pipeline/main.py
--'  63  4  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/pipeline/main.py
--'  1  0  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/pipeline/main.py
--'  78  0  ~/dev/galaxy_pipeline/NERD_tree_1
--'  91  2  ~/dev/galaxy_pipeline/NERD_tree_1
--'  1  0  ~/dev/galaxy_pipeline/nextgen_testdir/log_messaging_wolfpack/large_G1all/nextgen_pipeline.log
--'  12  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_mediumtest_G1L1L2_wd_dev/NERD_tree_1
--'  47  2  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_mediumtest_G1L1L2_wd_dev/NERD_tree_1
--'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_mediumtest_G1L1L2_wd_dev/NERD_tree_1
--'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_mediumtest_G1L1L2_wd_dev/bcbio_nextgen.py.o13372
--'  95  0  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/utils.py
--'  39  0  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/utils.py
--'  18  27  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/utils.py
--'  94  64  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/utils.py
--'  5  0  ~/dev/mustached-bear/scala/NERD_tree_1
+-'  39  0  ~/dev/galaxy_pipeline/NERD_tree_1
+-'  70  2  ~/dev/galaxy_pipeline/NERD_tree_1
+-'  1  0  ~/dev/galaxy_pipeline/NERD_tree_1
+-'  1  0  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/variation/cortex.py
+-'  2  0  ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/examples/HelloWorld.scala
+-'  2  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleCountReads.scala
+-'  62  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleCountReads.scala
+-'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/queue/ExampleCountReads.jobreport.txt
+-'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/queue/ExampleCountReads-1.out
+-'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/queue/NERD_tree_1
+-'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/queue/DataProcessingPipeline.scala
+-'  11  9  ~/dev/analysis/ccg/PG0002526-DNA/linkme.sh
+-'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/linkme.sh
+-'  8  0  ~/dev/analysis/ccg/PG0002526-DNA/linkme.sh
+-'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  30  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  31  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  73  0  ~/dev/analysis/ccg/PG0002526-DNA/run_jobs.sh
+-'  42  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/run_jobs.sh
+-'  70  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  84  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  10  0  ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/NERD_tree_1
+-'  1  0  ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/NERD_tree_1
+-'  1  0  ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/CNV/xhmmCNVpipeline.scala
+-'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_195957/recalrp.e14858
+-'  32  0  ~/dev/analysis/ccg/NERD_tree_1
+-'  45  2  ~/dev/analysis/ccg/NERD_tree_1
+-'  1  0  ~/dev/analysis/ccg/NERD_tree_1
+-'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/bowtie2/flagstat.txt
+-'  17  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/NERD_tree_1
+-'  22  2  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/NERD_tree_1
+-'  1  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/NERD_tree_1
+-'  1  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleCountLoci.scala
+-'  87  0  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/broad/picardrun.py
+-'  81  4  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/broad/picardrun.py
+-'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/bowtie2/PG0002526-DNA_bowtie2_dup_seqdict.dict
+-'  122  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_114938/picardAlnSummary.e14595
+-'  57  32  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/pipeline/main.py
+-'  125  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  134  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  148  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  159  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  181  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  187  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  2  0  ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/examples/HelloWorld.scala
+-'  2  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleCountReads.scala
+-'  62  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleCountReads.scala
+-'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/queue/ExampleCountReads.jobreport.txt
+-'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/queue/ExampleCountReads-1.out
+-'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/queue/NERD_tree_1
+-'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/queue/DataProcessingPipeline.scala
+-'  11  9  ~/dev/analysis/ccg/PG0002526-DNA/linkme.sh
+-'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/linkme.sh
+-'  8  0  ~/dev/analysis/ccg/PG0002526-DNA/linkme.sh
+-'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  30  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  31  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  73  0  ~/dev/analysis/ccg/PG0002526-DNA/run_jobs.sh
+-'  42  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/run_jobs.sh
+-'  70  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  84  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  10  0  ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/NERD_tree_1
+-'  1  0  ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/NERD_tree_1
+-'  1  0  ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/CNV/xhmmCNVpipeline.scala
+-'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_195957/recalrp.e14858
+-'  32  0  ~/dev/analysis/ccg/NERD_tree_1
+-'  45  2  ~/dev/analysis/ccg/NERD_tree_1
+-'  1  0  ~/dev/analysis/ccg/NERD_tree_1
+-'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/bowtie2/flagstat.txt
+-'  17  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/NERD_tree_1
+-'  22  2  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/NERD_tree_1
+-'  1  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/NERD_tree_1
+-'  1  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleCountLoci.scala
+-'  87  0  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/broad/picardrun.py
+-'  81  4  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/broad/picardrun.py
+-'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/bowtie2/PG0002526-DNA_bowtie2_dup_seqdict.dict
+-'  122  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_114938/picardAlnSummary.e14595
+-'  57  32  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/pipeline/main.py
+-'  125  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  134  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  148  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  159  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  181  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  187  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
 
 # History of marks within files (newest to oldest):
 
-> ~/home-settings/NERD_tree_1
-	"	16	0
-	.	1	0
-	+	1	0
-	+	1	0
-
-> ~/dev/mustached-bear/scala/hello.scala
+> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/variation/cortex.py
 	"	1	0
-
-> ~/dev/mustached-bear/scala/NERD_tree_1
-	"	5	0
-	.	1	0
-	+	1	0
-
-> ~/.ssh/config
-	"	2	0
-	^	2	0
-	.	1	0
-	+	16	11
-	+	1	0
-
-> ~/dev/scala/hello.scala
-	"	2	9
-	^	2	10
-	.	2	9
-	+	1	0
-	+	3	6
-	+	4	0
-	+	3	6
-	+	5	19
-	+	3	9
-	+	5	24
-	+	2	9
-
-> /share/ClusterShare/Modules/modulefiles/contrib/kevyin/meme/4.9.0
-	"	1	0
-
-> /share/ClusterShare/Modules/modulefiles/contrib/kevyin/scala/NERD_tree_1
-	"	18	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> /share/ClusterShare/Modules/modulefiles/contrib/kevyin/scala/2.9.2
-	"	24	41
-	^	24	42
-	.	24	41
-	+	1	0
-	+	10	55
-	+	15	20
-	+	18	32
-	+	20	60
-	+	23	34
-	+	24	41
-
-> /share/ClusterShare/software/contrib/kevyin/_tool_src/downloaded/scala/scala-2.9.2/doc/README
-	"	1	0
-
-> /share/ClusterShare/software/contrib/kevyin/_tool_src/downloaded/scala/scala-2.9.2/NERD_tree_1
-	"	9	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> /misc/PWBCAdminStore/app/galaxy/galaxy_dist/dev/tool-data/meme_chip_motifs.loc
-	"	2	0
-
-> /misc/PWBCAdminStore/app/galaxy/galaxy_dist/dev/NERD_tree_1
-	"	23	0
-	.	1	0
-	+	1	0
-
-> /misc/PWBCAdminStore/app/galaxy/galaxy_dist/qa/tool-data/meme_chip_motifs.loc
-	"	1	0
-
-> /misc/PWBCAdminStore/app/galaxy/galaxy_dist/dev/tool-data/NERD_tree_1
-	"	88	5
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> /misc/PWBCAdminStore/app/galaxy/galaxy_dist/qa/tool-data/meme_chip_motifs.loc.sample
-	"	1	0
-
-> /misc/PWBCAdminStore/app/galaxy/galaxy_dist/dev/run_env.bashrc
-	"	93	49
-
-> ~/.bash_history
-	"	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln1_large_G1all_wd_dev/bcbio_nextgen.py.o13413
-	"	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/NERD_tree_1
-	"	33	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln1_large_G1all_wd_dev/nextgen_analysis_server.py.o13414
-	"	1348	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_medium_G1L1L2_wd_dev/bcbio_nextgen.py.o13415
-	"	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_medium_G1L1L2_wd_dev/nextgen_analysis_server.py.o13416
-	"	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_fastq/sh.o13225
-	"	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_fastq/NERD_tree_1
-	"	5	0
-	.	1	0
-	+	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_fastq/sh.e13225
-	"	1	0
-
-> /var/log/rabbitmq/rabbit@gamma02.log
-	"	5279	0
-
-> /var/log/rabbitmq/NERD_tree_1
-	"	6	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
 
 > ~/dev/galaxy_pipeline/NERD_tree_1
-	"	101	4
+	"	39	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/variation/annotation.py
+	"	4	2
+
+> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/variation/ensemble.py
+	"	1	0
+
+> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/variation/freebayes.py
+	"	1	0
+
+> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/variation/genotype.py
+	"	5	0
+
+> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/variation/realign.py
+	"	174	4
+
+> ~/dev/analysis/ccg/PG0002526-DNA/queue/DataProcessingPipeline.scala
+	"	491	9
+
+> ~/dev/analysis/ccg/PG0002526-DNA/queue/NERD_tree_1
+	"	49	0
 	.	1	0
 	+	1	0
 	+	1	0
@@ -442,259 +324,594 @@ $
 	+	1	0
 	+	1	0
 	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
 
-> ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_ln2_medium_G1L1L2.yaml
-	"	1	0
-	.	6	66
-	+	6	66
+> ~/dev/analysis/ccg/PG0002526-DNA/queue/run_queue.sh
+	"	64	163
+	^	64	239
+	.	64	163
+	+	1	0
+	+	9	0
+	+	10	0
+	+	24	0
+	+	12	74
+	+	18	0
+	+	24	31
+	+	13	31
+	+	24	24
+	+	24	8
+	+	24	0
+	+	24	0
+	+	24	0
+	+	54	0
+	+	53	7
+	+	57	0
+	+	24	0
+	+	58	0
+	+	26	13
+	+	58	0
+	+	58	0
+	+	58	64
+	+	67	0
+	+	60	35
+	+	23	0
+	+	16	0
+	+	14	0
+	+	16	33
+	+	26	57
+	+	58	31
+	+	16	54
+	+	17	5
+	+	60	140
+	+	16	44
+	+	17	38
+	+	16	44
+	+	17	33
+	+	60	155
+	+	59	0
+	+	60	0
+	+	60	0
+	+	59	0
+	+	59	181
+	+	59	0
+	+	58	0
+	+	64	0
+	+	64	0
+	+	58	0
+	+	63	0
+	+	58	0
+	+	63	0
+	+	64	0
+	+	64	211
+	+	15	12
+	+	26	0
+	+	8	0
+	+	7	0
+	+	15	33
+	+	16	32
+	+	17	27
+	+	15	27
+	+	16	36
+	+	16	34
+	+	17	29
+	+	64	215
+	+	64	71
+	+	64	195
+	+	64	90
+	+	64	0
+	+	64	91
+	+	64	202
+	+	64	90
+	+	64	0
+	+	62	98
+	+	64	174
+	+	62	134
+	+	63	0
+	+	62	66
+	+	64	163
 
-> ~/dev/galaxy_pipeline/galaxy_dist_dev_ln2/universe_wsgi.ini
-	"	872	0
-	^	870	20
-	.	870	16
-	+	870	13
-	+	872	0
-	+	870	0
-	+	872	19
-	+	870	0
-	+	871	0
-	+	870	0
-	+	871	0
-	+	870	16
+> ~/dev/analysis/ccg/PG0002526-DNA/run_jobs.sh
+	"	71	0
+	^	98	243
+	.	98	242
+	+	212	70
+	+	213	0
+	+	213	157
+	+	204	0
+	+	209	0
+	+	172	0
+	+	170	0
+	+	169	0
+	+	212	0
+	+	217	0
+	+	222	0
+	+	213	29
+	+	222	0
+	+	222	107
+	+	221	78
+	+	222	133
+	+	221	67
+	+	222	171
+	+	212	0
+	+	196	10
+	+	204	0
+	+	209	0
+	+	213	145
+	+	213	0
+	+	213	145
+	+	222	43
+	+	202	127
+	+	207	122
+	+	213	133
+	+	222	150
+	+	180	99
+	+	180	33
+	+	180	72
+	+	180	66
+	+	180	31
+	+	180	0
+	+	191	0
+	+	190	0
+	+	180	22
+	+	180	0
+	+	180	0
+	+	181	18
+	+	189	0
+	+	180	0
+	+	180	99
+	+	180	116
+	+	180	0
+	+	101	0
+	+	98	0
+	+	100	0
+	+	101	0
+	+	101	0
+	+	101	0
+	+	69	0
+	+	69	0
+	+	69	37
+	+	70	3
+	+	71	163
+	+	71	36
+	+	71	214
+	+	70	0
+	+	69	53
+	+	71	232
+	+	72	0
+	+	72	0
+	+	101	0
+	+	71	133
+	+	69	0
+	+	69	0
+	+	71	0
+	+	98	0
+	+	98	0
+	+	95	0
+	+	101	0
+	+	98	0
+	+	186	0
+	+	182	0
+	+	183	22
+	+	196	0
+	+	184	6
+	+	183	10
+	+	187	0
+	+	185	62
+	+	186	145
+	+	186	0
+	+	201	0
+	+	206	0
+	+	212	0
+	+	201	62
+	+	202	164
+	+	207	159
+	+	188	0
+	+	186	267
+	+	170	177
+	+	162	0
+	+	162	0
+	+	165	156
+	+	71	254
+	+	95	156
+	+	98	242
 
-> ~/dev/galaxy_pipeline/launch_monitors.sh
+> ~/dev/analysis/ccg/PG0002526-DNA/linkme.sh
+	"	11	0
+	^	11	5
+	.	11	101
+	+	6	5
+	+	9	102
+	+	11	110
+	+	9	92
+	+	11	100
+	+	10	92
+	+	9	97
+	+	11	109
+	+	7	14
+	+	9	84
+	+	10	78
+	+	11	0
+	+	11	91
+	+	9	83
+	+	10	77
+	+	8	11
+	+	4	0
+	+	10	0
+	+	11	4
+	+	9	94
+	+	10	82
+	+	11	101
+
+> ~/dev/analysis/ccg/PG0002526-DNA/queue/ExampleCountReads-1.out
 	"	2	0
-	^	2	53
-	.	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
 
-> ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_ln1_mediumtest_G1L1L2.yaml
-	"	6	0
-	^	6	67
-	.	6	66
-	+	6	66
-
-> ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_ln2_large_G1all.yaml
-	"	6	0
-	^	6	67
-	.	6	66
-	+	6	66
-
-> ~/dev/galaxy_pipeline/galaxy_dist_dev_ln1/universe_wsgi.ini
-	"	868	0
-
-> ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_ln1_large_G1all.yaml
-	"	16	0
-	.	6	66
-	+	6	66
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln1_large_G1all_wd_dev/nextgen_analysis_server.py.po13412
-	"	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln1_large_G1all_wd_dev/NERD_tree_1
-	"	7	0
-	.	1	0
-	+	1	0
-	+	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln1_large_G1all_wd_dev/nextgen_analysis_server.py.o13412
-	"	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln1_large_G1all_wd_dev/bcbio_nextgen.py.o13411
-	"	1	0
-
-> /var/log/rabbitmq/rabbit@nerv-geofront-sasl.log
-	"	1	0
-
-> /var/log/rabbitmq/startup_err
-	"	1	0
-
-> /var/log/rabbitmq/startup_log
-	"	64	0
-
-> /var/log/rabbitmq/rabbit@nerv-geofront.log-20121223
-	"	56	0
-
-> /var/log/rabbitmq/rabbit@nerv-geofront.log
-	"	4945	68
-
-> /var/log/rabbitmq/rabbit@gamma02-sasl.log
-	"	1	0
-
-> /var/log/rabbitmq/rabbit@gamma02.log-20121223
-	"	55	15
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_medium_G1L1L2_wd_dev/bcbio_nextgen.py.o13407
-	"	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_medium_G1L1L2_wd_dev/NERD_tree_1
-	"	8	0
+> ~/dev/analysis/ccg/PG0002526-DNA/queue/NERD_tree_2
+	"	29	2
 	.	1	0
 	+	1	0
 	+	1	0
 	+	1	0
 	+	1	0
 	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_medium_G1L1L2_wd_dev/nextgen_analysis_server.py.o13408
+> ~/dev/analysis/ccg/PG0002526-DNA/queue/ExampleCountReads.jobreport.txt
 	"	1	0
 
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_medium_G1L1L2_wd_dev/bcbio_nextgen.py.o13402
+> /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleCountReads.scala
+	"	5	0
+
+> ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/examples/HelloWorld.scala
+	"	2	0
+
+> ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/examples/ExampleCountLoci.scala
+	"	9	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/queue/HelloWorld.jobreport.txt
 	"	1	0
 
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_medium_G1L1L2_wd_dev/nextgen_analysis_server.py.o13404
-	"	28	0
+> ~/dev/analysis/ccg/PG0002526-DNA/queue/HelloWorld-1.out
+	"	3	0
 
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln1_medium_G1L1L2_wd_dev/bcbio_nextgen.py.o13382
+> ~/dev/analysis/ccg/PG0002526-DNA/queue/tmp/Q-Classes-8470308202527215045/org/broadinstitute/sting/queue/qscripts/examples/HelloWorld$$anon$1.class
+	"	2	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/queue/output/2013_0110_170632/DataProcessingPipeline.jobreport.txt
+	"	36	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0110_090830/rg.e15185
 	"	1	0
 
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln1_medium_G1L1L2_wd_dev/NERD_tree_1
+> ~/dev/analysis/ccg/PG0002526-DNA/queue/output/2013_0110_174944/DataProcessingPipeline.jobreport.txt
+	"	1	0
+
+> /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/exampleBAM.bam
+	"	1	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+	"	40	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk/resources/exampleBAM.bam
+	"	3	0
+
+> /etc/hosts.allow
+	"	27	0
+	.	28	0
+	+	28	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0109_112029/recalrp.e15179
+	"	1	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0109_112029/rg.e15092
+	"	1	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0109_112029/rg.o15092
+	"	1	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0110_090830/rg.o15185
+	"	1	0
+
+> ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/CNV/xhmmCNVpipeline.scala
+	"	166	4
+
+> ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/NERD_tree_1
+	"	10	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/DataProcessingPipeline.scala
+	"	278	0
+
+> /share/ClusterShare/Modules/modulefiles/contrib/kevyin/init_personal
+	"	29	0
+	^	29	1
+	.	29	0
+	+	30	0
+	+	29	0
+
+> /share/ClusterShare/Modules/modulefiles/contrib/kevyin/NERD_tree_1
+	"	19	2
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> /share/ClusterShare/Modules/modulefiles/contrib/kevyin/eclipse/4.2
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /share/ClusterShare/Modules/modulefiles/contrib/kevyin/eclipse/juno
+	"	24	26
+	^	16	20
+	.	24	26
+	+	1	0
+	+	11	0
+	+	16	19
+	+	23	31
+	+	24	26
+
+> /share/ClusterShare/software/contrib/kevyin/eclipse/NERD_tree_1
 	"	12	0
 	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> /share/ClusterShare/Modules/modulefiles/contrib/kevyin/gatk/2.2-8
+	"	1	0
+
+> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/bowtie2/flagstat.txt
+	"	5	0
+
+> ~/dev/analysis/ccg/NERD_tree_1
+	"	27	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_195957/printReads.e14859
+	"	2	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_195957/recalrp.e14858
+	"	1	0
+
+> ~/dev/analysis/ccg/NERD_tree_2
+	"	4	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 	+	1	0
 	+	1	0
 
 > ~/.bash_profile
-	"	4	1
-	^	4	2
-	.	4	1
-	+	12	0
-	+	10	56
-	+	8	0
-	+	2	20
-	+	1	29
-	+	1	0
-	+	5	0
-	+	6	0
-	+	3	0
-	+	2	2
-	+	3	12
-	+	6	29
-	+	7	39
-	+	4	1
+	"	143	2
 
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_large_G1all_wd_dev/bcbio_nextgen.py.o13380
+> /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleCountLoci.scala
 	"	1	0
 
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_large_G1all_wd_dev/nextgen_analysis_server.py.o13381
-	"	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_large_G1all_wd_dev/NERD_tree_1
-	"	5	0
+> /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/NERD_tree_1
+	"	17	0
 	.	1	0
 	+	1	0
 	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
 
-> ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_large_G1all.yaml
-	"	6	0
-	^	45	92
-	.	62	37
-	+	45	0
-	+	44	0
-	+	45	91
-	+	62	37
+> /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleCustomWalker.scala
+	"	1	0
 
-> ~/dev/galaxy_pipeline/nextgen_config/wolfpack/transfer_info.yaml
+> /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleReadFilter.scala
+	"	1	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_181322/printReads.e14847
+	"	1	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_094943/reorder.e14738
+	"	355	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_094943/reorder.o14738
+	"	1	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_094943/reorder_qsub_cmd.14738
+	"	1	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_181322/recalrp.o14829
+	"	1	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_181322/recalrp.e14829
+	"	1	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_191739/printReads.e14710
+	"	2	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_191739/reorder.e14707
+	"	1	1
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_191739/reorder.e14708
 	"	4	0
 
-> ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml
-	"	110	0
-	^	61	45
-	.	61	37
-	+	105	11
-	+	26	0
-	+	62	19
-	+	61	36
-	+	105	11
-	+	61	36
-	+	62	19
-	+	44	0
-	+	44	106
-	+	61	44
-	+	28	14
-	+	62	0
-	+	61	45
-	+	96	0
-	+	106	30
-	+	61	37
-	+	106	29
-	+	61	44
-	+	106	8
-	+	61	37
-	+	105	12
-	+	61	37
+> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/bowtie2/PG0002526-DNA_bowtie2_dup_seqdict.dict
+	"	94	0
 
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln1_medium_G1L1L2_wd_dev/bcbio_nextgen.py.o13378
-	"	1	0
-
-> ~/dev/galaxy_pipeline/galaxy_dist_dev_ln2/NERD_tree_1
-	"	76	2
-	.	1	0
-	+	1	0
-
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/pipeline/main.py
-	"	53	26
-	.	57	0
-	+	57	0
-
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/utils.py
-	"	105	33
-	^	95	14
-	.	105	0
-	+	104	48
-	+	94	64
-	+	18	0
-	+	17	0
-	+	18	27
-	+	95	90
-	+	94	62
-	+	95	139
-	+	18	0
-	+	95	13
-	+	95	129
-	+	105	0
-	+	104	0
-	+	105	33
-	+	104	0
-	+	105	0
-
-> ~/dev/galaxy_pipeline/NERD_tree_2
-	"	7	6
+> ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_2
+	"	44	2
 	.	1	0
 	+	1	0
 	+	1	0
@@ -731,22 +948,6 @@ $
 	+	1	0
 	+	1	0
 	+	1	0
-
-> ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process.yaml
-	"	64	2
-
-> ~/dev/galaxy_pipeline/nextgen_config/wolfpack/universe_wsgi_wolfpack.ini
-	"	1	0
-
-> ~/dev/galaxy_pipeline/galaxy_dist_ln/universe_wsgi.ini
-	"	870	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_large_G1all_wd_dev/bcbio_nextgen.py.po13376
-	"	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_large_G1all_wd_dev/NERD_tree_1
-	"	6	0
-	.	1	0
 	+	1	0
 	+	1	0
 	+	1	0
@@ -773,13 +974,6 @@ $
 	+	1	0
 	+	1	0
 	+	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_mediumtest_G1L1L2_wd_dev/bcbio_nextgen.py.o13372
-	"	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_mediumtest_G1L1L2_wd_dev/NERD_tree_1
-	"	12	0
-	.	1	0
 	+	1	0
 	+	1	0
 	+	1	0
@@ -799,113 +993,136 @@ $
 	+	1	0
 	+	1	0
 	+	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_large_G1all_wd_dev/bcbio_nextgen.py.o13376
-	"	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_large_G1all_wd_dev/nextgen_analysis_server.py.o13377
-	"	166	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_mediumtest_G1L1L2_wd_dev/nextgen_analysis_server.py.o13373
-	"	9950	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_large_G1all_wd_dev/bcbio_nextgen.py.o13374
-	"	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_large_G1all_wd_dev/nextgen_analysis_server.py.o13375
-	"	11960	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_large_G1all_wd_dev/bcbio_nextgen.py.po13374
-	"	1	0
-
-> ~/dev/galaxy_pipeline/nextgen_testdir/log_messaging_wolfpack/large_G1all/nextgen_pipeline.log
-	"	1	0
-
-> ~/dev/galaxy_pipeline/nextgen_tests/G1/run_info-all.yaml
-	"	65	0
-
-> ~/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml
-	"	43	6
-	^	29	26
-	.	29	24
-	+	29	24
 
 > ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/broad/picardrun.py
+	"	87	0
+
+> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/bowtie2/Picard_CollectAlignmentSummaryMetrics.txt
 	"	1	0
 
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/broad/__init__.py
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_191739/recalrp.e14709
 	"	1	0
 
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/variation/genotype.py
-	"	22	35
-	^	44	30
-	.	40	47
-	+	44	45
-	+	41	9
-	+	44	21
-	+	41	4
-	+	42	0
-	+	41	0
-	+	40	43
-	+	44	24
-	+	40	36
-	+	44	29
-	+	40	47
-
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/variation/annotation.py
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_094040/reorder.e14728
 	"	1	0
 
-> ~/dev/galaxy_pipeline/nextgen_testdir/log_messaging_G1all/nextgen_pipeline.log
+> ~/dev/sunny/subsample.py
+	"	10	8
+	^	16	41
+	.	13	8
+	+	16	40
+	+	11	0
+	+	15	0
+	+	16	0
+	+	13	8
+
+> /share/ClusterShare/Modules/modulefiles/contrib/kevyin/init_pipeline_dev
+	"	28	21
+	.	28	21
+	+	28	21
+
+> ~/dev/sunny/NERD_tree_1
+	"	4	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_191739/rmdup.e14686
+	"	85	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_191739/printReads.o14710
 	"	1	0
 
-> ~/dev/galaxy_pipeline/nextgen_testdir/log_messaging_wolfpack/messaging_mediumest_G1L1L2/nextgen_pipeline.log
-	"	171	0
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_114938/picardAlnSummary.e14595
+	"	1349	0
 
-> ~/dev/galaxy_pipeline/NERD_tree_3
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_114938/picardAlnSummary_qsub_cmd
+	"	1	0
+
+> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/bwa/Picard_CollectAlignmentSummaryMetrics.txt
+	"	2	0
+
+> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/pipeline/main.py
+	"	57	32
+	^	65	41
+	.	65	40
+	+	65	40
+
+> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/distributed/tasks.py
+	"	47	0
+
+> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/pipeline/variation.py
+	"	2	0
+
+> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/variation/recalibrate.py
+	"	92	32
+
+> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/pipeline/lane.py
+	"	1	0
+
+> ~/dev/galaxy_pipeline/TODO
 	"	13	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
 
-> ~/dev/galaxy_pipeline/NERD_tree_4
-	"	15	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
+> ~/dev/galaxy_pipeline/bcbb/rest_apis/ensembl_remote_rest.py
+	"	2	0
 
-> ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_smalltest_G1L1.yaml
+> ~/dev/galaxy_pipeline/bcbb/rest_apis/find_geo_data.py
 	"	1	0
 
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_mediumtest_G1L1L2_wd_dev/bcbio_nextgen.py.o13333
+> ~/dev/galaxy_pipeline/bcbb/rest_apis/uniprot_query_cluster.py
+	"	14	0
+
+> ~/dev/galaxy_pipeline/nextgen_tests/G1/run_info-all.yaml
 	"	1	0
 
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_large_G1all_wd_dev/bcbio_nextgen.py.po13335
+> ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process.yaml
 	"	1	0
 
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_large_G1all_wd_dev/bcbio_nextgen.py.po13370
+> ~/dev/galaxy_pipeline/bcbb/nextgen/scripts/utils/resort_bam_karyotype.py
+	"	2	0
+
+> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/picard/__init__.py
 	"	1	0
 
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_large_G1all_wd_dev/nextgen_analysis_server.py.po13336
+> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/picard/utils.py
 	"	1	0
 
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_large_G1all_wd_dev/nextgen_analysis_server.py.po13371
+> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/picard/metrics.py
 	"	1	0
 
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_large_G1all_wd_dev/bcbio_nextgen.py.o13370
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_114938/picardAlnSummary.e14596
 	"	1	0
 
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_large_G1all_wd_dev/nextgen_analysis_server.py.o13371
-	"	3679	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_large_G1all_wd_dev/nextgen_analysis_server.py.o13336
-	"	6063	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_large_G1all_wd_dev/bcbio_nextgen.py.o13335
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_114938/flagstat.e14593
 	"	1	0
 
-> ~/dev/galaxy_pipeline/bcbb/nextgen/setup.py
-	"	32	13
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_114938/flagstat.e14594
+	"	1	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0106_152522/picardAlnSummary.e14587
+	"	1	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0106_152522/picardAlnSummary.e14588
+	"	1	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0106_152522/bwa_bam.e14578
+	"	1	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0106_152522/bowtie2_bam.e14577
+	"	139	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0106_152522/bowtie2_bam_qsub_cmd
+	"	1	391
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0106_152522/flagstat.e14585
+	"	1	0
+
+> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0106_152522/flagstat.e14586
+	"	1	0
+
+> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/bwa/flagstat.txt
+	"	2	0

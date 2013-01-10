@@ -122,10 +122,6 @@ gconftool-2 --set "/apps/gnome-terminal/profiles/Default/background_color" --typ
 gconftool-2 --set "/apps/gnome-terminal/profiles/Default/foreground_color" --type string "$S_text"
 #gconftool-2 --set "/apps/gnome-terminal/profiles/Default/" --type string "$S_text"
 
-# modules
-export MODULEPATH=/share/ClusterShare/Modules/modulefiles/noarch:/share/ClusterShare/Modules/modulefiles/centos6.2_x86_64:/share/ClusterShare/Modules/modulefiles/contrib:$MODULEPATH
-module load kevyin/init_personal
-#source /home/kevyin/dev/tools_downloaded/perl/pll-perl/bin/activate.sh
 
 export CUDA_INSTALL_PATH=/share/ClusterShare/software/centos6/cudatoolkit_4.2.9/cuda/
 export CUSTOMCUDALIB64=/home/kevyin/kevyin/dev/cuda/lib/usr_lib64
@@ -134,10 +130,14 @@ export LD_LIBRARY_PATH=/home/kevyin/kevyin/dev/cuda/lib/usr_lib64:$LD_LIBRARY_PA
 export LD_LIBRARY_PATH=/home/kevyin/kevyin/dev/cuda/lib/usr_lib:$LD_LIBRARY_PATH
 #export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 
-source ~/perl5/perlbrew/etc/bashrc
-
 #if [ `hostname -s` -eq `omega-0-11` ]; then
     #ulimit -Sn 10240
 #fi
 max_fh=`ulimit -Hn`
 ulimit -Sn $max_fh
+
+# modules
+export MODULEPATH=/share/ClusterShare/Modules/modulefiles/noarch:/share/ClusterShare/Modules/modulefiles/centos6.2_x86_64:/share/ClusterShare/Modules/modulefiles/contrib:$MODULEPATH
+module load kevyin/init_personal
+#module load kevyin/typesafe-stack/2.0.2
+#source /home/kevyin/dev/tools_downloaded/perl/pll-perl/bin/activate.sh

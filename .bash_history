@@ -1,2000 +1,2000 @@
-tail -f run.out 
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-tail -f run.out 
-ls
-vim run.out 
-ls
-rm -rf ./*
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-tail -f run.out 
-ls
-cat project-summary.csv 
-rm -rf ./*
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-tail -f run.out 
-ls
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-cat run.out 
-rm -rf ./*
-ls
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-tail -f run.out 
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-tail -f run.out 
-ls
-rm -rf ./*
-tail -f run.out 
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-clear
-ls
-tail -rf run.out 
-tail -f run.out 
-ls
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-tail run.out 
-tail -f run.out 
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-tail -f run.out 
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-tail -f run.out 
-ls
-rm -rf ./*
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-tail -f run.out 
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-vim run.out 
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-vim run.out 
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-vim run.out 
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-tail -f run.out 
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-tail -f run.out 
-ls
-ulimit -n
-qlogin
-qlogin -l pwbc
-qlogin -pe smp 64
-screen -ls
-cd dev/galaxy_pipeline
-ls
-vim
-ls
-ls 127\:/
-rm -rf 127\:/
-ls
-cd dev/galaxy_pipeline
-ls
-vim
-cd dev/galaxy_pipeline
-ls
-cd bcbb/nextgen/
-ls
-git status
-git diff
-module load kevyin/init_pipeline_dev 
-python setup.py install
-qlogin -pe smp 32
+#1357279435
 qstat
+#1357279440
+git status
+#1357279445
+git add -u
+#1357279447
+git status
+#1357279452
+git commit -m "bug fix"
+#1357331287
+ls
+#1357331290
 screen -ls
-screen -S wolf_local_mediumtest_G1L1L2_run
-clear
-screen -ls
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-clear
-git status
-git diff
-git log
-git checkout cb461e50efc9da8b8fbfdb7c6c9387269e0da195
-git status
-git diff
-git status
-git add bcbio/variation/genotype.py 
-git status
-git commit -m 
-git status
-git commit -m "max file handles for gatk"
-git status
-git checkout -- bcbio/distributed/transaction.py 
-git status
-python setup.py install
-man git
-git -h
-git --help | less
-git commit --help | less
-git-commit -h
-git commit -h
-git commit -h | less
-git status
-git log
-git branch
-git log
-python setup.py install
-git log
-git show 292394ce504ea83b330b146709c0946391f3fe7c
-git log
-git show 67095a42473ff247b86649cca17a2703dfe4bac9
-git status
-git log
-git checkout cb46
-git log
-git status
-git branch
-git checkout master
-git status
-git log
-ls
-git checkout cb46
-git apply 292394ce504ea83b330b146709c0946391f3fe7c
-git format-patch -1 292394ce504ea83b330b146709c0946391f3fe7c
-ls
-git log
-cat 0001-max-file-handles-for-gatk.patch 
-git status
-man apply
-man patch
-patch 0001-max-file-handles-for-gatk.patch 
-patch <  0001-max-file-handles-for-gatk.patch 
-patch -1 <  0001-max-file-handles-for-gatk.patch 
-man patch
-patch -p1 <  0001-max-file-handles-for-gatk.patch 
-ls
-patch -p2 <  0001-max-file-handles-for-gatk.patch 
-git status
-python setup.py install
-ls
-git log
-git format-patch -1 89d57d2c3af5f0a42a7876aa4dce356bb2cb1c2f
-ls
-git status
-git checkout 8f9969e02f3d4d36c34d05b70cbe2db0e1b4b017
-patch -p1 0001-no-more-var-tmp-was-giving-out-of-memory-errors.patch 
-patch -p1 < 0001-no-more-var-tmp-was-giving-out-of-memory-errors.patch 
-patch -p2 < 0001-no-more-var-tmp-was-giving-out-of-memory-errors.patch 
-ls
-python setup.py install
-git log
-git show 3f3a0c9ed9e2867a83262c437b62945bb5897f44
-git log
-git checkout 48b4f84632ec26eb07b938ce5df56ab40707e398
-python setup.py install
-git log
-git show 3f3a0c9ed9e2867a83262c437b62945bb5897f44
-git log
-git show 5090ac3b035b331105e0aa6f2afcc6f0ae9fc422
-git log
-git checkout 5090ac3b035b331105e0aa6f2afcc6f0ae9fc422
-patch -p2 < 0001-no-more-var-tmp-was-giving-out-of-memory-errors.patch 
-git log
-git diff
-git status
-python setup.py install
-git status
-git checkout bcbio/distributed/
-git status
-git stash
-git status
-git log
-git status
-git branch
-git checkout master
-git status
-git log
-git bisect start
-cd ..
-git bisect start
-git bisect bad
-git log
-git checkout 5090ac3b035b331105e0aa6f2afcc6f0ae9fc422
-python setup.py install
-cd nextgen/
-python setup.py install
-cd ..
-git log
-git checkout b65d8ddf864395d8d7d2efc11be6ff1a8b0aa7f3
-git status
-cd nextgen/
-python setup.py install
-python setup.py install --record files.txt
-ls
-cat files.txt | xargs rm -rf
-ls
-python setup.py install
-ls
-git log
-git bisect good b65d8ddf864395d8d7d2efc11be6ff1a8b0aa7f3
-cd ..
-git bisect good b65d8ddf864395d8d7d2efc11be6ff1a8b0aa7f3
-ls
-cd nextgen/
-sh reinstall.sh 
-git bisect good
-cd ..
-git bisect good
-ls
-cd nextgen/
-sh reinstall.sh 
-git status
-git checkout master
-sh reinstall.sh 
-git log
-git status
-git log
-git show cb461e50efc9da8b8fbfdb7c6c9387269e0da195
-git log
-git checkout  cb461e50efc9da8b8fbfdb7c6c9387269e0da195
-sh reinstall.sh 
-git log
-git checkout master
-git log
-git checkout 67095a42473ff247b86649cca17a2703dfe4bac9
-git log
-git show cb461e50efc9da8b8fbfdb7c6c9387269e0da195
-git log
-git show 67095a42473ff247b86649cca17a2703dfe4bac9
-git log
-cd ..
-git bisect reset
-ls
-cd nextgen/
-ls
-git log
-git checkout 67095a42473ff247b86649cca17a2703dfe4bac9
-git commit --amend -v
-git rebase --onto Head 67095a42473ff247b86649cca17a2703dfe4bac9 master
-git rebase --onto Head 67095a42473ff247b86649cca17a2703dfe4bac9 
-git rebase --onto HEAD 67095a42473ff247b86649cca17a2703dfe4bac9 master
-git status
-git add bcbio/distributed/transaction.py
-git rebase --onto HEAD 67095a42473ff247b86649cca17a2703dfe4bac9 master
-git status
-git diff  bcbio/distributed/transaction.py
-git diff HEAD bcbio/distributed/transaction.py
-git commit -m "removed log msgs"
-git rebase --onto HEAD 67095a42473ff247b86649cca17a2703dfe4bac9 master
-git log
-git status
-git branch
-git log
-python setup.py install
-git branch
-git log
-git checkout cb461e50efc9da8b8fbfdb7c6c9387269e0da195
-python setup.py install
-sh reinstall.sh 
-git checkout master
-git log
-sh reinstall.sh 
-git log
-git checkout cb461e50efc9da8b8fbfdb7c6c9387269e0da195
-sh reinstall.sh 
-git log
-git status
-git log
-patch -p2 <  0001-max-file-handles-for-gatk.patch 
-sh reinstall.sh 
-git log
-git checkout b65d8ddf864395d8d7d2efc11be6ff1a8b0aa7f3
-git checkout master
-git diff
-git stash
-git checkout master
-git log
-git show 3f3a0c9ed9e2867a83262c437b62945bb5897f44
-git log
-git show 5090ac3b035b331105e0aa6f2afcc6f0ae9fc422
-git log
-git checkout 5090ac3b035b331105e0aa6f2afcc6f0ae9fc422
-sh reinstall.sh 
-git log
-git checkout master
-git log
-git checkout 48b4f84632ec26eb07b938ce5df56ab40707e398
-sh reinstall.sh 
-git checkout master
-git log
-sh reinstall.sh 
-git log
-git checkout f747089cddcb0975a62f87e618a4b1ea99f33be1
-sh reinstall.sh 
-git log
-git checkout master
-git log
-git checkout cb461e50efc9da8b8fbfdb7c6c9387269e0da195
-sh reinstall.sh 
-git log
-git checkout master
-git status
-git log
-git checkout cb461e50efc9da8b8fbfdb7c6c9387269e0da195
-ls
-patch -p2 <  0001-max-file-handles-for-gatk.patch 
-git status
-sh reinstall.sh 
-git status
-git diff
-git stash
-git log
-sh reinstall.sh 
-git log
-git diff
-vim 0001-max-file-handles-for-gatk.patch 
-patch -p2 <  0001-max-file-handles-for-gatk.patch 
-sh reinstall.sh 
-man apply
-man patch
-patch -R -p2 <  0001-max-file-handles-for-gatk.patch 
-vim bcbio/variation/genotype.py 
-patch -p2 <  0001-max-file-handles-for-gatk.patch 
-vim bcbio/variation/genotype.py 
-patch -p2 <  0001-max-file-handles-for-gatk.patch 
-python setup.py install
-sh reinstall.sh 
-vim bcbio/variation/genotype.py 
-sh reinstall.sh 
-git checkout master
-git stash
-git checkout master
-git status
-git log
-git status
-git commit -v --amend
-git status
-git add bcbio/variation/genotype.py
-git status
-git add bcbio/variation/genotype.py
-git status
-git commit -v --amend
-git log
-git status
-sh reinstall.sh 
-vim
-ls
-git status
-git diff
-git status
-git add bcbio/variation/genotype.py 
-git commit -v --amend
-git add reinstall.sh 
-git commit -m "python reinstall module script"
-sh reinstall.sh 
-ls
-ls files\:/
-rm -rf files\:/
-rm -rf ulimit\:/
-ls
-cd dev/
-ls
-cd galaxy_pipeline
-ls
-git status
-cd bcbb/nextgen/
-ls
-qstat
-cd dev/galaxy_pipeline
-ls
-vim
-screen -ls
-cd /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_local_mediumtest_G1L1L2_wd_dev
-ls
-tail -f run.out 
-cd ..
-cd wolf_messaging_mediumtest_G1L1L2_wd2/
-ls
-cd ..
-rm -rf wolf_messaging_mediumtest_G1L1L2_wd2/
-mkdir wolf_messaging_mediumtest_G1L1L2_wd_dev
-cd wolf_messaging_mediumtest_G1L1L2_wd_dev/
-ls
-screen -S wolf_messaging_mediumtest_G1L1L2_run
-ls
-tail bcbio_nextgen.py.o13313 
-ls
-tail -f bcbio_nextgen.py.o13313 nextgen_analysis_server.py.o13314 
-screen -r wolf_messaging_mediumtest_G1L1L2_run
-ls
-tail -f bcbio_nextgen.py.o13315 
-ls
-tail -f bcbio_nextgen.py.o13315 
-ls
-tail nextgen_analysis_server.py.o13316 
-tail -f nextgen_analysis_server.py.o13316 
-vim 
-ls
-vim
-screen -r wolf_messaging_mediumtest_G1L1L2_run
-ls
-tail -f run.out
-ls
-vim run.out 
-ls
-vim hs_err_pid31351.log 
-ls
-screen -r wolf_messaging_mediumtest_G1L1L2_run
-cd /share/ClusterShare/software/contrib/kevyin/gatk/
-ls
-cd 2.2-8/gatk/
-ls
-java -jar GenomeAnalysisTK.jar  -h | less
-cd /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_local_mediumtest_G1L1L2_wd_dev
-ls
-vim
-cd ..
-mkdir wolf_local_mediumtest_G1L1L2_wd_prod
-cd wolf_local_mediumtest_G1L1L2_wd_prod/
-ls
-module unload kevyin/init_personal 
-module load kevyin/init_personal 
-module load kevyin/init_sample_tracking 
-ls
-which python
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 64 &> run.out
-ls
-cd ..
-cd wolf_local_mediumtest_G1L1L2_wd_dev/
-ls
-rm -rf ./*
-ls
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 64 &> run.out
-screen -ls
-ls
-module unload kevyin/init_sample_tracking 
-ls
-rm -rf ./*
-module load kevyin/init_pipeline_dev 
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 64 &> run.out
-cat run.out 
-git log
-git status
-ls
-rm ./*
-rm -rf ./*
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 64 &> run.out
-ls
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 64 &> run.out
-ls
-rm -rf ./*
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-ls
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-ls
-rm -rf ./*
-ls
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-cat run.out 
-vim run.out 
-ls
-rm -rf ./*
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-vim run.out 
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-ls
-rm -rf ./*
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-ls
-cat run.out 
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-cat run.out 
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-vim run.out 
-ls
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-cat run.out 
-ls
-rm run.out 
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-cat run.out 
-vim run.out 
-ls
-vim
-ls
-ll alignments/
-cd ..
-ls
-ll
-cd wolf_local_mediumtest_G1L1L2_wd_dev/
-ll
-ls
-ll alignments/
-ll fastqc/
-ll
-head *grp
-vimm
-vim
-ls
-ls | grep sort-dup
-ll
-ls /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_local_mediumtest_G1L1L2_wd_dev/alignments/L002_301112_G1_L1_L2-sort.bam
-ls -lah /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_local_mediumtest_G1L1L2_wd_dev/alignments/L002_301112_G1_L1_L2-sort.bam
-vim
-ll
-ls
-mv gatk/ gatk-rm
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-vim run.out 
-ls
-cat gatk
-ls gatk
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-vim run.out 
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-vim run.out 
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-ls
-rm run.out 
-ls
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-ls
-rm -rf gatk/
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-vim run.out 
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-ls
-rm -rf gatk/
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-rm -rf gatk/
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-rm -rf gatk/
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-vim run.out 
-rm -rf gatk/
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-rm -rf gatk/
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-rm -rf gatk/
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-vim run.out 
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-rm -rf gatk/
-ls
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-vim run.out 
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-rm -rf gatk/
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-vim run.out 
-ls
-rm -rf gatk/
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-rm -rf gatk/
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 32 &> run.out
-ls
-rm -rf ./*
-exit
-ls
-module load kevyin/init_pipeline_dev 
-ls
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-ls
-vim
-ls
-vim nextgen_analysis_server.py.o13314 
-vim
-rm -rf ./*
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-vim nextgen_analysis_server.py.o13318
-ls
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_local_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t local -n 64 &> run.out
-vim run.out 
-ls
-vim
-ls
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-ls /share/ClusterShare/software/contrib/kevyin/python/2.7.2-dev/bin/bcbio_nextgen.py
-ls /share/ClusterShare/software/contrib/kevyin/python/2.7.2-dev/bin/
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-ls
-vim 
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-vim
-ls
-git log
-ls
-module unload kevyin/init_pipeline_dev 
-module load kevyin/init_sample_tracking 
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-ls
-ls *split
-ls | grep split
-ls | grep split | rm
-ls | grep split | xargs rm
-ls | grep split | xargs rm -rf
-ls
-module unload kevyin/init_sample_tracking 
-module load kevyin/init_pipeline_dev 
-vim
-which python
-ls
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-exit
-cd /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/
-ls
-cd wolf_local_mediumtest_G1L1L2_wd/
-ls
-cd ..
-mkdir wolf_local_mediumtest_G1L1L2_wd_dev
-cd wolf_local_mediumtest_G1L1L2_wd_dev/
-ls
-qlogin -pe smp 64
-qlogin -pe smp 32
-pip freeze
-module load kevyin/init_sample_tracking 
-pip freeze
-pip freeze > ~/tmp/st_dep.txt
-cd
-cd dev/sunny/
-ls
-vim
-git status
-git add python-reinstall.sh 
-git bam2fastq.sh 
-git add largest_dirs.sh 
-git status
-gi add bam2fastq.sh 
-git add bam2fastq.sh 
-git status
-git commit -m "scripts"
-git push origin master
-ls
-git add remote origin https://github.com/kevyin/sunny.git
-git remote origin https://github.com/kevyin/sunny.git
-git remote add origin https://github.com/kevyin/sunny.git
-git status
-git push origin master
-git pull
-git merge
-ls
-git pull master
-git pull origin master
-ls
-git status
-ls
-git status
-git push origin master
-ls
-vim .git/config 
-git status
-ls
-cd dev/galaxy_pipeline
-ls
-cd bcbb/nextgen/
-ls
-git bisect start
-git bisect bad
-cd ..
-git bisect start
-git bisect bad
-ls
-git log
-git bisect bad cb461e50efc9da8b8fbfdb7c6c9387269e0da195
-git log
-git bisect bad 5090ac3b035b331105e0aa6f2afcc6f0ae9fc422
-git log
-cat /share/ClusterShare/Modules/modulefiles/contrib/kevyin/init_pipeline_dev 
-cat /share/ClusterShare/Modules/modulefiles/contrib/kevyin/init_sample_tracking 
-vim /share/ClusterShare/Modules/modulefiles/contrib/kevyin
-pip install -h
-git status
-cd ..
-ls
-git status
-git add nextgen_config/
-git status
-cat TODO
-vim TODO
-git status
-git commit -m "config yamls"
-git status
-git add TODO
-git commit -m "todo"
-git add bcbb
-git status
-git commit -m "bcbb"
-git status
-git add nextgen_test
-git status
-git add nextgen_tests/
-git status
-git commit -m "run_info for L1L2"
-git status
-git push origin master
-git log
-git push origin master
-vim .git/config 
-git log
-ls
-git status
-vim TODO 
-git status
-git add TODO
-git commit -m "test commit"
-git status
-git push origin master
-git pull
-git pull origin master
-git push origin master
-cd ..
-ls
-cd ..
-cd tmp
-ls
-git clone /misc/FacilityBioinformatics/private/kevyin/gitrepos/galaxy_pipeline
-ls
-cd galaxy_pipeline/
-ls
-vim TODO 
-cd ..
-rm -rf galaxy_pipeline/
-cd ..
-ls
-cd dev/galaxy_pipeline
-ls
-vim .git/config 
-git status
-git branch
-git push origin autorun
-git diff
-ls
-cd dev/galaxy_pipeline
-ls
-vim
-ll
-ping
-vim
-ls
-cd dev/galaxy_pipeline
-ls
-cd bcbb/nextgen/
-ls
-git log
-git format-patch -1 c2aa4fd3928bd121143b3f8947e67c5bf4301b2f
-git format-patch -1 a7a234327ce6a27aa4c565a647e5dff740370c0c
-git checkout cb461e50efc9da8b8fbfdb7c6c9387269e0da195
-git status
-ls
-vim 0001-max-file-handles-for-gatk.patch 
-patch -p2 <  0001-max-file-handles-for-gatk.patch 
-ls
-patch -p2 <  0001-python-reinstall-module-script.patch 
-ls
-sh reinstall.sh 
-module load kevyin/init_pipeline_dev 
-sh reinstall.sh 
-git log
-git checkout 5090ac3b035b331105e0aa6f2afcc6f0ae9fc422
-git status
-sh reinstall.sh 
-pip install pysam
-pip install pysam --upgrade
-sh reinstall.sh 
-git log
-git show 3f3a0c9ed9e2867a83262c437b62945bb5897f44
-pip -h
-pip uninstall pysam
-pip -h
-pip freeze
-pip install pysam
-pip install pysam-0.6
-pip install -h
-pip install pysam==0.6
-git log
-git checkout 3f3a0c9ed9e2867a83262c437b62945bb5897f44
-sh reinstall.sh 
-ls
-git diff
-sh reinstall.sh 
-git log
-git checkout 7c0bf996379ce73765c5732bcb0885412b9c4e61
-sh reinstall.sh 
-git checkout master
-git stash
-git checkout master
-git checkout master --force
-ls
-cat reinstall.sh 
-pip -h
-pip install -h
-pip -h
-pip install -h
-pip install -r ~/tmp/st_dep.txt 
-vim ~/tmp/st_dep.txt 
-pip uninstall -h
-which python
-pip freeze > pkgs.tmp
-pip uninstall -yr pkgs.tmp 
-ls
-vim pkgs.tmp 
-pip uninstall wsgiref
-ls
-pip install -r ~/tmp/st_dep.txt 
-pip install numpy
-pip install -r ~/tmp/st_dep.txt 
-python setup.py install
-git log
-ls
-mv reinstall.sh python-reinstall.sh
-cp python-reinstall.sh ~/dev/sunny/
-ls
-git status
-git log
-ls
-git mv reinstall.sh python-reinstall.sh 
-mv python-reinstall.sh reinstall.sh
-git mv reinstall.sh python-reinstall.sh 
-git status
-git commit -m "rename to python-reinstall.sh"
-git status
-ls
-rm *.patch
-ls
-cat files.txt 
-rm files.txt 
-ls
-ll
-git status
-mv pkgs.tmp working_python_pkgs.txt
-git add working_python_pkgs.txt 
-git sattus
-git status
-git commit -m "list of working python packages use pipe install -r to install"
-git commit --amend
-git log
-ls
-ll
-ls scripts/
-git status
-git push origin master
-vim ../.git
-cd ../..
-ls
-git status
-vim
-cd bcbb/nextgen/
-ls
-git push origin master
-ls
-cd ../..
-ls
-cd bcbb/nextgen/
-python setup.py install
-git diff
-python setup.py install
+#1357331305
 df
-python setup.py install
-df
-python setup.py install
+#1357331309
 ls
+#1357331314
 screen -ls
-screen -r 28255.wolf_messaging_mediumtest_G1L1L2_run
-cd /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_mediumtest_G1L1L2_wd_dev
-clear
-ls
-tail -f bcbio_nextgen.py.o13319 
-vim
-screen -r 28255.wolf_messaging_mediumtest_G1L1L2_run
-ls
-tail -f bcbio_nextgen.py.o13325 
-ls
-tail -f bcbio_nextgen.py.o13325 
-screen -r 28255.wolf_messaging_mediumtest_G1L1L2_run
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-module load kevyin/init_pipeline_dev 
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-vim
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-vim
-ls
-vim
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-vim
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-ls
-vim
-vim project-summary.csv 
-pip install -h
-cd ..
-mkdir wolf_messaging_large_G1all_wd_dev
-cd wolf_messaging_large_G1all_wd_dev/
-ls
-screen -S wolf_messaging_large_G1all_wd_dev
+#1357331323
 qstat
+#1357331329
+screen -r 18174.PG_analysis
+#1357331566
 ls
-qstat
-tail -f bcbio_nextgen.py.o13335 nextgen_analysis_server.py.o13336 
+#1357331588
+cd dev/analysis/ccg/
+#1357331588
 ls
-vim
-screen -r wolf_messaging_large_G1all_wd_dev
+#1357331591
+cd PG0002526-DNA/
+#1357331592
 ls
-vim
-screen -r wolf_messaging_large_G1all_wd_dev
+#1357331597
+cd aligned
+#1357331597
 ls
-vim
-ls tmp
-ls tmp/
-ll tmp/
-du -sh tmp/
-ls
-ls tmp/tmpqQToPu/
-ls tmp/tmpqQToPu/tmp/
-ls
-screen -r wolf_messaging_large_G1all_wd_dev
-screen -ls
-screen -r 28255.wolf_messaging_mediumtest_G1L1L2_run
-clear
-screen -ls
-screen -r 16138.wolf_messaging_mediumtest_G1L1L2_wd2
-clear
-screen -ls
-screen -r 28255.wolf_messaging_mediumtest_G1L1L2_run
-ls
-screen -ls
-screen -r 7851.wolf_messaging_large_G1all_wd_dev
-clear
-screen -ls
-screen -r 16138.wolf_messaging_mediumtest_G1L1L2_wd2
-clear
-qstat
-screen -ls
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-screen -d -r 17174.wolf_local_mediumtest_G1L1L2_run
-screen -ls
-qstat
-qdel 13312
-screen -ls
-screen -r 28255.wolf_messaging_mediumtest_G1L1L2_run
-screen -ls
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-man screen
-screen -ls
-screen -r 17174.wolf_local_mediumtest_G1L1L2_run
-screen -ls
-qstat
-ls
-screen -ls
-ls
-module load kevyin/init_pipeline_dev 
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-vim
-ls
-rm -rf ./*
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-vim
-ls
-rm -rf ./*
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-ls
-cd ..
-ls
-cd wolf_local_mediumtest_G1L1L2_wd/
-ls
-cd ..
-screen -ls
-cd wolf_messaging_mediumtest_G1L1L2_wd
-cd ..
-cd wolf_messaging_mediumtest_G1L1L2_wd2
-ls
-rm -rf ./*
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-ls
-vim 
-screen -ls
-ls
-cd ..
-ls
-cd ..
-cd /misc/FacilityBioinformatics/
-cd private/Illumina_HiSeq_2000_Runfolder/
-ls
-cd wolf_messaging_mediumtest_G1L1L2_wd_dev/
-ls
-vim
-ls
-rm -rf ./*
-ls
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-ls
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-vim
-cd ..
-cd wolf_messaging_large_G1all_wd_dev/
-ls
-vim
-ls
-screen -ls
-cd ..
-exit
-ls
-qstat
-ls
-rm -rf ./*
-ls
-screen -ls
-exit
-cd ..
-cd wolf_messaging_mediumtest_G1L1L2_wd_dev/
-ls
-vim
-ls
-rm -rf ./*
-ls
-which python
-module load kevyin/init_pipeline_dev 
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-exit
-ls
-screen -ls
-qstat
-screen -ls
-screen -r 7851.wolf_messaging_large_G1all_wd_dev
-clear
-screen -ls
-screen -r 16138.wolf_messaging_mediumtest_G1L1L2_wd2
-ls
-screen -r 16138.wolf_messaging_mediumtest_G1L1L2_wd2
-screen -ls
-clear
-screen -ls
-screen -r 7851.wolf_messaging_large_G1all_wd_dev
-clear
-cd /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/
-cd wolf_messaging_large_G1all_wd_dev/
-vim
-ls
+#1357331601
+cd bwa
+#1357331602
 ll
-ll alignments/
-ll tmp/
-ll tmp/tmpYnj_YL/tmp/
-which python
-screen -r 7851.wolf_messaging_large_G1all_wd_dev
-ls
-tail -f bcbio_nextgen.py.o13376 nextgen_analysis_server.py.o13377 
-ls
-screen -ls
-which python
-ls ../
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_large_G1all.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/array10/110614_SN103_0846_BD03UMACXX/unaligned/Project_Genome/Sample_G1/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-all.yaml -t messaging
-ls
-rm -rf ./tmp/
-ls
-ls alignments/
-ll alignments/
-ls
-rm -rf ./*
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_large_G1all.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/array10/110614_SN103_0846_BD03UMACXX/unaligned/Project_Genome/Sample_G1/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-all.yaml -t messaging
-ls
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_large_G1all.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/array10/110614_SN103_0846_BD03UMACXX/unaligned/Project_Genome/Sample_G1/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-all.yaml -t messaging
-ls
-rm -rf ./*
-ls
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_large_G1all.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/array10/110614_SN103_0846_BD03UMACXX/unaligned/Project_Genome/Sample_G1/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-all.yaml -t messaging
-vim
-ls
-rm -rf ./*
-ls
-qstat
-exit
-ls
-cd dev/
-ls
-cd galaxy_pipeline
-ls
-vim
-ls
-cp -r galaxy_dist_dev_ln galaxy_dist_dev_ln2/
-mv galaxy_dist_dev_ln galaxy_dist_dev_ln1
-ls galaxy_dist_dev_ln1
-ls galaxy_dist_dev_ln2
-cd galaxy_dist_dev_ln2
-ls
-vim
+#1357331606
+ll -h
+#1357331614
 cd ..
+#1357331629
+module load cloudbiolinux/default
+#1357331636
+samtools flagstat -h
+#1357331642
+samtools flagstat --help
+#1357331645
+samtools flagstat
+#1357331652
+samtools -h
+#1357331656
+samtools --help
+#1357331660
+samtools help
+#1357331662
+samtools
+#1357331683
+samtools flagstat
+#1357331687
+samtools flagstat -h
+#1357331707
+samtools view
+#1357340627
+cd dev/analysis/ccg/
+#1357340631
+cd PG0002526-DNA/
+#1357340632
+ls
+#1357340633
 vim
+#1357341064
+ls
+#1357341072
+vim
+#1357342462
+ls
+#1357342471
+head aligned/bowtie2/PG0002526-DNA_bowtie2.sam 
+#1357342480
+head -n 10000 aligned/bowtie2/PG0002526-DNA_bowtie2.sam 
+#1357342499
+head -n 10000 aligned/bowtie2/PG0002526-DNA_bowtie2.sam | less
+#1357342506
+vim
+#1357342683
+screen -ls
+#1357342687
+screen -r PG
+#1357342742
+vim
+#1357342761
+screen -r PG
+#1357342838
+qstat
+#1357340235
+ls
+#1357340241
 cd dev/
+#1357340242
 ls
-cd galaxy_pipeline
-cd bcbb/nextgen/
+#1357340270
+cd analysis/km/
+#1357340271
 ls
-git diff
-qstat
-qstat -f -u "*"
-git diff
-python setup.py install
-module load kevyin/init_pipeline_dev 
-python setup.py install
-git diff
-qstat
-screen -ls
-screen -S wolf_messaging_ln2_large_G1all_wd_dev
-clear
-screen -ls
-qstat
-screen -S wolf_messaging_ln1_medium_G1L1L2_wd_dev
-clear
-cd /misc/FacilityBioinformatics/
-cd /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/
-ls
-cd wolf_messaging_mediumtest_G1L1L2_wd_dev/
-ls
-vim
+#1357340273
 cd ..
+#1357340274
+cd ccg/
+#1357340275
 ls
-cd wolf_messaging_large_G1all_wd_dev/
-vim
-screen -ls
-screen -S wolf_messaging_mediumtest_G1L1L2_run
-screen -r wolf_messaging_mediumtest_G1L1L2_run
+#1357340277
+cd PG0002526-DNA/
+#1357340277
 ls
+#1357340405
+cd dev/analysis/c
+#1357340409
+cd dev/analysis/ccg/
+#1357340409
+ls
+#1357340413
+cd PG0002526-DNA/
+#1357340414
+ls
+#1357340421
+module load cloudbiolinux/default 
+#1357342927
+cd dev/
+#1357342932
+screen -r PG
+#1357343113
+clear
+#1357343116
 qstat
-qdel 13378
-qdel 13379
+#1357354661
 screen -ls
-screen -r 19030.wolf_messaging_mediumtest_G1L1L2_run
-screen -ls
-ls
-tail -f bcbio_nextgen.py.po13376 nextgen_analysis_server.py.po13377 
-ls
-screen -ls
-screen -r 7851.wolf_messaging_large_G1all_wd_dev
-cd /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/
-ls
-ll
-mv wolf_messaging_large_G1all_wd_dev/ wolf_messaging_ln2_large_G1all_wd_dev/
-cd wolf_messaging_ln2_large_G1all_wd_dev/
-ls
-which python
-module load kevyin/init_pipeline_dev 
-ls
-which python
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_ln2_large_G1all.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/array10/110614_SN103_0846_BD03UMACXX/unaligned/Project_Genome/Sample_G1/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-all.yaml -t messaging
-ls
-rm -rf ./*
-exit
-screen -ls
-exit
-ls
+#1357354670
+screen -r PG
+#1357354684
+clear
+#1357357730
 htop
-python celery
-celery
-ssh gamma00
+#1357357919
 qstat
-screen -ls
-exit
-#1356658205
-screen -ls
-#1356658208
-exit
-#1356658058
-screen -S flower_gamma02
-#1356658254
-clear
-#1356658256
-exit
-cd dev/galaxy_pipeline/nextgen_testdir/transfer/log_auto/
+#1357357928
+htop
+#1357358970
+qstat
+#1357358979
+vim
+#1357358990
+cd analysis/ccg/
+#1357358990
 ls
-tail -f nextgen_pipeline.log 
-exit
-cd dev/
+#1357358991
+vim
+#1357366375
+qstat
+#1357366599
+vim
+#1357366604
+cd PG0002526-DNA/
+#1357366604
 ls
-cd galaxy_pipeline
-ls
+#1357366605
+vim
+#1357397714
 git status
-du -sh nextgen_tests/
-cd bcbb
-git status
-git diff
-git add nextgen/bcbio/pipeline/
-git status
-git commit -m "logger messages in pipeline:main"
-git status
+#1357397718
+git add run_jobs.sh 
+#1357397739
+git commit -m "bwa to bam issues noted"
+#1357397742
 git push origin master
-ls
-git push origin master
-ls
-cd ..
-ls
-git status
-git add bcbb/
-git diff nextgen_config/
-git status
-git commit -m "logger messages, successful run for SNP Calling"
-ls
-git status
-git add nextgen_tests/
-git status
-git add nextgen_config/
-git status
-git commit -m "Added tests and configurations"
-git status
-git push origin master
-ls
-git status
-git branch
-git branch autorun
-git branch
-git checkout autorun
-ls
-cd bcbb/nextgen/
-ls
-module load kevyin/init_sample_tracking 
-illumina_finished_msg.py --help
-vim ~/.bash_history 
-illumina_finished_msg.py --help
-ls
-cd ../..
-ls
-cd nextgen_testdir/nextgen_wd/
-mkdir auto_wd
-cd auto_wd/
-ls
-illumina_finished_msg.py --help
-illumina_finished_msg.py -psfq ../../../nextgen_config/maggi/transfer_info.yaml 
-ls
-illumina_finished_msg.py -psfq ../../../nextgen_config/maggi/transfer_info.yaml 
-pwd
-illumina_finished_msg.py -psfq ../../../nextgen_config/maggi/transfer_info.yaml 
-illumina_finished_msg.py -sfq ../../../nextgen_config/maggi/transfer_info.yaml 
+#1357369794
+module load cloudbiolinux/default
+#1357369799
+bwa
+#1357370217
 qstat
-illumina_finished_msg.py -sfq ../../../nextgen_config/maggi/transfer_info.yaml 
-qstat
-illumina_finished_msg.py -sfq ../../../nextgen_config/maggi/transfer_info.yaml 
-qstat
-illumina_finished_msg.py -sfq ../../../nextgen_config/maggi/transfer_info.yaml 
-exit
-#1356659327
-rabbitmqctl
-#1356659351
-exit
-#1356659124
-ps ax | grep rabbit
-#1356659138
-vim /var/log/rabbitmq/rabbit@nerv-geofront.log
-#1356659304
-rabbitmqctl
-#1356659432
-rabbitmq-plugins enable rabbitmq_management
-#1356659440
-sudo rabbitmq-plugins enable rabbitmq_management
-#1356658404
-screen -ls
-#1356658411
-screen -r 22960.toplevel
-#1356658420
-screen -ls
-#1356658423
-clear
-#1356658425
-screen -ls
-#1356658429
-screen -r 22480.nextgen_auto
-#1356658434
-clear
-#1356658434
-ls
-#1356658437
-screen -ls 
-#1356658441
-screen -r 8076.flower_gamma02
-#1356659005
-clear
-#1356659008
-ps ax | grep rabbit
-#1356659052
-vim /var/log/rabbitmq/rabbit@gamma02.log
-#1356659117
-ssh nerv-geofront
-#1356660696
-cd /var/log/rabbitmq
-#1356660697
-ls
-#1356660698
-vim
-qstat
-screen -ls
-screen -r 20048.wolf_messaging_ln1_medium_G1L1L2_wd_dev
-clear
-screen -ls
-screen -r 19732.wolf_messaging_ln2_large_G1all_wd_dev
-clear
-ls
-cd /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/
-cd wolf_messaging_ln1_medium_G1L1L2_wd_dev/
-tail -f bcbio_nextgen.py.o13382 nextgen_analysis_server.py.o13383 
-cd ..
-cd wolf_messaging_ln2_large_G1all_wd_dev/
-tail -f bcbio_nextgen.py.o* nextgen_analysis_server.py.o*
-qstat
+#1357375735
 qstat -f -u "*"
-vim
+#1357375758
+htop
+#1357444249
 ls
-ls tmp/
+#1357444253
+cd dev/analysis/ccg/
+#1357444254
+ls
+#1357444256
+cd PG0002526-DNA/
+#1357444256
+ls
+#1357446141
+qstat
+#1357446145
+ls
+#1357446147
+cd aligned
+#1357446147
+ls
+#1357446150
+cd bowtie2/
+#1357446150
+ls
+#1357446154
+rm *.bam
+#1357446157
+ll
+#1357446158
 cd ..
-mkdir wolf_messaging_ln2_medium_G1L1L2_wd_dev
-cd wolf_messaging_ln2_medium_G1L1L2_wd_dev/
+#1357446159
 ls
+#1357446161
+cd bwa/
+#1357446162
+ls
+#1357446165
+ll
+#1357446170
+rm *.bam
+#1357446171
+ls
+#1357446269
+ll
+#1357446272
+cat flagstat.txt 
+#1357446278
+rm flagstat.txt 
+#1357446279
+cd ..
+#1357446279
+ls
+#1357446281
+cd bowtie2/
+#1357446282
+ls
+#1357446286
+cat flagstat.txt 
+#1357446298
+ls
+#1357446302
+rm flagstat.txt 
+#1357446303
+ls
+#1357446304
+cd ..
+#1357446304
+ls
+#1357446308
+cd ..
+#1357446311
 screen -ls
-screen -r 19732.wolf_messaging_ln2_large_G1all_wd_dev
-vim
-cd
-cd dev/galaxy_pipeline
-vim
+#1357446318
+screen -r 18174.PG_analysis
+#1357446336
+qstat
+#1357446891
 exit
+#1357443669
+ls
+#1357443698
 qstat
-screen -ls
-screen -r 19732.wolf_messaging_ln2_large_G1all_wd_dev
-clear
-screen -S wolf_messaging_ln2_medium_G1L1L2_wd_dev
-clear
-screen -ls
-screen -r 21586.wolf_messaging_ln2_medium_G1L1L2_wd_dev
-clear
-cd /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/
-cd wolf_messaging_ln2_medium_G1L1L2_wd_dev/
-tail -f bcbio_nextgen.py.o* nextgen_analysis_server.py.o*
-ls
-vim ~/.bash_profile
-ls
-vim ~/.bash_profile
-vim ~/.bash_history 
-#1356658017
-screen -ls
-#1356658025
-screen -r 20048.wolf_messaging_ln1_medium_G1L1L2_wd_dev
-#1356658324
-clear
-#1356658332
-screen -ls
-#1356658340
-screen -r 21586.wolf_messaging_ln2_medium_G1L1L2_wd_dev
-#1356658372
-clear
-#1356658373
-ls
-#1356658379
-screen -r 21586.wolf_messaging_ln2_medium_G1L1L2_wd_dev
-#1356658460
-cd /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/wolf_messaging_ln2_medium_G1L1L2_wd_dev
-#1356658461
-clear
-#1356658470
-tail -f bcbio_nextgen.py.o* nextgen_analysis_server.py.o*
-#1356658556
-screen -ls
-#1356658566
-screen -r 21586.wolf_messaging_ln2_medium_G1L1L2_wd_dev
-#1356658765
-ls
-#1356658770
-tail -f bcbio_nextgen.py.o13405 
-#1356658807
-ls
-#1356658812
-tail -f bcbio_nextgen.py.o* nextgen_analysis_server.py.o*
-#1356658970
-ls
-#1356658977
-screen -r 21586.wolf_messaging_ln2_medium_G1L1L2_wd_dev
-#1356659257
-ls
-#1356659299
-rabbitmqctl
-#1356659324
-ssh gamma02
-#1356659353
-ls
-#1356659357
+#1357443702
+cd dev/analysis/ccg/
+#1357443703
 vim
-#1356659594
-screen -r 21586.wolf_messaging_ln2_medium_G1L1L2_wd_dev
-#1356659601
-clear
-#1356659604
-tail -f bcbio_nextgen.py.o* nextgen_analysis_server.py.o*
-#1356659609
-screen -r 21586.wolf_messaging_ln2_medium_G1L1L2_wd_dev
-#1356659643
-clear
-#1356659645
-tail -f bcbio_nextgen.py.o* nextgen_analysis_server.py.o*
-#1356660403
-screen -ls
-#1356660412
-screen -S toplevel_dev
-#1356660469
-screen -ls
-#1356660478
-screen -r 23848.toplevel_dev
-#1356660481
-screen -ls
-#1356660547
-screen -r
-#1356660558
-screen -r 23690.toplevel_dev
-#1356662827
-screen -ls
-#1356662835
-screen -r 21586.wolf_messaging_ln2_medium_G1L1L2_wd_dev
-#1356662857
-qstat
-#1356662864
-tail -f bcbio_nextgen.py.o* nextgen_analysis_server.py.o*
-#1356662882
-screen -r 21586.wolf_messaging_ln2_medium_G1L1L2_wd_dev
-#1356663573
-clear
-#1356663575
-screen -ls
-#1356663589
-screen -S wolf_messaging_ln1_large_G1all_wd_dev
-#1356663690
-clear
-#1356663763
-qstat
-#1356663774
-cd ..
-#1356663780
-cd wolf_messaging_ln1_large_G1all_wd_dev/
-#1356663781
-ls
-#1356663787
-tail -f bcbio_nextgen.py.o* nextgen_analysis_server.py.o*
-#1356663821
-ls
-#1356663826
-vim
-#1356663838
-screen -ls
-#1356663844
-screen -r 24718.wolf_messaging_ln1_large_G1all_wd_dev
-#1356663846
-clear
-#1356663851
-screen -r 24718.wolf_messaging_ln1_large_G1all_wd_dev
-#1356663862
-clear
-#1356663864
-ls
-#1356663867
-tail -f bcbio_nextgen.py.o* nextgen_analysis_server.py.o*
-#1356663942
-qstat
-#1356663948
-tail -f bcbio_nextgen.py.o* nextgen_analysis_server.py.o*
-#1356663967
-qstat -f -u "*"
-#1356663981
-ls
-#1356663985
-vim
-#1356664200
-tail -f bcbio_nextgen.py.o* nextgen_analysis_server.py.o*
-#1356664233
-screen -r 24718.wolf_messaging_ln1_large_G1all_wd_dev
-#1356664251
-clear
-#1356664253
-screen -ls
-#1356664261
-screen -r 21586.wolf_messaging_ln2_medium_G1L1L2_wd_dev
-#1356664320
-clear
-screen -ls
-ls
-cd dev/galaxy_pipeline
-ls
-celery status
-module load kevyin/init_pipeline_dev 
-module unload kevyin/init_pipeline_dev 
-module load kevyin/init_sample_tracking 
-celery status
-vim ~/.bash_history 
-flower -h
-screen -S flower_nerv
-ssh gamma02
-cd /var/log/rabbitmq/
-ls
-vim
-ps ax | grep rabbit
-#1356661830
-cd /var/log/rabbitmq
-#1356661831
-vim
-cd /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/
-ls
-mv wolf_messaging_mediumtest_G1L1L2_wd_dev/ wolf_messaging_ln1_medium_G1L1L2_wd_dev/
-ls
-cd wolf_messaging_ln1_medium_G1L1L2_wd_dev/
-ls
-vim
-ls
-rm -rf ./*
-ls
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_ln1_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-module load kevyin/init_pipeline_dev 
-bcbio_nextgen.py ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process_messaging_ln1_mediumtest_G1L1L2.yaml /home/kevyin/dev/galaxy_pipeline/nextgen_testdir/dump_dir/medium-test/ /home/kevyin/dev/galaxy_pipeline/nextgen_tests/G1/run_info-L1L2.yaml -t messaging
-vim
+#1357446892
 exit
-#1356664569
-screen -ls
-#1356664575
-screen -r  20048.wolf_messaging_ln1_medium_G1L1L2_wd_dev
-#1356664577
-clear
-#1356664579
-screen -ls
-#1356664583
-screen -r 24718.wolf_messaging_ln1_large_G1all_wd_dev
-#1356664586
-clear
-#1356664588
-screen -ls
-#1356664592
-screen -r 21586.wolf_messaging_ln2_medium_G1L1L2_wd_dev
-#1356664594
-clear
-#1356664597
-exit
-#1356669110
-screen -ls
-#1356682592
-ls /home/kevyin/bin/meme/db/motif_databases/JASPAR_CORE_2009.meme
-#1356682597
-ls /home/kevyin/bin/meme/db/motif_databases/
-#1356682604
-cd /home/kevyin/bin/meme/db/motif_databases/
-#1356682710
-mkdir -p /home/kevyin/bin/meme/db/motif_databases/
-#1356682720
-cd bin/meme/db/motif_databases/
-#1356682722
-ls
-#1356682748
-vim ~/.bash_history 
-#1356682771
-ls /misc/PWBCAdminStore
-#1356682807
-ls /misc/PWBCAdminStore/app/galaxy/galaxy_dist/prod/
-#1356682830
-vim /misc/PWBCAdminStore/app/galaxy/galaxy_dist/dev/run_env.bashrc
-#1356682844
-cd /share/ClusterShare/software/centos6/meme_4.8.1/bin
-#1356682845
-ls
-#1356682848
-cd ..
-#1356682848
-ls
-#1356682854
-cd db/motif_databases
-#1356682855
-pwd
-#1356682861
-ls
-#1356682877
-cd
-#1356682887
-cd bin/meme/db/
-#1356682888
-ls
-#1356682890
-rm motif_databases/
-#1356682895
-rm -r motif_databases/
-#1356682903
-ln -s /share/ClusterShare/software/centos6/meme_4.8.1/db/motif_databases motif_databases
-#1356682903
-ls
-#1356682905
-ls motif_databases
-#1356682920
-ls /home/kevyin/bin/meme/db/motif_databases/JASPAR_PHYLOFACTS_2008.meme
-#1356683445
-ls /home/kevyin/bin/meme/db/motif_databases/JASPAR_CORE_2009.meme
-#1356682210
-cd pwbcglxdev
-#1356682215
-ssh pwbcglxdev
-#1356682250
+#1357444077
 qstat
-#1356682259
-qstat -f -u "*"
-#1356682273
-ssh pwbcglxdev
-#1356682376
-cd /misc/PWBCAdminStore
-#1356682389
-cd app/galaxy/galaxy_dist/prod
-#1356682390
+#1357444109
+cd /share/ClusterShare/software/cloudbiolinux-centos6/share/java/
+#1357444109
 ls
-#1356682392
-cd ..
-#1356682394
+#1357444116
+cd picard
+#1357444117
 ls
-#1356682395
-cd dev/
-#1356682396
-ls
-#1356682415
-cd tool-data/
-#1356682415
-ls
-#1356682419
-vim
-#1356727925
-ulimit -n
-#1356727927
-ulimit -Hn
-#1356727916
-qlogin 
-#1356727982
-qlogin -pe smp 42
-#1356675123
-cd /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/
-#1356675124
-ls
-#1356675127
-vim
-#1356688643
-module load kevyin/meme/4.9.0 
-#1356688645
-meme-chip
-#1356688655
-which meme
-#1356688665
-/share/ClusterShare/software/contrib/kevyin/meme_4.9.0/bin/
-#1356688669
-ls /share/ClusterShare/software/contrib/kevyin/meme_4.9.0/bin/
-#1356688674
-ls /share/ClusterShare/software/contrib/kevyin/meme_4.9.0/db/
-#1356668921
-ls
-#1356668925
-screen -ls
-#1356668929
-screen -r gatk
-#1356669134
-ls
-#1356669140
-cd /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/
-#1356669141
-ls
-#1356669151
-cd PG0002526-DNA_fastq/
-#1356669152
-ls
-#1356669154
-vim
-#1356669177
-ls
-#1356669182
-head PG0002526-DNA_1.fastq 
-#1356669188
-head PG0002526-DNA_2.fastq 
-#1356751414
-ssh pwbcglxdev
-#1356751446
-ssh glxdev
-#1356750944
-cd tmp
-#1356750944
-ls
-#1356750949
-touch files
-#1356750953
-sudo touch files2
-#1356750957
-ls
-#1356750959
-ll
-#1356751176
-cd /misc/PWBCAdminStore
-#1356751183
-cd app/galaxy/galaxy_dist/
-#1356751183
-ls
-#1356751201
-cd dev/
-#1356751201
-ls
-#1356751219
-vimm
-#1356751224
-vim
-#1356751233
-cd tool-data/
-#1356751233
-ls
-#1356751240
-vim meme_chip_motifs.loc
-#1356751249
-ll
-#1356751259
-sudo -u pwbcad meme_chip_motifs.loc
-#1356751270
-sudo -u vim pwbcad meme_chip_motifs.loc
-#1356751279
-sudo -u pwbcad vim meme_chip_motifs.loc
-#1356751410
-ssh nerv-geofront
-#1356750869
-ls
-#1356750872
-sudo touch tmp
-#1356750876
-ls
-#1356750880
-ll
-#1356750885
-cd tmp
-#1356750886
-ls
-#1356750890
-sudo touch file
-#1356750891
-ls
-#1356750892
-ll
-#1356750900
-ssh pwbcglxdev
-#1356750916
-ssh glxdev
-#1356750924
-ssh pwbcglxdev
-#1356750938
-ssh gamma02
-#1356773338
-ssh nerv-geofront
-#1356773346
-ssh pwbcglxdev
-#1356773371
-sudo service galaxy restart
-#1356773756
+#1357444126
+java -jar SortSam.jar 
+#1357446895
+exit
+#1357459622
+qstat
+#1357463182
+vim ~/.bash_history 
+#1357463191
+vim ~/.bash_eternal_history 
+#1357463215
 source /misc/PWBCAdminStore/app/galaxy/galaxy_dist/dev/run_env.bashrc
-#1356773761
-which meme-chip
-#1356821140
+#1357463218
+which python
+#1357463221
+python --version
+#1357463807
+source /misc/PWBCAdminStore/app/galaxy/galaxy_dist/dev/run_env.bashrc
+#1357463811
+which python
+#1357463827
+cd /misc/PWBCAdminStore/app/galaxy/galaxy_dist/dev/galaxy_env/bin/
+#1357463827
 ls
-#1356821146
-ll
-#1356821151
-ls -l
-#1356821158
-cd Invalid/
-#1356821158
+#1357463837
+cd .
+#1357463837
 ls
-#1356821160
+#1357463845
 cd ..
-#1356821162
-rm Invalid/
-#1356821166
-rm -r Invalid/
-#1356821173
-rm -r limit\:/
-#1356821175
-ls line
-#1356821180
-rm -rf line
-#1356821212
-rm -r argument/ cannot/ modify/
-#1356821214
+#1357463845
 ls
-#1356821221
-ls -l install/
-#1356821227
-ls open/
-#1356821229
-ls perl5/
-#1356821235
-rm -r install/ open/ 
-#1356821236
-ls
-#1356821243
-cd dev/
-#1356821244
-ls
-#1356821258
-mkdir scala
-#1356821260
-cd scala
-#1356821261
-ls
-#1356821269
-git init
-#1356821273
-ls
-#1356821288
-scala
-#1356821342
-cd /share/ClusterShare/software/contrib/kevyin/_tool_src/
-#1356821342
-ls
-#1356821344
-cd downloaded/
-#1356821347
-mkdir scala
-#1356821351
-cd scala/
-#1356821357
-wget 
-#1356821366
-wget http://www.scala-lang.org/downloads/distrib/files/scala-2.9.2.tgz
-#1356821382
-ls
-#1356821387
-tar -zxvf scala-2.9.2.tgz 
-#1356821389
-ls
-#1356821390
-cd scala-2.9.2
-#1356821391
-ls
-#1356821395
-ls bin/
-#1356821400
-ls doc/
-#1356821403
-vim
-#1356821448
-java -version
-#1356821457
-ls man
-#1356821464
-ls man/man1/
-#1356821488
-man grep
-#1356821511
-manpath
-#1356821621
-echo $MANPATH
-#1356821647
-export MANPATH=./man:$MANPATH
-#1356821649
-man scala
-#1356821654
-ls
-#1356821657
-ls lib/
-#1356821665
-vim
-#1356821679
-ls
-#1356821687
-cd ../../../..
-#1356821691
-cd ../../..
-#1356821692
-ls
-#1356821701
-cd Modules/modulefiles/contrib/kevyin/
-#1356821707
-cd /share/ClusterShare/software/contrib/kevyin/_tool_src/downloaded/scala/scala-2.9.2
-#1356821708
-ls
-#1356821711
-cd ..
-#1356821711
-ls
-#1356821717
-cd ../..
-#1356821719
-cd ..
-#1356821719
-ls
-#1356821721
-mkdir scala
-#1356821723
-cd scala/
-#1356821724
-ls
-#1356821742
-cp ../_tool_src/downloaded/scala/scala-2.9.2 2.9.2
-#1356821746
-cp -r ../_tool_src/downloaded/scala/scala-2.9.2 2.9.2
-#1356821747
-ls
-#1356821750
-cd 2.9.2/
-#1356821751
-ls
-#1356821761
-cd /share/ClusterShare/Modules/modulefiles/contrib/kevyin/
-#1356821762
-ls
-#1356821766
-mkdir scala
-#1356821768
-cd scala/
-#1356821775
-vim
-#1356821930
-which scala
-#1356821939
-module load kevyin/scala/2.9.2 
-#1356821941
-which scala
-#1356821944
-man scala
-#1356821947
-man man
-#1356821949
-man grep
-#1356821981
+#1357464140
+vim /share/ClusterShare/Modules/modulefiles/contrib/kevyin/python/2.7.2
+#1357465206
+qstat
+#1357465214
 cd
-#1356821985
-cd dev/scala/
-#1356821985
+#1357465217
+cd dev/analysis/ccg/
+#1357465218
 ls
-#1356822829
-vim hello.scala
-#1356838107
-cd .ssh/
-#1356838109
-vim config n
-#1356838113
-vim config 
-#1356838116
-ls
-#1356838118
-ll
-#1356838128
-vim config 
-#1356838133
-exit
-#1356838151
-cat .ssh/config 
-#1356838174
-exit
-#1356838298
-cd /misc/FacilityBioinformatics/private/
-#1356838301
-cd kevyin/gitrepos/
-#1356838301
-ls
-#1356838306
-exit
-#1356838184
-which ssh
-#1356838198
-man ssh
-#1356838224
-ls
-#1356838232
-ls ~/.ssh/config
-#1356838238
-vim ~/.ssh/config
-#1356838274
-cd dev/
-#1356838275
-ls
-#1356838277
-cd scala/
-#1356838277
-ls
-#1356838458
-cd ..
-#1356838466
-git clone https://github.com/kevyin/mustached-bear.git
-#1356838476
-mv scala/ mustached-bear/
-#1356838478
-cd mustached-bear/
-#1356838479
-ls
-#1356838482
-git add scala
-#1356838484
-git status
-#1356838491
-git commit -m "first scala commit"
-#1356838492
-ls
-#1356838496
-cd scala
-#1356838500
+#1357465221
+cd PG0002526-DNA/
+#1357465221
 vim
-#1356838513
-cd dev/mustached-bear/scala/
-#1356838513
+#1357469208
+qstat
+#1357519603
+cd dev/
+#1357519603
 ls
+#1357519608
+cd analysis/ccg/
+#1357519608
+ls
+#1357519609
+vim
+#1357519769
+ls
+#1357519772
+screen -ls
+#1357519775
+screen -r PG
+#1357519781
+clear
+#1357519786
+git add -u
+#1357519788
+git status
+#1357519827
+git reset HEAD
+#1357519828
+git status
+#1357519830
+git diff
+#1357519837
+git add -u
+#1357519852
+git commit -m "picard summary metrics"
+#1357519855
+qstat
+#1357524440
+cd dev/analysis/ccg/
+#1357524441
+ls
+#1357524443
+cd PG0002526-DNA/
+#1357524444
+ls
+#1357524444
+vim
+#1357524516
+qstat
+#1357524518
+qstat -f -u "*"
+#1357524550
+ls
+#1357524555
+vim
+#1357525359
+qstat
+#1357525923
+ls
+#1357525932
+vim
+#1357531915
+git push origin master
+#1357531920
+vim
+#1357546942
+ls
+#1357548974
+qstat
+#1357548981
+vim
+#1357549402
+:q
+#1357529612
+qsat
+#1357529614
+qstat
+#1357537412
+cd /share/ClusterShare/software/contrib/
+#1357537413
+ls
+#1357537415
+cd kevyin/
+#1357537416
+ls
+#1357537432
+ll
+#1357537441
+cd gatk/2.2-8/gatk/
+#1357537442
+ls
+#1357537453
+cd resources/
+#1357537453
+ls
+#1357537455
+ll
+#1357537459
+cd ..
+#1357537460
+ls
+#1357537488
+pwd
+#1357537917
+module load cloudbiolinux/default 
+#1357537919
+samtools
+#1357537923
+samtool rmdup
+#1357537927
+samtools rmdup
+#1357546632
+qstat
+#1357546646
+screen -ls
+#1357546650
+screen -r 18174.PG_analysis
+#1357546663
+clear
+#1357546696
+qstat
+#1357541796
+ls
+#1357541798
+cd dev/
+#1357541798
+ls
+#1357541813
+cd analysis/
+#1357541813
+ls
+#1357541817
+cd 
+#1357541974
+cd /share/ClusterShare/biodata/contrib/gatk-resource-bundle/
+#1357541975
+ls
+#1357541977
+cd 2.2/
+#1357541977
+ls
+#1357541980
+cd hg19/
+#1357541981
+ls
+#1357541983
+ll
+#1357541990
+ll -h
+#1357542305
+cd ..
+#1357542305
+ls
+#1357542316
+cd b37
+#1357542322
+cd ..
+#1357542324
+cd hg19
+#1357542324
+ls
+#1357542410
+ll
+#1357543172
+ftp
+#1357597480
+qstat
+#1357597488
+cd dev/analysis/ccg/
+#1357597488
+ls
+#1357597489
+vim
+#1357597492
+cd PG0002526-DNA/
+#1357597492
+vim
+#1357610080
+ls
+#1357612511
+screen -ls
+#1357612519
+screen -S KM_ftp
+#1357612769
+clear
+#1357612778
+cd /misc/FacilityBioinformatics/private/
+#1357612779
+ls
+#1357612788
+cd projects_gagri/
+#1357612788
+ls
+#1357612793
+cd KevinMorris
+#1357612793
+ls
+#1357612795
+cd ..
+#1357612797
+cd KevinMorris_2/
+#1357612797
+ls
+#1357612804
+cd R72L3/
+#1357612805
+ls
+#1357613141
+ll
+#1357613681
+ls
+#1357613683
+ll
+#1357597142
+ls
+#1357597144
+cd dev/analysis/
+#1357597145
+ls
+#1357597146
+cd ccg/
+#1357597147
+ls
+#1357597149
+cd PG0002526-DNA/
+#1357597149
+ls
+#1357597150
+vim
+#1357597068
+ls
+#1357597073
+cd dev/
+#1357597074
+ls
+#1357597076
+cd sunny/
+#1357597076
+ls
+#1357598306
+cd
+#1357598310
+screen -ls
+#1357598314
+screen -r PG
+#1357598448
+qstat
+#1357598981
+screen -r PG
+#1357598990
+qstat
+#1357600719
+cd dev/sunny/
+#1357600720
+ls
+#1357600725
+vim
+#1357600731
+ls
+#1357600968
+vim subsample.py
+#1357621098
+qstat
+#1357628719
+cd ~/dev/analysis/ccg/PG0002526-DNA
+#1357628720
+ls
+#1357628726
+cd aligned
+#1357628726
+ls
+#1357628728
+cd ..
+#1357628729
+ls
+#1357628750
+vim
+#1357628756
+ls
+#1357628763
+cd aligned/bowtie2/
+#1357628764
+ls
+#1357628765
+ll
+#1357628779
+qstat
+#1357628780
+df
+#1357601401
+ls
+#1357601405
+cd dev/
+#1357601405
+ls
+#1357601409
+cd sunny/
+#1357601410
+ls
+#1357601413
+git status
+#1357601487
+module load kevyin/init_pipeline_dev 
+#1357601506
+vim /share/ClusterShare/Modules/modulefiles/contrib/kevyin/init_pipeline_dev 
+#1357601514
+module load kevyin/init_pipeline_dev 
+#1357601518
+which python
+#1357601523
+pip install HTSeq
+#1357601588
+ls
+#1357601636
+chmod +x subsample.py 
+#1357601637
+ls
+#1357601640
+cd
+#1357601641
+cd tmp
+#1357601641
+ls
+#1357601647
+mkdir subsample
+#1357601649
+cd subsample/
+#1357601649
+ls
+#1357601659
+~/dev/sunny/subsample.py 
+#1357601723
+ls
+#1357601731
+df
+#1357601864
+qstat
+#1357601870
+qstat -f -u "*"
+#1357601883
+qstat
+#1357601896
+ls
+#1357601902
+ln -s /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_fastq PG0002526-DNA_fastq
+#1357601902
+ls
+#1357601906
+ls PG0002526-DNA_fastq 
+#1357601906
+ls
+#1357601911
+ls PG0002526-DNA_fastq/
+#1357601914
+cd PG0002526-DNA_fastq 
+#1357601918
+rm PG0002526-DNA_fastq 
+#1357601945
+ln -s /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/unaligned/ PG0002526-DNA_fastq
+#1357601946
+ls
+#1357601949
+ls PG0002526-DNA_fastq
+#1357602013
+python ~/dev/sunny/subsample.py 0.005 ./PG0002526-DNA_fastq/PG0002526-DNA_1.fastq ./PG0002526-DNA_fastq/PG0002526-DNA_2.fastq out1.fastq out2.fastq
+#1357611999
+ll
+#1357613718
+screen -ls
+#1357613726
+screen -r PG
+#1357613729
+qstat
+#1357613755
+ls
+#1357613769
+head out1.fastq 
+#1357613778
+ls
+#1357618606
+qstat
+#1357619977
+ls
+#1357620036
+cd ..
+#1357620045
+mv subsample/ unaligned_subsamp
+#1357620059
+mv unaligned_subsamp/ ~/dev/analysis/ccg/PG0002526-DNA/
+#1357620065
+cd 
+#1357620068
+cd dev/analysis/ccg/
+#1357620068
+ls
+#1357620070
+cd PG0002526-DNA/
+#1357620071
+ls
+#1357620076
+ll unaligned_subsamp/
+#1357620948
+ls
+#1357620951
+qstat
+#1357601609
+qstat
+#1357601623
+cd dev/analysis/
+#1357601623
+ls
+#1357602024
+cd
+#1357602029
+cd tmp/subsample/
+#1357602029
+ll
+#1357602071
+htop
+#1357602087
+qstat
+#1357602088
+ll
+#1357602104
+ll -h PG0002526-DNA_fastq/
+#1357602152
+ll
+#1357602154
+ll -h
+#1357602432
+ll
+#1357602497
+wc -l ./PG0002526-DNA_fastq/PG0002526-DNA_1.fastq 
+#1357602559
+ll
+#1357602562
+ll -h
+#1357602572
+ll
+#1357613699
+ls
+#1357613700
+ll
+#1357628791
+screen -ls
+#1357628795
+screen -r
+#1357628804
+screen -r 1160.KM_ftp
+#1357629205
+clear
+#1357700216
+qstat
+#1357713061
+cd /share/ClusterShare/software/contrib/kevyin/_tool_src/
+#1357713061
+ls
+#1357713063
+cd downloaded/
+#1357713064
+ls
+#1357713066
+mkdir eclipse
+#1357713067
+ls
+#1357713125
+wget http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/juno/SR1/eclipse-jee-juno-SR1-linux-gtk-x86_64.tar.gz&url=http://mirror.aarnet.edu.au/pub/eclipse/technology/epp/downloads/release/juno/SR1/eclipse-jee-juno-SR1-linux-gtk-x86_64.tar.gz&mirror_id=1051
+#1357713143
+ls
+#1357713152
+mv download.php\?file\=%2Ftechnology%2Fepp%2Fdownloads%2Frelease%2Fjuno%2FSR1%2Feclipse-jee-juno-SR1-linux-gtk-x86_64.tar.gz  eclipse/
+#1357713154
+ls
+#1357713156
+cd eclipse/
+#1357713156
+ls
+#1357713157
+ll
+#1357713160
+ll -h
+#1357713163
+rm download.php\?file\=%2Ftechnology%2Fepp%2Fdownloads%2Frelease%2Fjuno%2FSR1%2Feclipse-jee-juno-SR1-linux-gtk-x86_64.tar.gz 
+#1357713179
+wget http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/juno/SR1/eclipse-jee-juno-SR1-linux-gtk-x86_64.tar.gz&url=http://mirror.aarnet.edu.au/pub/eclipse/technology/epp/downloads/release/juno/SR1/eclipse-jee-juno-SR1-linux-gtk-x86_64.tar.gz&mirror_id=1051
+#1357713188
+ls
+#1357713190
+rm download.php\?file\=%2Ftechnology%2Fepp%2Fdownloads%2Frelease%2Fjuno%2FSR1%2Feclipse-jee-juno-SR1-linux-gtk-x86_64.tar.gz 
+#1357713190
+ls
+#1357713200
+curl -O http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/juno/SR1/eclipse-jee-juno-SR1-linux-gtk-x86_64.tar.gz&url=http://mirror.aarnet.edu.au/pub/eclipse/technology/epp/downloads/release/juno/SR1/eclipse-jee-juno-SR1-linux-gtk-x86_64.tar.gz&mirror_id=1051
+#1357713205
+ls
+#1357713208
+ll
+#1357713243
+wget http://mirror.aarnet.edu.au/pub/eclipse/technology/epp/downloads/release/juno/SR1/eclipse-jee-juno-SR1-linux-gtk-x86_64.tar.gz
+#1357713263
+ls
+#1357713270
+ll
+#1357713274
+rm eclipse-jee-juno-SR1-linux-gtk-x86_64.tar.gz
+#1357713278
+mv eclipse-jee-juno-SR1-linux-gtk-x86_64.tar.gz.1 eclipse-jee-juno-SR1-linux-gtk-x86_64.tar.gz
+#1357713281
+tar -zxvf eclipse-jee-juno-SR1-linux-gtk-x86_64.tar.gz 
+#1357713292
+ls
+#1357713295
+cd eclipse
+#1357713296
+ls
+#1357713300
+ll
+#1357713310
+cd ..
+#1357713327
+mv eclipse ../../../
+#1357713330
+cd ../../../
+#1357713330
+ls
+#1357713337
+mv eclipse/ eclipse_tmp
+#1357713340
+mkdir eclipse
+#1357713344
+mv eclipse_tmp/ eclipse
+#1357713344
+ls
+#1357713346
+cd eclipse/
+#1357713347
+ls
+#1357713870
+mv eclipse_tmp/ juno
+#1357713871
+cd juno/
+#1357713872
+ls
+#1357713875
+./eclipse 
+#1357714282
+ls
+#1357714286
+cd ..
+#1357714286
+ls
+#1357714290
+rm -rf juno
+#1357714297
+ls
+#1357714300
+cd ../
+#1357714301
+ls
+#1357714309
+cd _tool_src/downloaded/eclipse/eclipse-jee-juno-SR1-linux-gtk-x86_64.tar.gz 
+#1357714320
+tar -zxvf _tool_src/downloaded/eclipse/eclipse-jee-juno-SR1-linux-gtk-x86_64.tar.gz 
+#1357714330
+ls
+#1357714335
+cd eclipse/
+#1357714336
+ls
+#1357714342
+./eclipse 
+#1357714386
+cd
+#1357714387
+ls
+#1357714388
+ll
+#1357714393
+rm -rf .eclipse/
+#1357714399
+ls
+#1357714417
+/share/ClusterShare/software/contrib/kevyin/eclipse/eclipse 
+#1357714881
+cd /share/ClusterShare/software/contrib/kevyin/eclipse/
+#1357714886
+/share/ClusterShare/software/contrib/kevyin/eclipse/eclipse --version
+#1357714889
+/share/ClusterShare/software/contrib/kevyin/eclipse/eclipse -v
+#1357714893
+/share/ClusterShare/software/contrib/kevyin/eclipse/eclipse -version
+#1357714899
+ls
+#1357714901
+cd juno/
+#1357714904
+eclipse --version
+#1357715141
+ls
+#1357715144
+which eclipse
+#1357715152
+eclipse
+#1357715184
+cd /share/ClusterShare/Modules/modulefiles/contrib/kevyin/
+#1357715185
+ls
+#1357715186
+vim
+#1357715206
+module load kevyin/eclipse/4.2 
+#1357715216
+vim
+#1357714691
+ls
+#1357714706
+cd /share/ClusterShare/software/contrib/kevyin/
+#1357714707
+ls
+#1357714710
+cd eclipse/
+#1357714711
+ls
+#1357714732
+cd ..
+#1357714735
+mv eclipse/ juno
+#1357714737
+mkdir ecl
+#1357714740
+rm -r ecl
+#1357714746
+ls
+#1357714753
+mkdir eclipse
+#1357714758
+mv juno/ eclipse/
+#1357714759
+ls
+#1357714762
+cd eclipse/
+#1357714762
+ls
+#1357714765
+ls juno/
+#1357714772
+vim
+#1357691596
+ls
+#1357691597
+cd dev/
+#1357691598
+ls
+#1357691601
+cd gatk-learn/
+#1357691601
+ls
+#1357691610
+ls gatk-resource-2.2
+#1357691614
+ls queue-resources
+#1357691614
+ls
+#1357691766
+cd
+#1357691778
+cd dev/analysis/
+#1357691779
+ls
+#1357691781
+cd ccg/
+#1357691782
+ls
+#1357691784
+cd PG0002526-DNA/
+#1357691784
+ls
+#1357691796
+cd
+#1357691798
+cd dev/
+#1357691798
+ls
+#1357691800
+ls ga
+#1357691811
+mkdir gatk
+#1357691812
+ls
+#1357691827
+mv gatk gatk-public
+#1357691829
+cd gatk-public/
+#1357691830
+ls
+#1357691935
+git clone git://github.com/broadgsa/gatk.git
+#1357691960
+ls
+#1357691968
+ll
+#1357692020
+ls
+#1357692022
+ls gatk/
+#1357692045
+ls
+#1357692047
+cd gatk/
+#1357692047
+ls
+#1357692049
+git status
+#1357692350
+ls
+#1357692373
+cd public/scala/qscript/org/broadinstitute/sting/queue/qscripts/
+#1357692374
+ls
+#1357692394
+vim
+#1357632096
+ls
+#1357632097
+cd dev/
+#1357632097
+ls
+#1357632115
+cd 
+#1357632115
+ls
+#1357632148
+cd /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/
+#1357632148
+ls
+#1357632151
+ls resources/
+#1357632158
+vim
+#1357691523
+cd ../..
+#1357691523
+lc
+#1357691524
+ls
+#1357691529
+cd 2.2-8/gatk_queue/
+#1357691530
+ls
+#1357691533
+cd resources/
+#1357691533
+ls
+#1357692070
+cd
+#1357692070
+ls
+#1357692072
+cd dev/
+#1357692073
+ls
+#1357692075
+cd analysis/ccg/
+#1357692076
+ls
+#1357692079
+cd PG0002526-DNA/
+#1357692080
+ls
+#1357692383
+mkdir queue
+#1357692385
+cd queue
+#1357692385
+ls
+#1357689797
+cd /misc/FacilityBioinformatics/private/projects_gagri/
+#1357689798
+cd ..
+#1357689799
+ls
+#1357689803
+cd Illumina
+#1357689807
+cd Illumina_HiSeq_2000_Runfolder/
+#1357689807
+ls
+#1357689813
+cd PG0002526-DNA
+#1357689813
+ls
+#1357689819
+cd Assembly/
+#1357689820
+ls
+#1357689822
+cd genome/
+#1357689823
+ls
+#1357689825
+cd bam
+#1357689825
+ls
+#1357689897
+samtools view -H PG0002526-DNA.bam
+#1357689902
+module load cloudbiolinux/default 
+#1357689903
+samtools view -H PG0002526-DNA.bam
+#1357635404
+qstat
+#1357635407
+cd dev/
+#1357635408
+ls
+#1357635411
+cd analysis/ccg/
+#1357635412
+vim
+#1357635543
+screen -r 1160.KM_ftp
+#1357635547
+clear
+#1357635548
+ls
+#1357635551
+screen -ls
+#1357635555
+screen -r PG
+#1357635583
+screen -ls
+#1357635589
+scree -d -r 18174.PG_analysis
+#1357635593
+screen -d -r 18174.PG_analysis
+#1357635600
+clear
+#1357635603
+screen -ls
+#1357635605
+qstat
+#1357684343
+vim
+#1357686619
+cd /share/ClusterShare/software/contrib/kevyin/_tool_src/
+#1357686619
+ls
+#1357686621
+cd downloaded/
+#1357686622
+ls
+#1357686637
+cd picard/picard-tools-1.79/
+#1357686646
+java -jar AddOrReplaceReadGroups.jar 
+#1357686885
+vim ~/.bash_profile 
+#1357689695
+cd /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/
+#1357689695
+ls
+#1357689697
+cd PG0002526-DNA
+#1357689698
+ls
+#1357689709
+cd ..
+#1357689713
+mkdir software
+#1357689714
+ls
+#1357689719
+mv bcl2fastq* ./software/
+#1357689725
+mv CASAVA* ./software/
+#1357689725
+ls
+#1357689738
+mv OLB-1.9.4.tar.gz  ./software/
+#1357689739
+ls
+#1357689769
+du -sh
+#1357689783
+sh ~/dev/sunny/largest_dirs.sh 
+#1357684414
+ls
+#1357684417
+ls /home/kevyin/dev/analysis/ccg/PG0002526-DNA/aligned/bowtie2/PG0002526-DNA_bowtie2_dup_reord_recalrp.grp
+#1357684822
+cd dev
+#1357684825
+cd analysis/ccg/
+#1357684826
+ls
+#1357684828
+cd PG0002526-DNA/
+#1357684828
+ls
+#1357684833
+cd aligned
+#1357684833
+ls
+#1357684835
+cd bowtie2/
+#1357684836
+ls
+#1357684843
+head PG0002526-DNA_bowtie2.sam 
+#1357684858
+head -n 10 PG0002526-DNA_bowtie2.sam 
+#1357684863
+head -n 50 PG0002526-DNA_bowtie2.sam 
+#1357684983
+head -n 500 PG0002526-DNA_bowtie2.sam | less
+#1357685719
+cd ../..
+#1357685720
+ls
+#1357685722
+git status
+#1357685727
+git add run_jobs.sh 
+#1357685739
+git commit -m "gatk calls"
+#1357685746
+git push origin master
+#1357690824
+screen -ls
+#1357690827
+screen -r PG
+#1357690831
+clear
+#1357690976
+qstat
+#1357775618
+vim /etc/hosts.allow 
+#1357775646
+sudo vim /etc/hosts.allow 
+#1357775775
+sudo service ssh restart
+#1357776129
+vim /etc/hosts.allow 
+#1357776139
+sudo vim /etc/hosts.allow 
+#1357776370
+ls
+#1357776471
+vim /etc/hosts.allow 
+#1357775232
+ls
+#1357775286
+sudo vim /etc/host.allow
+#1357775301
+sudo vim /etc/hosts.allow
+#1357782515
+cd ~/dev/analysis/ccg/PG0002526-DNA/queue
+#1357782516
+ls
+#1357782520
+sh run_queue.sh 
+#1357783348
+sh ./run_queue.sh 
+#1357783404
+ls
+#1357783436
+vim
+#1357786973
+clear
+#1357786974
+ls
+#1357787879
+java -Djava.io.tmpdir=tmp -jar /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/Queue.jar -S ../resources/gatk_queue_resources/ExampleCountReads.scala 
+#1357788765
+java -Djava.io.tmpdir=tmp -jar /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/Queue.jar -S ../resources/gatk_queue_resources/ExampleCountReads.scala -h
+#1357789329
+java -Djava.io.tmpdir=tmp -jar /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/Queue.jar -S ../resources/gatk_repo_qscripts/examples/HelloWorld.scala -qsub
+#1357789351
+cat HelloWorld.jobreport.txt 
+#1357789356
+cat HelloWorld.jobreport.txt -run
+#1357789363
+java -Djava.io.tmpdir=tmp -jar /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/Queue.jar -S ../resources/gatk_repo_qscripts/examples/HelloWorld.scala -qsub -run
+#1357789449
+ls
+#1357789494
+qstat
+#1357789525
+qstat -f -u "*"
+#1357789577
+qstat
+#1357790723
+ll
+#1357790725
+ll ../
+#1357790946
+qstat
+#1357792250
+which R
+#1357793612
+java -Djava.io.tmpdir=tmp -jar /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/Queue.jar -help
+#1357794297
+java -Djava.io.tmpdir=tmp -jar /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/Queue.jar --help
+#1357796805
+qstat
+#1357769302
+ls
+#1357769305
+screen -ls
+#1357769307
+screen -r PG
+#1357769315
+clear
+#1357770307
+qstat
+#1357771613
+cd
+#1357771614
+cd dev
+#1357771616
+cd analysis/ccg/
+#1357771616
+ls
+#1357771994
+cd PG0002526-DNA/
+#1357771995
+ls
+#1357771997
+bash linkme.sh 
+#1357771999
+ls
+#1357772001
+ll
+#1357772002
+ll aligned
+#1357772013
+ls aligned/
+#1357772021
+rm aligned
+#1357772031
+ls
+#1357772034
+ln -s /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned aligned
+#1357772037
+ls aligned
+#1357772055
+ls /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned
+#1357772058
+ls /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/
+#1357772074
+ll /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned
+#1357772081
+rm /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/aligned
+#1357772094
+ls
+#1357772098
+ll
+#1357772100
+rm aligned
+#1357772100
+ls
+#1357772102
+ln -s /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned aligned
+#1357772104
+ls aligned
+#1357772109
+sh ~/dev/sunny/largest_dirs.sh 
+#1357772114
+sh linkme.sh 
+#1357772213
+man ln
+#1357772241
+ls
+#1357772244
+ls resources/
+#1357772250
+ls resources/gatk_repo-qscripts
+#1357772269
+ln -s ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/ gatk_repo-qscripts
+#1357772271
+ls resources/gatk_repo-qscripts
+#1357772275
+ls
+#1357772279
+ls gatk_repo-qscripts
+#1357772431
+man curl
+#1357772583
+ls
+#1357772598
+ln -s /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned aligned
+#1357772599
+ls
+#1357772601
+ls aligned
+#1357772607
+ln -s /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned aligned
+#1357772609
+ls aligned
+#1357772613
+rm aligned
+#1357772619
+ln -s /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned aligned
+#1357772621
+ls aligned
+#1357772625
+rm aligned/aligned
+#1357772635
+ln -s /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned aligned/
+#1357772638
+ls aligned
+#1357772645
+rm aligned/aligned
+#1357772650
+ls
+#1357772659
+ln -s /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned ./aligned
+#1357772660
+ls
+#1357772662
+ls aligned
+#1357772665
+rm ./aligned
+#1357772669
+man ln
+#1357772740
+ls
+#1357772751
+ln -s /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned -t ./aligned
+#1357772760
+man ln-s
+#1357772762
+man ln
+#1357772796
+ls
+#1357772802
+ln -T -s /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned -t ./aligned
+#1357772808
+ln -T -s /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned aligned
+#1357772809
+ls
+#1357772811
+ls aligned
+#1357772818
+rm ./aligned/aligned
+#1357772822
+ln -T -s /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned aligned
+#1357772827
+ls
+#1357772830
+rm aligned
+#1357772833
+ln -T -s /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned aligned
+#1357772834
+ls
+#1357772835
+ls aligned
+#1357772842
+ln -T -s /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned aligned
+#1357772849
+ln -Ts /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned aligned
+#1357772945
+ls
+#1357772957
+sh linkme.sh 
+#1357779250
+ls
+#1357779252
+cd queue/
+#1357779253
+ls
+#1357779254
+git status
+#1357779258
+cd ..
+#1357779258
+ls
+#1357779259
+git status
+#1357779264
+git diff
+#1357779272
+git add -u
+#1357779273
+git status
+#1357779359
+git commit -m "safer linking using -T"
+#1357779363
+git status
+#1357779367
+git add queue/
+#1357779368
+git status
+#1357779379
+git commit -m "queue pipeline testing"
+#1357779382
+git push origin master
+#1357779704
+cd queue/
+#1357779792
+ls /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/
+#1357779795
+ls /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/
+#1357781950
+pwd
+#1357782185
+sh run_queue.sh 
+#1357782240
+ls  ../resources/gatk_queue_resources/ExampleCountReads.scala
+#1357782364
+sh run_queue.sh 
+#1357782483
+qstat
+#1357782495
+qsub -pe smp 16
+#1357782506
+qlogin -pe smp 16
+#1357797992
+sh run_queue.sh 
+#1357799556
+cd ..
+#1357799556
+ls
+#1357799571
+mkdir aligned_subsamp
+#1357799577
+cd aligned_subsamp/
+#1357799577
+ls
+#1357799584
+which samtools
+#1357799598
+module load cloudbiolinux/default 
+#1357799678
+samtools -h
+#1357799681
+samtools
+#1357799686
+samtools view
+#1357799762
+samtools view -b -s 0.001 ../aligned/bowtie2/PG0002526-DNA_bowtie2.bam 
+#1357799778
+samtools view -b -s 0.001 ../aligned/bowtie2/PG0002526-DNA_bowtie2.bam > PG0002526-DNA_bowtie2_subsamp.bam
+#1357799789
+ls
+#1357799792
+ll
+#1357799794
+rm PG0002526-DNA_bowtie2_subsamp.bam 
+#1357799800
+samtools view -b -s 0.00001 ../aligned/bowtie2/PG0002526-DNA_bowtie2.bam > PG0002526-DNA_bowtie2_subsamp.bam
+#1357800268
+which bwa
+#1357800575
+sl
+#1357800577
+cd ..
+#1357800577
+ls
+#1357800580
+cd queue/
+#1357800581
+ls
+#1357800584
+sh run_queue.sh 
+#1357801008
+ls /home/kevyin/dev/analysis/ccg/PG0002526-DNA/aligned/bowtie2/PG0002526-DNA_bowtie2_dup_reord.bam
+#1357801091
+sh run_queue.sh 
+#1357801499
+ls
+#1357801507
+cd ..
+#1357801507
+ls
+#1357801509
+vim
+#1357855301
+:
+#1357786931
+qstat
+#1357786939
+screen -ls
+#1357786955
+qstat -f -u "*"
+#1357789204
+man qsub
+#1357789400
+cd dev/analysis/ccg/PG0002526-DNA/
+#1357789400
+ls
+#1357789402
+cd queue/
+#1357789402
+ls
+#1357789469
+java -Djava.io.tmpdir=tmp -jar /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/Queue.jar -S ../resources/gatk_repo_qscripts/examples/HelloWorld.scala -qsub -run
+#1357789602
+cat HelloWorld.jobreport.txt 
+#1357789620
+cat /home/kevyin/dev/analysis/ccg/PG0002526-DNA/queue/HelloWorld-1.out
+#1357789632
+qstat -f z
+#1357789635
+qstat -s z
+#1357792258
+which R
+#1357796901
+ls
+#1357797159
+java -Djava.io.tmpdir=tmp -jar /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/Queue.jar 
+#1357797163
+java -Djava.io.tmpdir=tmp -jar /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/Queue.jar -h
+#1357797341
+ls
+#1357797347
+rm *.out
+#1357797350
+rm *.txt
+#1357797351
+ls
+#1357797358
+rm -r tmp/
+#1357797359
+ls
+#1357797361
+sh run_queue.sh 
+#1357797493
+ls
+#1357797502
+rm *.out
+#1357797504
+rm *.txt
+#1357797506
+git status
+#1357797512
+git diff
+#1357797525
+git add -u
+#1357797540
+git commit -m "linkme consistent delimiters"
+#1357797542
+git status
+#1357797544
+git add run_queue.sh 
+#1357797545
+git status
+#1357797553
+ls
+#1357797559
+cat .HelloWorld-1.out.
+#1357797562
+cat .HelloWorld-1.out.*
+#1357797565
+cat .HelloWorld-1.out.done 
+#1357797567
+cat .HelloWorld-1.out.fail 
+#1357797571
+rm *.done
+#1357797575
+ls
+#1357797577
+ll
+#1357797584
+rm .ExampleCountReads-1.out.done 
+#1357797589
+rm .HelloWorld-1.out.done 
+#1357797592
+rm .HelloWorld-1.out.fail 
+#1357797593
+ls
+#1357797594
+git status
+#1357797601
+git add ../linkme.sh 
+#1357797604
+git commit -m "linkme consistent delimiters"
+#1357797607
+git add run_queue.sh 
+#1357797609
+git status
+#1357797619
+git commit -m "run_queue.sh"
+#1357797621
+git status
+#1357797845
+ls
+#1357797989
+screen -S queue
+#1357800612
+screen -r queue
+#1357798134
+qstat
+#1357798138
+qstat -s z
+#1357798434
+cd dev/analysis/
+#1357798434
+ls
+#1357798436
+cd ccg/
+#1357798436
+ls
+#1357798439
+cd PG0002526-DNA/
+#1357798439
+ls
+#1357798445
+cd resources/
+#1357798446
+sl
+#1357798453
+ls
+#1357798457
+cd gatk_queue_resources
+#1357798458
+ls
+#1357798592
+qstat
+#1357798600
+qstat -s z
+#1357799109
+qstat
+#1357799111
+qstat -s z
+#1357799330
+which bwa
+#1357799537
+ll
+#1357799546
+cd ..
+#1357799546
+ls
+#1357800086
+cd ../aligned/bowtie2/PG0002526-DNA_bowtie2.bam
+#1357800097
+cd ../aligned/bowtie2/
+#1357800098
+ls
+#1357800101
+pwd
+#1357800151
+ls
+#1357800228
+qstat
+#1357800467
+ls
+#1357768914
+ls
+#1357768917
+cd dev/
+#1357768917
+ls
+#1357768927
+qstat
+#1357768929
+cd analysis/ccg/
+#1357768930
+ls
+#1357768933
+cd PG0002526-DNA/
+#1357768934
+ls
+#1357768934
+vim
+#1357770444
+ls
+#1357770445
+cd
+#1357770446
+ls
+#1357770448
+cd dev/
+#1357770448
+ls
+#1357770453
+which eclipse
+#1357770460
+df
+#1357770472
+ls
+#1357770492
+cd analysis/
+#1357770492
+ls
+#1357770495
+cd ccg
+#1357770495
+ls
+#1357770498
+cd PG0002526-DNA/
+#1357770498
+ls
+#1357770505
+git status
+#1357770517
+git add run_jobs.sh 
+#1357770518
+ls
+#1357770546
+vim 
+#1357770785
+git status
+#1357770799
+git add run_jobs.sh -m "create_index"
+#1357770806
+git add run_jobs.sh 
+#1357770812
+git commit -m "create_index"
+#1357770815
+git status
+#1357770822
+ls
+#1357770825
+git status
+#1357770828
+ll
+#1357770840
+ls
+#1357770842
+git status
+#1357770863
+git log
+#1357770869
+git show 3a05bb8ef2819c614a49eb98997d1d39292386e8
+#1357770943
+git status
+#1357770980
+ll
+#1357770985
+vim run_jobs.sh 
+#1357770990
+ls
+#1357770992
+ll
+#1357770996
+qstat
+#1357771005
+rm .nfs000000005deeb8c700000109 
+#1357771006
+ls
+#1357771008
+git status
+#1357771087
+ls
+#1357771089
+cd queue
+#1357771090
+ls
+#1357771149
+ln -s ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/ gatk-public-qscripts
+#1357771150
+ls
+#1357771152
+ls gatk-public-qscripts
+#1357771155
+git add gatk-public-qscripts
+#1357771337
+ln -s /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ gatk-queue-resources
+#1357771338
+ls
+#1357771339
+cd .
+#1357771339
+ls
+#1357771342
+cd ..
+#1357771342
+ls
+#1357771364
+vim linkme.sh 
+#1357771461
+vim
+#1357771526
+ls
+#1357771530
+cd queue/
+#1357771530
+ls
+#1357771534
+rm gatk-public-qscripts
+#1357771538
+rm gatk-queue-resources
+#1357771539
+cd ..
+#1357771540
+ls
+#1357771541
+sh linkme.sh 
+#1357771547
+mkdir resources
+#1357771548
+sh linkme.sh 
+#1357771551
+vim
+#1357771562
+sh linkme.sh 
+#1357771568
+ls
+#1357771573
+git status
+#1357771575
+git add linkme.sh 
+#1357771586
+git rm queue/gatk-public-qscripts
+#1357771587
+git status
+#1357771608
+git commit -m "linkme to more resources"
+#1357771757
+ls
+#1357771777
+git status
+#1357771780
+mkdir queue
+#1357771782
+cd queue/
+#1357771782
+ls
+#1357771835
+cd ../
+#1357771835
+ls
+#1357771839
+cd resources/
+#1357771840
+ls
+#1357771845
+cd gatk_
+#1357771847
+cd gatk_queue-resources
+#1357771847
+ls
+#1357771856
+ls resources
+#1357771869
+cd ..
+#1357771869
+ls
+#1357771871
+ll
+#1357771882
+rm gatk*
+#1357771885
+cd ..
+#1357771885
+ls
+#1357771886
+vim
+#1357771930
+sh linkme.sh 
+#1357771933
+ls
+#1357771936
+ls resources/
+#1357771940
+vim
+#1357772152
+ls
+#1357772155
+sh linkme.sh 
+#1357772157
+vim
+#1357773007
+cd queue/
+#1357773007
+ls
+#1357773008
+vim

@@ -28,6 +28,8 @@ Bundle 'surround.vim'
 Bundle 'LargeFile'
 "Bundle 'Tagbar'
 "nmap <silent> <c-m> :TagbarToggle<CR>
+Bundle 'derekwyatt/vim-scala'
+
 
 filetype plugin indent on     " required!
 "
@@ -56,6 +58,7 @@ set number
 set hlsearch
 
 syntax on
+syn on
 
 filetype plugin on
 
@@ -64,5 +67,6 @@ let NERD_haskell_alt_style=1
 au BufNewFile,BufRead *.tem set filetype=cpp
 au BufNewFile,BufRead *.cu set filetype=cpp
 au BufNewFile,BufRead *.h set filetype=cpp
+au BufNewFile,BufRead *.scala set filetype=scala
 
 nmap <silent> <c-n> :NERDTreeToggle<CR>
