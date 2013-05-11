@@ -1,3 +1,5 @@
+## umask make folders writable by group members by default
+umask 0002
 
 ## Eternal bash history
 # unset these
@@ -12,9 +14,11 @@ PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ; }"'echo $$ $USER \
 
 #export PATH=/usr/local/cuda/bin:$PATH
 #export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
-source ~/.bashrc
+#source ~/.bashrc
 
-alias ssh='ssh -X'
+#alias ssh='ssh -X'
+alias ssh='ssh -c arcfour,blowfish-cbc -YC'
+alias pip-python='pip'
 
 if [ "$COLORTERM" == "gnome-terminal" ]; then
     export TERM=xterm-256color
@@ -79,6 +83,7 @@ S_violet="#6c71c4"
 S_blue="#268bd2"
 S_cyan="#2aa198"
 S_green="#859900"
+#S_green="#a8c100"
 
 # black dark/light
 color0=$S_base02
@@ -112,14 +117,14 @@ color14=$S_base1
 color7=$S_base2
 color15=$S_base3
 
-gconftool-2 --set "/apps/gnome-terminal/profiles/Default/use_theme_background" --type bool false
-gconftool-2 --set "/apps/gnome-terminal/profiles/Default/use_theme_colors" --type bool false
-gconftool-2 --set "/apps/gnome-terminal/profiles/Default/palette" --type string "$color0:$color1:$color2:$color3:$color4:$color5:$color6:$color7:$color8:$color9:$color10:$color11:$color12:$color13:$color14:$color15"
+#gconftool-2 --set "/apps/gnome-terminal/profiles/Default/use_theme_background" --type bool false
+#gconftool-2 --set "/apps/gnome-terminal/profiles/Default/use_theme_colors" --type bool false
+#gconftool-2 --set "/apps/gnome-terminal/profiles/Default/palette" --type string "$color0:$color1:$color2:$color3:$color4:$color5:$color6:$color7:$color8:$color9:$color10:$color11:$color12:$color13:$color14:$color15"
 
 
 
-gconftool-2 --set "/apps/gnome-terminal/profiles/Default/background_color" --type string "$S_base03"
-gconftool-2 --set "/apps/gnome-terminal/profiles/Default/foreground_color" --type string "$S_text"
+#gconftool-2 --set "/apps/gnome-terminal/profiles/Default/background_color" --type string "$S_base03"
+#gconftool-2 --set "/apps/gnome-terminal/profiles/Default/foreground_color" --type string "$S_text"
 #gconftool-2 --set "/apps/gnome-terminal/profiles/Default/" --type string "$S_text"
 
 
@@ -138,6 +143,16 @@ ulimit -Sn $max_fh
 
 # modules
 export MODULEPATH=/share/ClusterShare/Modules/modulefiles/noarch:/share/ClusterShare/Modules/modulefiles/centos6.2_x86_64:/share/ClusterShare/Modules/modulefiles/contrib:$MODULEPATH
-module load kevyin/init_personal
+module load kevyin/init_personal;
+module load cloudbiolinux/default;
 #module load kevyin/typesafe-stack/2.0.2
 #source /home/kevyin/dev/tools_downloaded/perl/pll-perl/bin/activate.sh
+source /share/ClusterShare/software/contrib/kevyin/perl/5.14.2/bin/activate.sh
+
+# drmaa
+export DRMAA_LIBRARY_PATH=/opt/gridengine/lib/lx26-amd64/libdrmaa.so
+
+
+case "$TERM" in
+    xterm*) . ~/.bashrc ;;
+esac
