@@ -8,1021 +8,1184 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/vari
+~MSle0~/scala
 
 # Last Substitute Search Pattern:
-~MSle0&out_bowtie2_dup_recal
+~MSle0&'
 
 # Last Substitute String:
-$out_bowtie2_dup_reord_rg_recal
+$"
 
 # Command Line History (newest to oldest):
 :q
-:w
-:qjkkkk
+:!less README
+:!git push origin master
+:!git status
+:!g
+:!git 
 :wq
-:!
-:.,.+21q
-:!find -name "*.py" | xargs grep -i tablerecalibration
-:'<,'>s/out_bowtie2_dup_recal/out_bowtie2_dup_reord_rg_recal/g
-:'<,'>s/out_bowtie2_dup_recalrp/out_bowtie2_dup_reord_rg_recalrp/g
-:s/bowtie2/bwa/g
-:'<,'>s/
-:!find -name "*" | xargs grep -i "readgroup"
-:!fin
-:!find -name "*" | xargs grep -i "read group"
-:W
-:!find -name "*" | xargs grep -i "createsequencedictionar"
-:!fi
-:!find -name "*" | xargs grep -i "reordersam"
-:!find -name "*.py" | xargs grep -i "sequencedictionary"
-:!find -name "*.py" | xargs grep -i "reorder"
+:Gcommit
+:Gstatus
+:!ls /misc/RUNS
+:ls RUNS
+:ls CCG
+:q!
+:w
+:quitall
+:!modulo
+:!python --version
+:!python testruns.py
+:!nano testruns.py
+:!python ./testruns.py
 
 # Search String History (newest to oldest):
-?/vari
-?/inputfil
-?/input
-? \<recalBam\>
-? \<cohortList\>
-? \<writeList\>
-?/inputfiles
-? \<projectName\>
-?/cohort
-?/graph
-?/grph
-? \<addReadGroups\>
-?/readgr
-?/reord
-?/bwa
-?/w
-?/b
-?/unal
-? \<gatk_resources\>
-? \<gatk_queue_resources\>
+?/scala
+? \<analysisType\>
+? \<col_indices\>
+? \<header\>
+? \<lstLines\>
+? \<BaseRecalibrator\>
+?/recalibra
+?/misc
+?/sa
+?/error
+?/fail
+? \<buildSGE\>
+? \<SGE_DIR\>
+? \<launchJob\>
+?/does
+?/pbzip2
+? \<outfile\>
+? \<NUM_PROCESSORS\>
+?/core
+? \<PBS_NUM_PPN\>
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
-@/home/kevyin/dev/analysis/ccg/PG0002526-DNA/resources/gatk_queue_resources
-@/home/kevyin/dev/analysis/ccg/PG0002526-DNA/resources/gatk_repo_qscripts
-@/home/kevyin/dev/analysis/ccg/PG0002526-DNA/resources/gatk_resources
-@/home/kevyin/dev/analysis/ccg/PG0002526-DNA/queue/run_queue.sh
-@/home/kevyin/dev/analysis/ccg/PG0002526-DNA/queue/DataProcessingPipeline.scala
+@/home/kevyin/dev/ccg/lims/.gitignore
+@/home/kevyin/dev/ccg/lims/bcl2fastq_trigger/tests
+@/home/kevyin/dev/ccg/lims/bcl2fastq_trigger/unittest/testruns.py
+@/home/kevyin/dev/ccg/lims/bcl2fastq_trigger/unittest/
+@/home/kevyin/dev/ccg/lims/bcl2fastq_trigger/unittest
 @yes
-@/home/kevyin/dev/analysis/ccg/PG0002526-DNA/aligned/bowtie2/Picard_CollectAlignmentSummaryMetrics.txt
-@/home/kevyin/dev/analysis/ccg/PG0002526-DNA/run.py
-@/home/kevyin/dev/analysis/ccg/PG0002526-DNA/call_qsub.sh
-@/home/kevyin/dev/analysis/ccg/PG0002526-DNA/run_jobs.sh
-@/home/kevyin/dev/analysis/km/diffbind/peaks/cut_toSimp.sh
-@/home/kevyin/dev/analysis/km/diffbind/peaks/
-@/home/kevyin/dev/analysis/km/README.txt
-@/home/kevyin/dev/analysis/km/
-@/home/kevyin/dev/analysis/km/.gitignore
-@/home/kevyin/dev/mustached-bear/count_GC/src/countGC_par.scala
-@/home/kevyin/dev/mustached-bear/count_GC/src/countGC_actors.scala
-@/home/kevyin/dev/mustached-bear/scala/parallel_discrete_event_simulation/run.sh
-@/home/kevyin/dev/mustached-bear/scala/parallel_discrete_event_simulation/main.scala
-@/home/kevyin/dev/mustached-bear/scala/parallel_discrete_event_simulation/
+@/home/kevyin/dev/ccg/lims/bcl2fastq_trigger/src//GLSRestApiUtil.py
+@/home/kevyin/dev/ccg/lims/bcl2fastq_trigger/src/bcl2fastq-automation.py
+@/share/ClusterShare/thingamajigs/kevyin/qscript_sample/test/wd/run.sh
+@/share/ClusterShare/thingamajigs/kevyin/qscript_sample/run.sh
+@/share/ClusterShare/thingamajigs/kevyin/qscript_sample/wd/run.sh
+@/share/ClusterShare/thingamajigs/kevyin/qscript_sample/wdrun.sh
+@/share/ClusterShare/thingamajigs/kevyin/qscript_sample/test/wd/
+@/home/kevyin/dev/coursera/assn1/top_ten.py
+@/home/kevyin/dev/coursera/assn1/happiest_state.py
+@/home/kevyin/dev/coursera/assn1/frequency.py
+@/home/kevyin/dev/coursera/assn1/term_sentiment.py
+@/home/kevyin/dev/coursera/assn1/testout.txt
+@/home/kevyin/dev/coursera/assn1/print.py
+@/home/kevyin/dev/coursera/assn1/twitterstream.py
 
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	${gatk_queue_resources}/exampleBAM.bam 
+""0	LINE	0
+	FCID,Lane,SampleID,SampleRef,Index,Description,Control,Recipe,Operator,SampleProject
+	FC626BWAAXX,4,liver4,Human,,GIR52A5AR2,N,R1,sgirn,SG_Test
 "1	LINE	0
+	import random
+	import unittest
 	
 "2	LINE	0
-	inbam
+	
+	class TestSequenceFunctions(unittest.TestCase):
+	
+	    def setUp(self):
+	        self.seq = range(10)
+	
+	    def test_shuffle(self):
+	        # make sure the shuffled sequence does not lose any elements
+	        random.shuffle(self.seq)
+	        self.seq.sort()
+	        self.assertEqual(self.seq, range(10))
+	
+	        # should raise an exception for an immutable sequence
+	        self.assertRaises(TypeError, random.shuffle, (1,2,3))
+	
+	    def test_choice(self):
+	        element = random.choice(self.seq)
+	        self.assertTrue(element in self.seq)
+	
+	    def test_sample(self):
+	        with self.assertRaises(ValueError):
+	            random.sample(self.seq, 20)
+	        for element in random.sample(self.seq, 5):
+	            self.assertTrue(element in self.seq)
+	
+	if __name__ == '__main__':
+	    unittest.main()
 "3	LINE	0
-	base_dir=/home/kevyin/dev/analysis/ccg/PG0002526-DNA/queue
+	
+	class TestSequenceFunctions(unittest.TestCase):
+	
+	    def setUp(self):
+	        self.seq = range(10)
+	
+	    def test_shuffle(self):
+	        # make sure the shuffled sequence does not lose any elements
+	        random.shuffle(self.seq)
+	        self.seq.sort()
+	        self.assertEqual(self.seq, range(10))
+	
+	        # should raise an exception for an immutable sequence
+	        self.assertRaises(TypeError, random.shuffle, (1,2,3))
+	
+	    def test_choice(self):
+	        element = random.choice(self.seq)
+	        self.assertTrue(element in self.seq)
+	
+	    def test_sample(self):
+	        with self.assertRaises(ValueError):
+	            random.sample(self.seq, 20)
+	        for element in random.sample(self.seq, 5):
+	            self.assertTrue(element in self.seq)
+	
+	if __name__ == '__main__':
+	    unittest.main()
 "4	LINE	0
-	
+	        #writeFile(filename, outfile)
 "5	LINE	0
-	
+	        #filename = runID + "_SGE.sh"
 "6	LINE	0
-	
+	        #outfile = buildSGE(runID, args)
 "7	LINE	0
-	#java -jar $queue_jar -S $qscript
+	    global SGE_DIR
 "8	LINE	0
-	#qscript="DataProcessingPipeline.scala"
+	    global SGE_DIR
 "9	LINE	0
-	qscript="${gatk_queue_resources}/ExampleCountReads.scala"
+	    outfile = buildSGE("4131592", args)
+	    filename = runID + "_SGE.sh"
+	    writeFile(filename, outfile)
+	
+	    # Part 2: We now have a sge file, so copy it to the correct location
+	    arg = "cp ./" + filename + " " + SGE_DIR + filename
+	    if DEBUG == "true":
+	        print arg
+	    os.system(arg)
+	
+	    # Part 3: Submit the job to the queue
+	    arg = "qsub " SGE_DIR + filename + " -e " + args["errorlog"] + " -o " + args["outputlog"]
+	    if DEBUG == "true":
+	        print arg
+	    os.system(arg)
+"d	CHAR	0
+	s
 "j	CHAR	0
 	j
+"k	CHAR	0
+	udw:W
 "q@	CHAR	0
-	0$i CREATE_INDEX=true:w
+	veeeedi${resou_dir}
 "s	CHAR	0
-	kj;
-""-	CHAR	0
-	-bwape -bwa /share/ClusterShare/software/cloudbiolinux-centos6/bin/bwa -run
+	
+"-	CHAR	0
+	"
 
 # File marks:
-'0  39  0  ~/dev/galaxy_pipeline/NERD_tree_1
-'1  2  0  ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/examples/HelloWorld.scala
-'2  11  9  ~/dev/analysis/ccg/PG0002526-DNA/linkme.sh
-'3  8  0  ~/dev/analysis/ccg/PG0002526-DNA/linkme.sh
-'4  1  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
-'5  1  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
-'6  30  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
-'7  73  0  ~/dev/analysis/ccg/PG0002526-DNA/run_jobs.sh
-'8  42  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
-'9  70  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+'0  120  19  ~/.vimrc
+'1  13  0  ~/dev/GenePatternModules/AgilentToGCT/NERD_tree_1
+'2  25  0  ~/dev/ccg/analysis/NERD_tree_1
+'3  15  0  ~/dev/ccg/NERD_tree_1
+'4  8  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+'5  29  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+'6  57  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+'7  92  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+'8  111  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+'9  132  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
 
 # Jumplist (newest first):
--'  39  0  ~/dev/galaxy_pipeline/NERD_tree_1
--'  70  2  ~/dev/galaxy_pipeline/NERD_tree_1
--'  1  0  ~/dev/galaxy_pipeline/NERD_tree_1
--'  1  0  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/variation/cortex.py
--'  2  0  ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/examples/HelloWorld.scala
--'  2  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleCountReads.scala
--'  62  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleCountReads.scala
--'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/queue/ExampleCountReads.jobreport.txt
--'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/queue/ExampleCountReads-1.out
--'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/queue/NERD_tree_1
--'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/queue/DataProcessingPipeline.scala
--'  11  9  ~/dev/analysis/ccg/PG0002526-DNA/linkme.sh
--'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/linkme.sh
--'  8  0  ~/dev/analysis/ccg/PG0002526-DNA/linkme.sh
--'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  30  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  31  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  73  0  ~/dev/analysis/ccg/PG0002526-DNA/run_jobs.sh
--'  42  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/run_jobs.sh
--'  70  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  84  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  10  0  ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/NERD_tree_1
--'  1  0  ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/NERD_tree_1
--'  1  0  ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/CNV/xhmmCNVpipeline.scala
--'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_195957/recalrp.e14858
--'  32  0  ~/dev/analysis/ccg/NERD_tree_1
--'  45  2  ~/dev/analysis/ccg/NERD_tree_1
--'  1  0  ~/dev/analysis/ccg/NERD_tree_1
--'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/bowtie2/flagstat.txt
--'  17  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/NERD_tree_1
--'  22  2  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/NERD_tree_1
--'  1  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/NERD_tree_1
--'  1  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleCountLoci.scala
--'  87  0  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/broad/picardrun.py
--'  81  4  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/broad/picardrun.py
--'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/bowtie2/PG0002526-DNA_bowtie2_dup_seqdict.dict
--'  122  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_114938/picardAlnSummary.e14595
--'  57  32  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/pipeline/main.py
--'  125  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  134  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  148  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  159  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  181  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  187  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  2  0  ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/examples/HelloWorld.scala
--'  2  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleCountReads.scala
--'  62  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleCountReads.scala
--'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/queue/ExampleCountReads.jobreport.txt
--'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/queue/ExampleCountReads-1.out
--'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/queue/NERD_tree_1
--'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/queue/DataProcessingPipeline.scala
--'  11  9  ~/dev/analysis/ccg/PG0002526-DNA/linkme.sh
--'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/linkme.sh
--'  8  0  ~/dev/analysis/ccg/PG0002526-DNA/linkme.sh
--'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  30  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  31  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  73  0  ~/dev/analysis/ccg/PG0002526-DNA/run_jobs.sh
--'  42  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/run_jobs.sh
--'  70  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  84  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  10  0  ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/NERD_tree_1
--'  1  0  ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/NERD_tree_1
--'  1  0  ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/CNV/xhmmCNVpipeline.scala
--'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_195957/recalrp.e14858
--'  32  0  ~/dev/analysis/ccg/NERD_tree_1
--'  45  2  ~/dev/analysis/ccg/NERD_tree_1
--'  1  0  ~/dev/analysis/ccg/NERD_tree_1
--'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/bowtie2/flagstat.txt
--'  17  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/NERD_tree_1
--'  22  2  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/NERD_tree_1
--'  1  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/NERD_tree_1
--'  1  0  /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleCountLoci.scala
--'  87  0  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/broad/picardrun.py
--'  81  4  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/broad/picardrun.py
--'  1  0  /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/bowtie2/PG0002526-DNA_bowtie2_dup_seqdict.dict
--'  122  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  1  0  ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_114938/picardAlnSummary.e14595
--'  57  32  ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/pipeline/main.py
--'  125  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  134  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  148  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  159  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  181  0  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
--'  187  2  ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
+-'  120  19  ~/.vimrc
+-'  65  43  ~/.vimrc
+-'  64  43  ~/.vimrc
+-'  63  43  ~/.vimrc
+-'  62  43  ~/.vimrc
+-'  61  24  ~/.vimrc
+-'  60  2  ~/.vimrc
+-'  39  48  ~/.vimrc
+-'  36  8  ~/.vimrc
+-'  34  8  ~/.vimrc
+-'  32  23  ~/.vimrc
+-'  4  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  13  0  ~/dev/GenePatternModules/AgilentToGCT/NERD_tree_1
+-'  16  4  ~/dev/GenePatternModules/AgilentToGCT/NERD_tree_1
+-'  1  0  ~/dev/GenePatternModules/AgilentToGCT/NERD_tree_1
+-'  1  0  ~/dev/GenePatternModules/AgilentToGCT/trunk/src/agilent2gct.py
+-'  25  0  ~/dev/ccg/analysis/NERD_tree_1
+-'  37  2  ~/dev/ccg/analysis/NERD_tree_1
+-'  1  0  ~/dev/ccg/analysis/NERD_tree_1
+-'  1  0  ~/dev/ccg/analysis/pipeline/src/old/archive/archive.sh.e69345
+-'  15  0  ~/dev/ccg/NERD_tree_1
+-'  46  4  ~/dev/ccg/NERD_tree_1
+-'  1  0  ~/dev/ccg/NERD_tree_1
+-'  1  0  ~/dev/ccg/analysis/pipeline/src/phase_0/README
+-'  219  4  ~/dev/ccg/lims/bcl2fastq_trigger/src/bcl2fastq_epp.py
+-'  30  5  ~/dev/ccg/lims/bcl2fastq_trigger/src/bcl2fastq_epp.py
+-'  1  0  ~/dev/ccg/lims/.gitignore
+-'  614  75  ~/dev/ccg/analysis/pipeline/src/variantcalling/phase_2/DataProcessing.scala
+-'  437  31  ~/dev/ccg/analysis/pipeline/src/variantcalling/phase_2/DataProcessing.scala
+-'  408  28  ~/dev/ccg/analysis/pipeline/src/variantcalling/phase_2/DataProcessing.scala
+-'  1  0  ~/dev/ccg/analysis/pipeline/src/variantcalling/phase_2/DataProcessing.scala
+-'  3  0  ~/dev/ccg/analysis/pipeline/src/variantcalling/phase_2/README
+-'  1  0  ~/dev/ccg/analysis/pipeline/src/phase_1/README
+-'  1  0  ~/dev/ccg/analysis/pipeline/src/phase_1/phase1.scala
+-'  9  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/sbs-bcl-smoke_SGE.sh
+-'  1  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/sbs-bcl-smoke.bcl2fastq-2013_0519_195148/Project_SG_Test/Sample_liver4/SampleSheet.csv
+-'  1  0  ~/dev/ccg/lims/bcl2fastq_trigger/src/bcl2fastq_epp.py
+-'  8  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  20  2  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  1  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  1  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/log/sbs-bcl-smoke.e69367
+-'  29  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  45  2  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  1  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/log/sbs-bcl-smoke.e69365
+-'  57  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  59  2  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  1  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/sbs-bcl-smoke.bcl2fastq-2013_0519_193923/sbs-bcl-smoke_SGE.sh
+-'  92  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  102  2  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  1  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/bcl2fastq_sbs-bcl-smoke.e69360
+-'  111  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  125  2  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  15  0  ~/dev/ccg/NERD_tree_1
+-'  46  4  ~/dev/ccg/NERD_tree_1
+-'  1  0  ~/dev/ccg/NERD_tree_1
+-'  1  0  ~/dev/ccg/analysis/pipeline/src/phase_0/README
+-'  219  4  ~/dev/ccg/lims/bcl2fastq_trigger/src/bcl2fastq_epp.py
+-'  30  5  ~/dev/ccg/lims/bcl2fastq_trigger/src/bcl2fastq_epp.py
+-'  1  0  ~/dev/ccg/lims/.gitignore
+-'  614  75  ~/dev/ccg/analysis/pipeline/src/variantcalling/phase_2/DataProcessing.scala
+-'  437  31  ~/dev/ccg/analysis/pipeline/src/variantcalling/phase_2/DataProcessing.scala
+-'  408  28  ~/dev/ccg/analysis/pipeline/src/variantcalling/phase_2/DataProcessing.scala
+-'  1  0  ~/dev/ccg/analysis/pipeline/src/variantcalling/phase_2/DataProcessing.scala
+-'  3  0  ~/dev/ccg/analysis/pipeline/src/variantcalling/phase_2/README
+-'  1  0  ~/dev/ccg/analysis/pipeline/src/phase_1/README
+-'  1  0  ~/dev/ccg/analysis/pipeline/src/phase_1/phase1.scala
+-'  9  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/sbs-bcl-smoke_SGE.sh
+-'  1  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/sbs-bcl-smoke.bcl2fastq-2013_0519_195148/Project_SG_Test/Sample_liver4/SampleSheet.csv
+-'  1  0  ~/dev/ccg/lims/bcl2fastq_trigger/src/bcl2fastq_epp.py
+-'  8  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  20  2  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  1  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  1  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/log/sbs-bcl-smoke.e69367
+-'  29  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  45  2  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  1  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/log/sbs-bcl-smoke.e69365
+-'  57  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  59  2  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  1  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/sbs-bcl-smoke.bcl2fastq-2013_0519_193923/sbs-bcl-smoke_SGE.sh
+-'  92  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  102  2  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  1  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/bcl2fastq_sbs-bcl-smoke.e69360
+-'  111  0  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  125  2  ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+-'  25  0  ~/dev/ccg/analysis/NERD_tree_1
+-'  37  2  ~/dev/ccg/analysis/NERD_tree_1
+-'  13  0  ~/dev/GenePatternModules/AgilentToGCT/NERD_tree_1
+-'  16  4  ~/dev/GenePatternModules/AgilentToGCT/NERD_tree_1
+-'  1  0  ~/dev/GenePatternModules/AgilentToGCT/NERD_tree_1
+-'  1  0  ~/dev/GenePatternModules/AgilentToGCT/trunk/src/agilent2gct.py
+-'  25  0  ~/dev/ccg/analysis/NERD_tree_1
+-'  37  2  ~/dev/ccg/analysis/NERD_tree_1
+-'  1  0  ~/dev/ccg/analysis/NERD_tree_1
+-'  1  0  ~/dev/ccg/analysis/pipeline/src/old/archive/archive.sh.e69345
+-'  15  0  ~/dev/ccg/NERD_tree_1
+-'  46  4  ~/dev/ccg/NERD_tree_1
+-'  1  0  ~/dev/ccg/NERD_tree_1
 
 # History of marks within files (newest to oldest):
 
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/variation/cortex.py
-	"	1	0
+> ~/.vimrc
+	"	120	19
 
-> ~/dev/galaxy_pipeline/NERD_tree_1
-	"	39	0
+> ~/dev/GenePatternModules/AgilentToGCT/trunk/src/agilent2gct.py
+	"	391	8
+
+> ~/dev/GenePatternModules/AgilentToGCT/NERD_tree_1
+	"	13	0
 	.	1	0
 	+	1	0
 	+	1	0
 	+	1	0
 	+	1	0
 	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/variation/annotation.py
-	"	4	2
+> ~/dev/ccg/analysis/pipeline/src/old/archive/archive.sh.e69345
+	"	1	0
+	^	1	4
+	.	1	3
+	+	1	3
 
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/variation/ensemble.py
+> ~/dev/ccg/analysis/NERD_tree_1
+	"	25	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/ccg/analysis/pipeline/src/old/archive/archive.sh.o69345
+	"	427296	0
+
+> ~/dev/ccg/analysis/pipeline/src/old/archive/BD1WYEACXX.e69346
 	"	1	0
 
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/variation/freebayes.py
+> ~/dev/ccg/analysis/pipeline/src/old/archive/BD1WYEACXX.o69346
+	"	1010972	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/src/bcl2fastq_epp.py
+	"	219	4
+	^	133	21
+	.	126	0
+	+	133	19
+	+	136	0
+	+	120	15
+	+	120	16
+	+	120	20
+	+	37	0
+	+	35	0
+	+	68	0
+	+	49	17
+	+	120	21
+	+	120	0
+	+	121	0
+	+	130	0
+	+	136	0
+	+	113	24
+	+	113	24
+	+	133	0
+	+	133	23
+	+	133	49
+	+	133	25
+	+	133	99
+	+	133	0
+	+	61	0
+	+	61	0
+	+	113	43
+	+	117	23
+	+	117	0
+	+	10	28
+	+	116	14
+	+	117	46
+	+	119	19
+	+	121	42
+	+	39	29
+	+	61	47
+	+	39	31
+	+	121	42
+	+	117	16
+	+	119	16
+	+	121	44
+	+	39	34
+	+	61	51
+	+	116	45
+	+	117	49
+	+	133	91
+	+	117	49
+	+	133	94
+	+	130	0
+	+	136	0
+	+	133	90
+	+	60	0
+	+	60	0
+	+	59	3
+	+	59	106
+	+	58	21
+	+	57	21
+	+	59	0
+	+	133	16
+	+	134	0
+	+	133	0
+	+	134	20
+	+	56	25
+	+	134	0
+	+	133	71
+	+	114	0
+	+	127	0
+	+	122	0
+	+	114	0
+	+	121	0
+	+	127	0
+	+	114	0
+	+	127	45
+	+	117	66
+	+	127	46
+	+	133	38
+	+	134	0
+	+	133	20
+	+	126	0
+
+> ~/dev/ccg/NERD_tree_1
+	"	15	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/ccg/lims/README
+	"	1	0
+	^	1	12
+	.	1	11
+	+	1	11
+
+> ~/dev/ccg/lims/.gitignore
+	"	1	0
+	^	1	5
+	.	1	4
+	+	1	4
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/130123_SN7001282_0165_Bd1ua6acxx.bcl2fastq-2013_0519_194648/support.txt
 	"	1	0
 
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/variation/genotype.py
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/sbs-bcl-smoke.bcl2fastq-2013_0519_194648/SampleSheet.mk
+	"	1	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/sbs-bcl-smoke.bcl2fastq-2013_0519_195148/Project_SG_Test/Sample_liver4/SampleSheet.csv
+	"	1	0
+
+> ~/dev/ccg/NERD_tree_2
+	"	22	1
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> /misc/NERD_tree_3
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /misc/RUNS/file
+	"	1	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/sbs-bcl-smoke_SGE.sh
 	"	5	0
+	^	3	2
+	.	3	1
+	+	2	1
+	+	3	1
 
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/variation/realign.py
-	"	174	4
+> ~/dev/ccg/analysis/pipeline/src/phase_1/phase1.scala
+	"	1	0
 
-> ~/dev/analysis/ccg/PG0002526-DNA/queue/DataProcessingPipeline.scala
-	"	491	9
+> ~/dev/ccg/analysis/pipeline/src/phase_1/README
+	"	1	0
 
-> ~/dev/analysis/ccg/PG0002526-DNA/queue/NERD_tree_1
-	"	49	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
+> ~/dev/ccg/analysis/pipeline/src/variantcalling/phase_2/README
+	"	3	0
 
-> ~/dev/analysis/ccg/PG0002526-DNA/queue/run_queue.sh
-	"	64	163
-	^	64	239
-	.	64	163
-	+	1	0
-	+	9	0
-	+	10	0
-	+	24	0
-	+	12	74
-	+	18	0
-	+	24	31
-	+	13	31
-	+	24	24
-	+	24	8
-	+	24	0
-	+	24	0
-	+	24	0
-	+	54	0
-	+	53	7
-	+	57	0
-	+	24	0
-	+	58	0
-	+	26	13
-	+	58	0
-	+	58	0
-	+	58	64
-	+	67	0
-	+	60	35
-	+	23	0
-	+	16	0
-	+	14	0
-	+	16	33
-	+	26	57
-	+	58	31
-	+	16	54
-	+	17	5
-	+	60	140
-	+	16	44
-	+	17	38
-	+	16	44
-	+	17	33
-	+	60	155
-	+	59	0
-	+	60	0
-	+	60	0
-	+	59	0
-	+	59	181
-	+	59	0
-	+	58	0
-	+	64	0
-	+	64	0
-	+	58	0
-	+	63	0
-	+	58	0
-	+	63	0
-	+	64	0
-	+	64	211
-	+	15	12
-	+	26	0
+> ~/dev/ccg/analysis/pipeline/src/variantcalling/phase_2/DataProcessing.scala
+	"	614	75
+
+> ~/dev/ccg/lims/.git/index
+	"	16	0
+
+> ~/dev/ccg/lims/.git/COMMIT_EDITMSG
+	"	1	8
+	^	1	9
+	.	1	8
+	+	1	8
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/testruns.py
+	"	25	4
+	.	25	0
 	+	8	0
+	+	2	5
+	+	8	0
+	+	35	0
+	+	42	50
+	+	43	0
+	+	20	0
+	+	20	20
+	+	38	0
+	+	21	0
+	+	25	0
+	+	21	17
+	+	25	20
+	+	8	0
+	+	8	7
+	+	7	21
+	+	8	0
+	+	9	38
+	+	11	13
+	+	41	68
+	+	20	24
+	+	14	44
+	+	20	0
+	+	25	0
+	+	21	15
+	+	25	0
+	+	25	7
+	+	25	38
+	+	25	19
+	+	25	0
+	+	25	0
+	+	25	45
+	+	25	15
+	+	25	47
+	+	25	49
+	+	25	0
+	+	16	60
+	+	25	0
+	+	18	46
+	+	18	50
+	+	19	0
 	+	7	0
-	+	15	33
-	+	16	32
-	+	17	27
-	+	15	27
-	+	16	36
-	+	16	34
-	+	17	29
-	+	64	215
-	+	64	71
-	+	64	195
-	+	64	90
-	+	64	0
-	+	64	91
-	+	64	202
-	+	64	90
-	+	64	0
-	+	62	98
-	+	64	174
-	+	62	134
-	+	63	0
-	+	62	66
-	+	64	163
-
-> ~/dev/analysis/ccg/PG0002526-DNA/run_jobs.sh
-	"	71	0
-	^	98	243
-	.	98	242
-	+	212	70
-	+	213	0
-	+	213	157
-	+	204	0
-	+	209	0
-	+	172	0
-	+	170	0
-	+	169	0
-	+	212	0
-	+	217	0
-	+	222	0
-	+	213	29
-	+	222	0
-	+	222	107
-	+	221	78
-	+	222	133
-	+	221	67
-	+	222	171
-	+	212	0
-	+	196	10
-	+	204	0
-	+	209	0
-	+	213	145
-	+	213	0
-	+	213	145
-	+	222	43
-	+	202	127
-	+	207	122
-	+	213	133
-	+	222	150
-	+	180	99
-	+	180	33
-	+	180	72
-	+	180	66
-	+	180	31
-	+	180	0
-	+	191	0
-	+	190	0
-	+	180	22
-	+	180	0
-	+	180	0
-	+	181	18
-	+	189	0
-	+	180	0
-	+	180	99
-	+	180	116
-	+	180	0
-	+	101	0
-	+	98	0
-	+	100	0
-	+	101	0
-	+	101	0
-	+	101	0
-	+	69	0
-	+	69	0
-	+	69	37
-	+	70	3
-	+	71	163
-	+	71	36
-	+	71	214
-	+	70	0
-	+	69	53
-	+	71	232
-	+	72	0
-	+	72	0
-	+	101	0
-	+	71	133
-	+	69	0
-	+	69	0
-	+	71	0
-	+	98	0
-	+	98	0
-	+	95	0
-	+	101	0
-	+	98	0
-	+	186	0
-	+	182	0
-	+	183	22
-	+	196	0
-	+	184	6
-	+	183	10
-	+	187	0
-	+	185	62
-	+	186	145
-	+	186	0
-	+	201	0
-	+	206	0
-	+	212	0
-	+	201	62
-	+	202	164
-	+	207	159
-	+	188	0
-	+	186	267
-	+	170	177
-	+	162	0
-	+	162	0
-	+	165	156
-	+	71	254
-	+	95	156
-	+	98	242
-
-> ~/dev/analysis/ccg/PG0002526-DNA/linkme.sh
-	"	11	0
-	^	11	5
-	.	11	101
-	+	6	5
-	+	9	102
-	+	11	110
-	+	9	92
-	+	11	100
-	+	10	92
-	+	9	97
-	+	11	109
-	+	7	14
-	+	9	84
-	+	10	78
-	+	11	0
-	+	11	91
-	+	9	83
-	+	10	77
-	+	8	11
-	+	4	0
-	+	10	0
-	+	11	4
-	+	9	94
-	+	10	82
-	+	11	101
-
-> ~/dev/analysis/ccg/PG0002526-DNA/queue/ExampleCountReads-1.out
-	"	2	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/queue/NERD_tree_2
-	"	29	2
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/queue/ExampleCountReads.jobreport.txt
-	"	1	0
-
-> /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleCountReads.scala
-	"	5	0
-
-> ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/examples/HelloWorld.scala
-	"	2	0
-
-> ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/examples/ExampleCountLoci.scala
-	"	9	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/queue/HelloWorld.jobreport.txt
-	"	1	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/queue/HelloWorld-1.out
-	"	3	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/queue/tmp/Q-Classes-8470308202527215045/org/broadinstitute/sting/queue/qscripts/examples/HelloWorld$$anon$1.class
-	"	2	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/queue/output/2013_0110_170632/DataProcessingPipeline.jobreport.txt
-	"	36	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0110_090830/rg.e15185
-	"	1	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/queue/output/2013_0110_174944/DataProcessingPipeline.jobreport.txt
-	"	1	0
-
-> /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/exampleBAM.bam
-	"	1	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_1
-	"	40	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk/resources/exampleBAM.bam
-	"	3	0
-
-> /etc/hosts.allow
-	"	27	0
-	.	28	0
-	+	28	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0109_112029/recalrp.e15179
-	"	1	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0109_112029/rg.e15092
-	"	1	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0109_112029/rg.o15092
-	"	1	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0110_090830/rg.o15185
-	"	1	0
-
-> ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/CNV/xhmmCNVpipeline.scala
-	"	166	4
-
-> ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/NERD_tree_1
-	"	10	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/dev/gatk-public/gatk/public/scala/qscript/org/broadinstitute/sting/queue/qscripts/DataProcessingPipeline.scala
-	"	278	0
-
-> /share/ClusterShare/Modules/modulefiles/contrib/kevyin/init_personal
-	"	29	0
-	^	29	1
-	.	29	0
-	+	30	0
+	+	5	8
+	+	2	2
+	+	3	2
+	+	25	0
+	+	23	23
+	+	16	0
+	+	15	0
+	+	23	30
+	+	17	0
+	+	25	0
+	+	25	0
 	+	29	0
+	+	29	0
+	+	23	32
+	+	22	30
+	+	23	38
+	+	22	30
+	+	25	0
+	+	24	0
+	+	25	20
+	+	25	0
 
-> /share/ClusterShare/Modules/modulefiles/contrib/kevyin/NERD_tree_1
-	"	19	2
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> /share/ClusterShare/Modules/modulefiles/contrib/kevyin/eclipse/4.2
+> ~/dev/ccg/analysis/pipeline/src/phase_0/README
 	"	1	0
+
+> /misc/PWBCAdminStore/app/galaxy/galaxy_dist/dev/tool-data/bowtie_indices.loc
+	"	88	136
+
+> /misc/PWBCAdminStore/app/galaxy/galaxy_dist/dev/NERD_tree_1
+	"	25	0
 	.	1	0
 	+	1	0
-
-> /share/ClusterShare/Modules/modulefiles/contrib/kevyin/eclipse/juno
-	"	24	26
-	^	16	20
-	.	24	26
 	+	1	0
-	+	11	0
-	+	16	19
-	+	23	31
-	+	24	26
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> /share/ClusterShare/software/contrib/kevyin/eclipse/NERD_tree_1
+> /misc/PWBCAdminStore/app/galaxy/galaxy_dist/prod/tool-data/bowtie_indices.loc
+	"	88	13
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/log/sbs-bcl-smoke.e69367
+	"	489	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_1
+	"	8	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/log/130123_SN7001282_0165_Bd1ua6acxx.e69366
+	"	1	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/install.sh
+	"	36	0
+	^	20	19
+	.	20	27
+	+	5	0
+	+	3	17
+	+	5	31
+	+	37	6
+	+	37	0
+	+	37	3
+	+	37	29
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	39
+	+	37	27
+	+	37	9
+	+	37	0
+	+	37	11
+	+	37	12
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	12
+	+	37	22
+	+	37	80
+	+	37	16
+	+	37	11
+	+	37	38
+	+	37	28
+	+	37	30
+	+	37	20
+	+	37	73
+	+	37	41
+	+	37	37
+	+	6	3
+	+	10	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	21
+	+	37	49
+	+	37	15
+	+	37	40
+	+	37	0
+	+	37	16
+	+	37	0
+	+	13	0
+	+	11	0
+	+	13	0
+	+	18	0
+	+	16	0
+	+	15	9
+	+	16	0
+	+	17	18
+	+	37	0
+	+	19	0
+	+	19	0
+	+	19	9
+	+	36	5
+	+	35	0
+	+	37	0
+	+	12	0
+	+	27	0
+	+	23	0
+	+	27	0
+	+	31	0
+	+	31	3
+	+	35	0
+	+	21	0
+	+	27	53
+	+	31	0
+	+	34	0
+	+	32	0
+	+	34	58
+	+	37	0
+	+	19	0
+	+	22	0
+	+	15	0
+	+	16	27
+	+	17	0
+	+	18	0
+	+	16	0
+	+	19	0
+	+	25	0
+	+	27	0
+	+	29	25
+	+	30	0
+	+	29	16
+	+	17	18
+	+	19	0
+	+	33	0
+	+	20	33
+	+	17	19
+	+	20	27
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/NERD_tree_2
+	"	30	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/galaxy_tool_benchmarking/bwa_illumina/script.sh
+	"	1	13
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/sample-pbs/ClusterBCL.py
+	"	54	42
+	.	55	0
+	+	56	0
+	+	55	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/sbs-bcl-smoke.o69348
+	"	1	0
+
+> ~/dev/ccg/analysis/bcl2fastq/cmd_sample.sh
+	"	2	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/sbs-bcl-smoke.bcl2fastq-2013_0519_194120/sbs-bcl-smoke.e69363
+	"	4	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/130123_SN7001282_0165_Bd1ua6acxx.bcl2fastq-2013_0519_194120/130123_SN7001282_0165_Bd1ua6acxx.e69362
+	"	1	0
+
+> /misc/RUNS/testruns/130123_SN7001282_0165_Bd1ua6acxx/SampleSheet.csv
+	"	1	0
+
+> /misc/RUNS/testruns/130123_SN7001282_0165_Bd1ua6acxx/NERD_tree_1
 	"	12	0
 	.	1	0
 	+	1	0
 	+	1	0
 	+	1	0
 	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
 
-> /share/ClusterShare/Modules/modulefiles/contrib/kevyin/gatk/2.2-8
+> /misc/RUNS/testruns/130123_SN7001282_0165_Bd1ua6acxx/NexteraRapidCapture_Exome_Probes.txt
 	"	1	0
 
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/bowtie2/flagstat.txt
+> /misc/RUNS/testruns/130123_SN7001282_0165_Bd1ua6acxx/NexteraRapidCapture_Exome_TargetedRegions.txt
+	"	1	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/log/sbs-bcl-smoke.e69365
+	"	489	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/log/130123_SN7001282_0165_Bd1ua6acxx_SGE.sh
+	"	1	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/log/130123_SN7001282_0165_Bd1ua6acxx.o69364
+	"	1	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/log/130123_SN7001282_0165_Bd1ua6acxx.e69364
+	"	1	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/sbs-bcl-smoke.bcl2fastq-2013_0519_193923/sbs-bcl-smoke_SGE.sh
+	"	1	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/bcl2fastq_sbs-bcl-smoke.e69360
+	"	489	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/bcl2fastq_sbs-bcl-smoke.o69360
+	"	208	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/bcl2fastq_sbs-bcl-smoke.e69359
+	"	1	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/bcl2fastq_sbs-bcl-smoke.e69357
+	"	1	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/bcl2fastq_sbs-bcl-smoke.o69357
+	"	1	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/bcl2fastq_sbs-bcl-smoke.pe69357
+	"	1	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/bcl2fastq_sbs-bcl-smoke.po69357
+	"	1	0
+
+> ~/tar.e68666
+	"	1	0
+
+> ~/NERD_tree_1
+	"	21	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/tar.o68666
+	"	1	0
+
+> ~/bcl2fastq_sbs-bcl-smoke.e69356
+	"	1	0
+
+> ~/bcl2fastq_sbs-bcl-smoke.o69356
+	"	1	0
+
+> ~/bcl2fastq_sbs-bcl-smoke.pe69356
+	"	1	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/sbs-bcl-smoke.e69355
+	"	1	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/sbs-bcl-smoke.e69354
+	"	1	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/sbs-bcl-smoke.e69353
+	"	1	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/log/sbs-bcl-smoke_SGE.sh
+	"	2	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/log/bash.e69352
+	"	1	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/log/NERD_tree_1
 	"	5	0
-
-> ~/dev/analysis/ccg/NERD_tree_1
-	"	27	0
 	.	1	0
 	+	1	0
 	+	1	0
 	+	1	0
 	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
 
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_195957/printReads.e14859
-	"	2	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_195957/recalrp.e14858
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/log/bash.o69352
 	"	1	0
 
-> ~/dev/analysis/ccg/NERD_tree_2
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/.bash_profile
-	"	143	2
-
-> /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleCountLoci.scala
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/log/sbs-bcl-smoke_SGE.sh.e69351
 	"	1	0
 
-> /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/NERD_tree_1
-	"	17	0
-	.	1	0
-	+	1	0
-	+	1	0
-
-> /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleCustomWalker.scala
+> ~/dev/ccg/lims/bcl2fastq_trigger/tests/log/sbs-bcl-smoke_SGE.sh.e69350
 	"	1	0
 
-> /share/ClusterShare/software/contrib/kevyin/gatk/2.2-8/gatk_queue/resources/ExampleReadFilter.scala
+> ~/bcl2fastq_sbs-bcl-smoke.e69349
 	"	1	0
 
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_181322/printReads.e14847
+> ~/bcl2fastq_sbs-bcl-smoke.o69349
 	"	1	0
 
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_094943/reorder.e14738
-	"	355	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_094943/reorder.o14738
+> ~/dev/ccg/analysis/pipeline/src/phase_0/bcl2fastq.sh
 	"	1	0
 
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_094943/reorder_qsub_cmd.14738
+> ~/dev/ccg/lims/bcl2fastq_trigger/src/bcl2fastq-automation.py
+	"	43	4
+	.	113	0
+	+	138	21
+	+	12	49
+	+	13	0
+	+	12	0
+	+	14	0
+	+	153	0
+	+	154	0
+	+	153	0
+	+	154	0
+	+	154	0
+	+	154	34
+	+	53	33
+	+	53	29
+	+	54	17
+	+	53	0
+	+	53	0
+	+	54	0
+	+	66	0
+	+	22	0
+	+	23	0
+	+	17	0
+	+	18	107
+	+	18	25
+	+	62	43
+	+	62	0
+	+	56	57
+	+	58	21
+	+	56	21
+	+	58	0
+	+	58	0
+	+	57	46
+	+	167	28
+	+	168	32
+	+	62	200
+	+	56	44
+	+	154	20
+	+	154	31
+	+	154	39
+	+	16	5
+	+	38	11
+	+	16	4
+	+	138	13
+	+	153	26
+	+	154	21
+	+	154	27
+	+	62	0
+	+	14	41
+	+	18	0
+	+	18	0
+	+	59	72
+	+	62	0
+	+	62	0
+	+	47	32
+	+	62	41
+	+	15	2
+	+	14	26
+	+	59	44
+	+	15	50
+	+	59	50
+	+	15	51
+	+	14	27
+	+	62	42
+	+	62	28
+	+	62	0
+	+	62	150
+	+	168	0
+	+	195	0
+	+	167	0
+	+	193	0
+	+	57	0
+	+	167	0
+	+	193	0
+	+	171	0
+	+	188	0
+	+	189	0
+	+	190	0
+	+	191	0
+	+	192	0
+	+	172	0
+	+	154	0
+	+	154	25
+	+	62	0
+	+	64	0
+	+	62	0
+	+	60	0
+	+	61	63
+	+	58	0
+	+	131	0
+	+	129	0
+	+	153	0
+	+	154	0
+	+	114	0
+	+	152	0
+	+	138	0
+	+	112	0
+	+	113	0
+	+	152	0
+	+	114	28
+	+	153	0
+	+	113	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/unittest/testruns.py
+	"	5	0
+	.	6	0
+	+	4	14
+	+	3	12
+	+	6	45
+	+	6	178
+	+	6	1
+	+	6	0
+	+	5	0
+	+	6	0
+
+> ~/dev/ccg/analysis/has/installValidation/cmd.txt
 	"	1	0
 
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_181322/recalrp.o14829
-	"	1	0
+> ~/dev/ccg/analysis/has/runFolderTest/script.sh
+	"	3	125
 
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_181322/recalrp.e14829
-	"	1	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_191739/printReads.e14710
-	"	2	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_191739/reorder.e14707
-	"	1	1
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_191739/reorder.e14708
-	"	4	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/bowtie2/PG0002526-DNA_bowtie2_dup_seqdict.dict
-	"	94	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/NERD_tree_2
-	"	44	2
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/broad/picardrun.py
-	"	87	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/bowtie2/Picard_CollectAlignmentSummaryMetrics.txt
-	"	1	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_191739/recalrp.e14709
-	"	1	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0108_094040/reorder.e14728
-	"	1	0
-
-> ~/dev/sunny/subsample.py
-	"	10	8
-	^	16	41
-	.	13	8
-	+	16	40
-	+	11	0
-	+	15	0
+> ~/dev/ccg/analysis/pipeline/src/old/archive/archive.sh
+	"	16	0
+	^	16	0
+	.	16	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	3
+	+	7	0
+	+	57	8
+	+	60	8
+	+	63	8
+	+	7	0
+	+	17	0
 	+	16	0
-	+	13	8
 
-> /share/ClusterShare/Modules/modulefiles/contrib/kevyin/init_pipeline_dev
-	"	28	21
-	.	28	21
-	+	28	21
+> /misc/RUNS/testruns/sbs-bcl-smoke/NERD_tree_1
+	"	9	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/dev/sunny/NERD_tree_1
-	"	4	0
+> ~/dev/ccg/lims/bcl2fastq_trigger/NERD_tree_1
+	"	28	0
 	.	1	0
 	+	1	0
 	+	1	0
@@ -1030,99 +1193,194 @@ $out_bowtie2_dup_reord_rg_recal
 	+	1	0
 	+	1	0
 	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_191739/rmdup.e14686
-	"	85	0
+> ~/dev/ccg/analysis/pipeline/src/old/archive/qsub.sh
+	"	10	8
+	^	10	9
+	.	10	8
+	+	9	0
+	+	10	8
 
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_191739/printReads.o14710
+> ~/dev/galaxy_tool_benchmarking/tophat2/script.sh
+	"	21	0
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/src/GLSRestApiUtil.py
+	"	126	8
+
+> ~/dev/ccg/lims/bcl2fastq_trigger/sample-pbs/GLSRestApiUtil.py
+	"	12	0
+
+> ~/dev/ccg/analysis/pipeline/src/old/phase_1_tmp.scala
 	"	1	0
 
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_114938/picardAlnSummary.e14595
-	"	1349	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_114938/picardAlnSummary_qsub_cmd
+> ~/dev/ccg/analysis/pipeline/src/old/archive/archive.sh.e68812
 	"	1	0
 
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/bwa/Picard_CollectAlignmentSummaryMetrics.txt
-	"	2	0
+> ~/dev/ccg/analysis/pipeline/src/old/archive/archive.sh.o68812
+	"	2641105	0
 
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/pipeline/main.py
-	"	57	32
-	^	65	41
-	.	65	40
-	+	65	40
+> ~/dev/ccg/analysis/pipeline/src/old/archive/archive.sh.pe68812
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
 
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/distributed/tasks.py
-	"	47	0
-
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/pipeline/variation.py
-	"	2	0
-
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/variation/recalibrate.py
-	"	92	32
-
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/pipeline/lane.py
+> ~/dev/ccg/analysis/pipeline/src/old/archive/archive.sh.e69344
 	"	1	0
 
-> ~/dev/galaxy_pipeline/TODO
-	"	13	0
-
-> ~/dev/galaxy_pipeline/bcbb/rest_apis/ensembl_remote_rest.py
-	"	2	0
-
-> ~/dev/galaxy_pipeline/bcbb/rest_apis/find_geo_data.py
+> ~/dev/ccg/analysis/pipeline/src/old/archive/archive.sh.o69344
 	"	1	0
 
-> ~/dev/galaxy_pipeline/bcbb/rest_apis/uniprot_query_cluster.py
-	"	14	0
+> /share/ClusterShare/Modules/modulefiles/contrib/gi/somatic-sniper/1.0.2.2
+	"	14	34
+	^	14	35
+	.	14	34
+	+	2	0
+	+	17	26
+	+	18	16
+	+	26	0
+	+	1	0
+	+	14	34
 
-> ~/dev/galaxy_pipeline/nextgen_tests/G1/run_info-all.yaml
+> /share/ClusterShare/Modules/modulefiles/contrib/gi/cmake/2.8.10.2
+	"	14	34
+	^	14	35
+	.	14	34
+	+	1	0
+	+	17	17
+	+	18	20
+	+	25	0
+	+	26	0
+	+	26	0
+	+	25	0
+	+	26	25
+	+	25	44
+	+	14	34
+
+> /share/ClusterShare/Modules/modulefiles/contrib/gi/cmake/NERD_tree_1
+	"	5	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> /share/ClusterShare/Modules/modulefiles/NERD_tree_1
+	"	5	0
+	.	1	0
+	+	1	0
+
+> /share/ClusterShare/Modules/modulefiles/contrib/kevyin/bcl2fastq/1.8.3
 	"	1	0
 
-> ~/dev/galaxy_pipeline/nextgen_config/wolfpack/post_process.yaml
+> /share/ClusterShare/Modules/modulefiles/contrib/gi/NERD_tree_1
+	"	22	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> /share/ClusterShare/Modules/modulefiles/contrib/gi/bcl2fastq/1.8.3
+	"	24	73
+	^	24	74
+	.	24	73
+	+	1	0
+	+	17	24
+	+	18	20
+	+	11	61
+	+	7	17
+	+	22	48
+	+	24	73
+
+> /share/ClusterShare/Modules/modulefiles/contrib/gi/bedtools/2.16.2
 	"	1	0
-
-> ~/dev/galaxy_pipeline/bcbb/nextgen/scripts/utils/resort_bam_karyotype.py
-	"	2	0
-
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/picard/__init__.py
-	"	1	0
-
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/picard/utils.py
-	"	1	0
-
-> ~/dev/galaxy_pipeline/bcbb/nextgen/bcbio/picard/metrics.py
-	"	1	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_114938/picardAlnSummary.e14596
-	"	1	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_114938/flagstat.e14593
-	"	1	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0107_114938/flagstat.e14594
-	"	1	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0106_152522/picardAlnSummary.e14587
-	"	1	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0106_152522/picardAlnSummary.e14588
-	"	1	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0106_152522/bwa_bam.e14578
-	"	1	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0106_152522/bowtie2_bam.e14577
-	"	139	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0106_152522/bowtie2_bam_qsub_cmd
-	"	1	391
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0106_152522/flagstat.e14585
-	"	1	0
-
-> ~/dev/analysis/ccg/PG0002526-DNA/output/2013_0106_152522/flagstat.e14586
-	"	1	0
-
-> /misc/FacilityBioinformatics/private/Illumina_HiSeq_2000_Runfolder/PG0002526-DNA_analysis/aligned/bwa/flagstat.txt
-	"	2	0

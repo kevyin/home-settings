@@ -1,8 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/misc/PWBCAdminStore/app/galaxy/galaxy_dist'
-let g:netrw_dirhist_2='/share/ClusterShare/Modules/modulefiles/contrib/kevyin/gatk'
-let g:netrw_dirhist_3='/home/kevyin/dev/unpigz'
-let g:netrw_dirhist_4='/share/ClusterShare/Modules/modulefiles/contrib/kevyin/perl'
-let g:netrw_dirhist_5='/home/kevyin/dev/sunny/bam2fastq.sh'
-let g:netrw_dirhist_6='/share/ClusterShare/Modules/modulefiles/contrib/kevyin'
+let g:netrw_dirhist_cnt =0
