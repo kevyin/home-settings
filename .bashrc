@@ -10,6 +10,7 @@ if [ -f /etc/bashrc ]; then
     . /etc/bashrc
 fi
 
+
 #if [ -f ~/.bash_profile ]; then
     #. ~/.bash_profile
 #fi
@@ -19,6 +20,12 @@ if [ -z "$PS1" ]; then
     . ~/.bash_profile ;
     #return
 fi
+
+umask 0002
+source /etc/profile.d/modules.sh
+
+export MANPATH=$MANPATH:/usr/share/man
+
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth

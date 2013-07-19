@@ -1,5 +1,6 @@
 ## umask make folders writable by group members by default
 umask 0002
+source /etc/profile.d/modules.sh
 
 ## Eternal bash history
 # unset these
@@ -145,6 +146,7 @@ ulimit -Sn $max_fh
 export MODULEPATH=/share/ClusterShare/Modules/modulefiles/noarch:/share/ClusterShare/Modules/modulefiles/centos6.2_x86_64:/share/ClusterShare/Modules/modulefiles/contrib:$MODULEPATH
 module load kevyin/init_personal;
 module load cloudbiolinux/default;
+module load R/gcc-4.4.6/2.15.2
 #module load kevyin/typesafe-stack/2.0.2
 #source /home/kevyin/dev/tools_downloaded/perl/pll-perl/bin/activate.sh
 source /share/ClusterShare/software/contrib/kevyin/perl/5.14.2/bin/activate.sh
@@ -152,6 +154,28 @@ source /share/ClusterShare/software/contrib/kevyin/perl/5.14.2/bin/activate.sh
 # drmaa
 export DRMAA_LIBRARY_PATH=/opt/gridengine/lib/lx26-amd64/libdrmaa.so
 
+SSH_ENV="$HOME/.ssh/environment"
+
+function start_agent {
+     echo "Initialising new SSH agent..."
+     /usr/bin/ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
+     echo succeeded
+     chmod 600 "${SSH_ENV}"
+     . "${SSH_ENV}" > /dev/null
+     /usr/bin/ssh-add;
+}
+
+# Source SSH settings, if applicable
+
+if [ -f "${SSH_ENV}" ]; then
+     . "${SSH_ENV}" > /dev/null
+     #ps ${SSH_AGENT_PID} doesn't work under cywgin
+     ps -ef | grep ${SSH_AGENT_PID} | grep ssh-agent$ > /dev/null || {
+         start_agent;
+     }
+else
+     start_agent;
+fi
 
 case "$TERM" in
     xterm*) . ~/.bashrc ;;
