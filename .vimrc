@@ -30,6 +30,7 @@ Bundle 'fugitive.vim'
 "Bundle 'Tagbar'
 "nmap <silent> <c-m> :TagbarToggle<CR>
 Bundle 'derekwyatt/vim-scala'
+Bundle 'jistr/vim-nerdtree-tabs'
 
 Bundle 'Scala-Java-Edit'
 
@@ -116,5 +117,5 @@ au BufNewFile,BufRead *.cu set filetype=cpp
 au BufNewFile,BufRead *.h set filetype=cpp
 au BufNewFile,BufRead *.scala set filetype=scala
 
-nmap <silent> <c-n> :NERDTreeToggle<CR>
+nmap <silent> <c-n> :NERDTreeTabsToggle<CR>
 let NERDTreeWinSize=42
