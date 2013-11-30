@@ -1,0 +1,19 @@
+Host gamma00
+Hostname gamma00
+User kevyin
+
+Host gamma01
+Hostname gamma01
+User kevyin
+
+Host gamma02
+Hostname gamma02
+User kevyin
+
+Host nerv-geofront
+Hostname nerv-geofront
+User kevyin
+
+Host *
+    ServerAliveInterval 100
+    ServerAliveCountMax 2
