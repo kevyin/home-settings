@@ -102,6 +102,7 @@ set expandtab
 set cinkeys=0{,0},:,0#,!^F
 set number
 set hlsearch
+set paste
 
 set formatoptions+=r
 
