@@ -1,0 +1,4 @@
+docker {
+	enabled = true
+	runOptions = "-u 1000:1000"
+}

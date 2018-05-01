@@ -1,7 +1,3 @@
-## umask make folders writable by group members by default
-umask 0002
-source /etc/profile.d/modules.sh
-
 ## Eternal bash history
 # unset these
 # http://stackoverflow.com/questions/9457233/unlimited-bash-history
@@ -17,9 +13,38 @@ PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ; }"'echo $$ $USER \
 #export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 #source ~/.bashrc
 
+SSH_ENV="$HOME/.ssh/environment"
+
+function start_agent {
+     echo "Initialising new SSH agent..."
+     /usr/bin/ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
+     echo succeeded
+     chmod 600 "${SSH_ENV}"
+     . "${SSH_ENV}" > /dev/null
+     /usr/bin/ssh-add;
+}
+
+# Source SSH settings, if applicable
+
+if [ -f "${SSH_ENV}" ]; then
+     . "${SSH_ENV}" > /dev/null
+     #ps ${SSH_AGENT_PID} doesn't work under cywgin
+     ps -ef | grep ${SSH_AGENT_PID} | grep ssh-agent$ > /dev/null || {
+         start_agent;
+     }
+else
+     start_agent;
+fi
+
 #alias ssh='ssh -X'
-alias ssh='ssh -c arcfour,blowfish-cbc -YC'
-alias pip-python='pip'
+alias ssh='ssh -YC'
+#alias pip-python='pip'
+alias batou-ssh='ssh -c arcfour,blowfish-cbc -YC kevin@129.94.12.125'
+alias ed='expressvpn disconnect'
+alias ec='expressvpn connect smart'
+alias es='expressvpn status'
+alias sc='screen -ls'
+alias scr='screen -r'
 
 if [ "$COLORTERM" == "gnome-terminal" ]; then
     export TERM=xterm-256color
@@ -129,54 +154,40 @@ color15=$S_base3
 #gconftool-2 --set "/apps/gnome-terminal/profiles/Default/" --type string "$S_text"
 
 
-export CUDA_INSTALL_PATH=/share/ClusterShare/software/centos6/cudatoolkit_4.2.9/cuda/
-export CUSTOMCUDALIB64=/home/kevyin/kevyin/dev/cuda/lib/usr_lib64
-export CUSTOMCUDALIB=/home/kevyin/kevyin/dev/cuda/lib/usr_lib
-export LD_LIBRARY_PATH=/home/kevyin/kevyin/dev/cuda/lib/usr_lib64:$LD_LIBRARY_PATH
-export LD_LIBRARY_PATH=/home/kevyin/kevyin/dev/cuda/lib/usr_lib:$LD_LIBRARY_PATH
+#export CUDA_INSTALL_PATH=/share/ClusterShare/software/centos6/cudatoolkit_4.2.9/cuda/
+#export CUSTOMCUDALIB64=/home/kevyin/kevyin/dev/cuda/lib/usr_lib64
+#export CUSTOMCUDALIB=/home/kevyin/kevyin/dev/cuda/lib/usr_lib
+#export LD_LIBRARY_PATH=/home/kevyin/kevyin/dev/cuda/lib/usr_lib64:$LD_LIBRARY_PATH
+#export LD_LIBRARY_PATH=/home/kevyin/kevyin/dev/cuda/lib/usr_lib:$LD_LIBRARY_PATH
 #export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+export PATH=/home/kevin/dev/bin/SABO/cloudbiolinux_install/usr/local/bin:$PATH
 
+#export JAVA_HOME=/home/kevin/dev/bin/jdk1.7.0_60
+export JAVA_HOME=/home/kevin/dev/bin/jdk1.7.0_03
+export PATH=$JAVA_HOME/bin:$PATH
+export MVN_HOME=/home/kevin/dev/bin/apache-maven-3.2.2
+export PATH=$MVN_HOME/bin:$PATH
+export ANT_HOME=/home/kevin/dev/bin/apache-ant-1.9.4
+export PATH=$ANT_HOME/bin:$PATH
+
+if [ -f /etc/profile.modules ]
+then
+	. /etc/profile.modules
+# put your own module loads here
+	module load null
+fi
+
+prepend_path PATH /home/kevin/dev/bin/sbt/bin/
+
+prepend_path MODULEPATH /home/kevin/dev/modules/
 #if [ `hostname -s` -eq `omega-0-11` ]; then
     #ulimit -Sn 10240
 #fi
 max_fh=`ulimit -Hn`
 ulimit -Sn $max_fh
 
-# modules
-export MODULEPATH=/share/ClusterShare/Modules/modulefiles/noarch:/share/ClusterShare/Modules/modulefiles/centos6.2_x86_64:/share/ClusterShare/Modules/modulefiles/contrib:$MODULEPATH
-module load kevyin/init_personal;
-module load cloudbiolinux/default;
-module load R/gcc-4.4.6/2.15.2
-#module load kevyin/typesafe-stack/2.0.2
-#source /home/kevyin/dev/tools_downloaded/perl/pll-perl/bin/activate.sh
-source /share/ClusterShare/software/contrib/kevyin/perl/5.14.2/bin/activate.sh
+module load java
+export PATH=/home/kevin/dev/bin/anaconda2/bin:$PATH
 
-# drmaa
-export DRMAA_LIBRARY_PATH=/opt/gridengine/lib/lx26-amd64/libdrmaa.so
 
-SSH_ENV="$HOME/.ssh/environment"
-
-function start_agent {
-     echo "Initialising new SSH agent..."
-     /usr/bin/ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
-     echo succeeded
-     chmod 600 "${SSH_ENV}"
-     . "${SSH_ENV}" > /dev/null
-     /usr/bin/ssh-add;
-}
-
-# Source SSH settings, if applicable
-
-if [ -f "${SSH_ENV}" ]; then
-     . "${SSH_ENV}" > /dev/null
-     #ps ${SSH_AGENT_PID} doesn't work under cywgin
-     ps -ef | grep ${SSH_AGENT_PID} | grep ssh-agent$ > /dev/null || {
-         start_agent;
-     }
-else
-     start_agent;
-fi
-
-case "$TERM" in
-    xterm*) . ~/.bashrc ;;
-esac
+export PATH=/home/kevin/miniconda3/bin:/home/kevin/dev/bin/anaconda2/bin:/home/kevin/dev/bin/sbt/bin/:/home/kevin/dev/bin/apache-ant-1.9.4/bin:/home/kevin/dev/bin/apache-maven-3.2.2/bin:/home/kevin/dev/bin/jdk1.7.0_03/bin:/home/kevin/dev/bin/SABO/cloudbiolinux_install/usr/local/bin:/home/kevin/bin:/home/kevin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kevin/.vimpkg/bin

@@ -1,43 +1,19 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+execute pathogen#infect()
 
-" let Vundle manage Vundle
-" required! 
-Bundle 'gmarik/vundle'
-
-" My Bundles here:
-"
-" original repos on github
-"Bundle 'tpope/vim-fugitive'
-"Bundle 'Lokaltog/vim-easymotion'
-"Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-"Bundle 'tpope/vim-rails.git'
-" vim-scripts repos
-" Bundle 'L9'
-" Bundle 'FuzzyFinder'
-" non github repos
-" Bundle 'git://git.wincent.com/command-t.git'
-" ...
-Bundle "The-NERD-tree"
-Bundle 'The-NERD-Commenter'
 let mapleader=","
-Bundle 'surround.vim'
-Bundle 'LargeFile'
-Bundle 'fugitive.vim'
-"Bundle 'Tagbar'
-"nmap <silent> <c-m> :TagbarToggle<CR>
-Bundle 'derekwyatt/vim-scala'
-Bundle 'jistr/vim-nerdtree-tabs'
 
-Bundle 'Scala-Java-Edit'
+if !exists("g:ycm_semantic_triggers")
+  let g:ycm_semantic_triggers = {}
+endif
+let g:ycm_semantic_triggers['typescript'] = ['.']
+
 
 " START Scala-Java-Edit suggested settings
 let mapleader=","
 let g:javae_locate_cmd = "locate"
-source $HOME/.vim/bundle/Scala-Java-Edit/plugin/scalajavaedit.vim
 
 " Java Stuff
 let JAVASOURCEPATH = "$JAVA_HOME/src" .
@@ -79,15 +55,6 @@ autocmd FileType scala map <Leader>v :call EditSource('vsp',['scala', 'java'],SC
 
 filetype plugin indent on     " required!
 "
-" Brief help
-" :BundleList          - list configured bundles
-" :BundleInstall(!)    - install(update) bundles
-" :BundleSearch(!) foo - search(or refresh cache first) for foo
-" :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
-"
-" see :h vundle for more details or wiki for FAQ
-" NOTE: comments after Bundle command are not allowed..
-"
 "set mouse=a
 set tabstop=4
 set shiftwidth=4
@@ -118,5 +85,25 @@ au BufNewFile,BufRead *.cu set filetype=cpp
 au BufNewFile,BufRead *.h set filetype=cpp
 au BufNewFile,BufRead *.scala set filetype=scala
 
-nmap <silent> <c-n> :NERDTreeTabsToggle<CR>
+nmap <silent> <c-n> :NERDTreeToggle<CR>
 let NERDTreeWinSize=42
+
+let python_highlight_all = 1
+syntax enable
+set background=light
+colorscheme solarized
+if has('gui_running')
+	set background=light
+else
+	set background=dark
+endif
+
+"synpastic
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
+
+"let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_wq = 0

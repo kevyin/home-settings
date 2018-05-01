@@ -1,0 +1,103 @@
+{
+	"name": "nbpreviewer",
+	"displayName": "VS Code Jupyter Notebook Previewer",
+	"description": "An easy to use extension for previewing Jupyter Notebooks within VS Code",
+	"version": "1.0.0",
+	"publisher": "jithurjacob",
+	"author": {
+		"name": "jithurjacob"
+	},
+	"keywords": [
+		"python",
+		"jupyter",
+		"ipython",
+		"data science",
+		"kaggle",
+		"notebook",
+		"markdown"
+	],
+	"icon": "images/jupyter.png",
+	"recommendations": [
+		"donjayamanne.python"
+	],
+	"galleryBanner": {
+		"color": "#e46d2e",
+		"theme": "dark"
+	},
+	"qna": false,
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jithurjacob/vscode-nbpreviewer/issues",
+		"email": "jithurjacob@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jithurjacob/vscode-nbpreviewer.git"
+	},
+	"homepage": "https://github.com/jithurjacob/vscode-nbpreviewer/blob/master/README.md",
+	"engines": {
+		"vscode": "^1.17.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:ipython",
+		"onCommand:ipython.showPreview"
+	],
+	"main": "./src/extension",
+	"contributes": {
+		"languages": [
+			{
+				"id": "ipython",
+				"aliases": [
+					"IPython",
+					"ipython"
+				],
+				"extensions": [
+					".ipynb"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"commands": [
+			{
+				"command": "extension.showPreview",
+				"title": "Show preview"
+			}
+		],
+		"menus": {
+			"editor/title": [
+				{
+					"command": "extension.showPreview",
+					"when": "resourceLangId == ipython",
+					"group": "navigation"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.6",
+		"eslint": "^4.6.1",
+		"@types/node": "^7.0.43",
+		"@types/mocha": "^2.2.42"
+	},
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.2",
+		"file-url": "^2.0.2",
+		"jsdom": "^11.5.1",
+		"node-prismjs": "^0.1.1",
+		"notebookjs": "^0.2.6",
+		"prismjs": "^1.9.0"
+	},
+	"__metadata": {
+		"id": "c5a0e020-41e5-4180-aadc-85aa7c4e0517",
+		"publisherId": "4b376371-1399-4d3e-91c0-86f5aac5fb5b",
+		"publisherDisplayName": "jithurjacob"
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"name": "nextflow",
+	"displayName": "Nextflow",
+	"description": "Nextflow language support",
+	"version": "0.1.0",
+	"icon": "images/nextflow-icon-128x128.png",
+	"publisher": "nextflow",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nextflow-io/vscode-language-nextflow.git"
+	},
+	"homepage": "https://github.com/nextflow-io/vscode-language-nextflow/blob/master/README.md",
+	"bugs": {
+		"url": "https://github.com/nextflow-io/vscode-language-nextflow/issues"
+	},
+	"engines": {
+		"vscode": "^1.19.0"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "nextflow",
+				"aliases": [
+					"Nextflow",
+					"nextflow"
+				],
+				"extensions": [
+					".nf"
+				],
+				"firstLine": "^#!.*\\bnextflow\\b",
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "nextflow",
+				"scopeName": "source.nextflow",
+				"path": "./syntaxes/nextflow.tmLanguage.json"
+			},
+			{
+				"scopeName": "source.nextflow-groovy",
+				"path": "./syntaxes/groovy.tmLanguage.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "nextflow",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "aecd8c7c-dc8f-4172-a9b1-da7b4c0b4f7b",
+		"publisherId": "d83d6b86-4247-42d5-bdbe-d031ae03b61c",
+		"publisherDisplayName": "nextflow"
+	}
+}
